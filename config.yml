@@ -1,4 +1,4 @@
-daos:
+darwinia:
   - name: RingDAO
     code: ring-dao
     config: https://gov.ringdao.com/degov.yml
@@ -10,3 +10,12 @@ daos:
   - name: RingDAO Community Guild
     code: ringdao-guild
     config: https://guild-gov.ringdao.com/degov.yml
+
+ethereum:
+  - name: ENS
+    code: ens-dao
+    config: https://ens.degov.ai/degov.yml
+
+  - name: Uniswap
+    code: uniswap-dao
+    config: https://uniswap.degov.ai/degov.yml
