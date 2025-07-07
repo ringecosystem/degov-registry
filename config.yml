@@ -1,0 +1,12 @@
+daos:
+  - name: RingDAO
+    code: ring-dao
+    config: https://gov.ringdao.com/degov.yml
+
+  - name: KtonDAO
+    code: kton-dao
+    config: https://gov.ktondao.xyz/degov.yml
+    
+  - name: RingDAO Community Guild
+    code: ringdao-guild
+    config: https://guild-gov.ringdao.com/degov.yml
