@@ -1,0 +1,62 @@
+name: Uniswap DAO
+logo: "https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/daos/uniswap/Uniswap_icon_pink.svg"
+siteUrl: https://uniswap.degov.ai
+offChainDiscussionUrl: https://gov.uniswap.org/
+aiAgent:
+  endpoint: https://agent.degov.ai
+description: DeGov provides AI-powered on-chain governance for Uniswap, the leading decentralized exchange.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/uniswap
+  website: https://uniswap.org/
+  twitter: https://x.com/Uniswap
+  discord: https://discord.com/invite/uniswap
+  github: https://github.com/Uniswap
+
+wallet:
+  walletConnectProjectId: 39173416fa8939f70de7b821f5adbe58
+
+chain:
+  name: Ethereum
+  id: 1
+  logo: https://icons.llamao.fi/icons/chains/rsz_ethereum.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io/
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+
+indexer:
+  endpoint: https://uniswap.degov.ai/indexer/graphql
+  startBlock: 10861674
+  rpc: https://erpc.ringdao.com/main/evm/1
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+contracts:
+  governor: "0x408ED6354d4973f66138C91495F2f2FCbd8724C3"
+  governorToken:
+    address: "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+    standard: ERC20
+  timeLock: "0x1a9C8182C09F50C8318d769245beA52c32BE35BC"
+
+timeLockAssets:
+  - name: Uniswap
+    contract: "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+    standard: ERC20
+    priceId: uniswap
+  - name: Tether (USDT)
+    contract: "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+    standard: ERC20
+    priceId: tether
+  - name: USDC
+    contract: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+    standard: ERC20
+    priceId: usd-coin
+
+safes:
+  - name: Uniswap Safe
+    chainId: 1
+    link: "https://app.safe.global/balances?safe=eth:0xe571dC7A558bb6D68FfE264c3d7BB98B0C6C73fC"

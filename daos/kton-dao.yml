@@ -1,0 +1,47 @@
+name: KtonDAO
+logo: https://raw.githubusercontent.com/darwinia-network/devops/refs/heads/main/assets/ktondao/ktondao-portfolio-black.svg
+siteUrl: https://gov.ktondao.xyz
+offChainDiscussionUrl: https://github.com/orgs/ktondao/discussions
+aiAgent:
+  endpoint: https://agent.degov.ai
+description: The DAO governed by KTON token holders.
+links:
+  coingecko: https://www.coingecko.com/en/coins/darwinia-commitment-token
+  website: https://kton-staking-v2.darwinia.network/
+  github: https://github.com/ktondao
+
+wallet:
+  walletConnectProjectId: 265a3e6100e658324e44fd09cad26c94
+
+chain:
+  id: 46
+  name: Darwinia
+  logo: https://darwinia.network/images/darwinia-logo-black-background-round.svg
+  rpcs:
+    - https://rpc.darwinia.network
+  explorers:
+    - https://explorer.darwinia.network
+  nativeToken:
+    symbol: RING
+    priceId: darwinia-network-native-token
+    decimals: 18
+
+indexer:
+  endpoint: https://gov.ktondao.xyz/indexer/graphql
+  startBlock: 3320858
+  rpc: wss://rpc.darwinia.network
+
+contracts:
+  governor: "0xaAC63c40930cCAF99603229F6381D82966b145ef"
+  governorToken:
+    address: "0xB633Ad1142941CA2Eb9C350579cF88BbE266660D"
+    standard: ERC20
+  timeLock: "0x08837De0Ae21C270383D9F2de4DB03c7b1314632"
+
+safes:
+  - name: KtonDAO Treasury Manager
+    chainId: 46
+    link: https://dsafe.darwinia.network/home?safe=darwinia:0x9497c0474c0Bba76942AD553DA91F4e52df45E8f
+  - name: KtonDAO Treasury Manager
+    chainId: 8453
+    link: https://app.safe.global/home?safe=base:0x86394271Bb8C604b1F4E692624C45e751Cc7577B

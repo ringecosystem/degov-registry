@@ -1,0 +1,41 @@
+name: RingDAO Community Guild
+logo: https://raw.githubusercontent.com/darwinia-network/devops/refs/heads/main/assets/rcg/head.svg
+siteUrl: https://guild-gov.ringdao.com
+offChainDiscussionUrl: https://github.com/orgs/ringdao-community-guild/discussions
+aiAgent:
+  endpoint: https://agent.degov.ai
+description: |
+  Community guild that focuses on the shaping of the RingDAO ecosystem.
+links:
+  coingecko: https://www.coingecko.com/en/coins/ringdao
+  website: https://medium.com/@ringdao-community-guild
+  twitter: https://x.com/RingDAO_CG
+  github: https://github.com/ringdao-community-guild
+
+wallet:
+  walletConnectProjectId: b23beccaae95544d0a4cdee932487c17
+
+chain:
+  id: 46
+  name: Darwinia
+  logo: https://darwinia.network/images/darwinia-logo-black-background-round.svg
+  rpcs:
+    - https://rpc.darwinia.network
+  explorers:
+    - https://explorer.darwinia.network
+  nativeToken:
+    symbol: RING
+    priceId: darwinia-network-native-token
+    decimals: 18
+
+indexer:
+  endpoint: https://guild-gov.ringdao.com/indexer/graphql
+  startBlock: 2639678
+  rpc: wss://rpc.darwinia.network
+
+contracts:
+  governor: "0x234179ae929D886fceA83a6D04af69A86134AA3B"
+  governorToken:
+    address: "0x21D4A3c5390D098073598d30FD49d32F9d9E355E"
+    standard: ERC721
+  timeLock: "0x5881f5CF92bf616fdD10eA82DF8f9e709EC5a81D"
