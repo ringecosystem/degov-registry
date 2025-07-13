@@ -1,22 +1,11 @@
 darwinia:
-  - name: RingDAO
-    code: ring-dao
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/ring-dao.yml
+  - config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/ring-dao.yml
 
-  - name: KtonDAO
-    code: kton-dao
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/kton-dao.yml
+  - config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/kton-dao.yml
     
-  - name: RingDAO Community Guild
-    code: ringdao-guild
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/ring-dao-guild.yml
+  - config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/ring-dao-guild.yml
 
 ethereum:
-  - name: ENS
-    code: ens-dao
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/ens-dao.yml
+  - config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/ens-dao.yml
 
-  - name: Uniswap
-    code: uniswap-dao
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/uniswap-dao.yml
-
+  - config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/uniswap-dao.yml
