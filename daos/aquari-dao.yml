@@ -1,0 +1,64 @@
+name: Aquari DAO
+code: aquari-dao
+logo: https://basescan.org/token/images/aquari_base_32.png
+siteUrl: https://vote.aquari.org
+offChainDiscussionUrl: https://forum.aquari.org
+aiAgent:
+  endpoint: https://agent.degov.ai
+description: Aquari is at the forefront of a new movement in environmental conservation, blending advanced blockchain technology with a user-friendly app to change how we value and reward efforts to protect our environment. In the past, organizations working in this field often struggled with funding and efficiency, but Aquari is shaking things up by introducing a system where people can actually earn through their conservation efforts.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/aquari
+  website: https://aquari.org
+  twitter: https://twitter.com/AquariOfficial
+  telegram: https://t.me/aquariofficial
+
+wallet:
+  walletConnectProjectId: todo!
+
+chain:
+  name: Base
+  id: 8453
+  logo: https://icons.llamao.fi/icons/chains/rsz_base.jpg
+  rpcs:
+    - https://base-rpc.publicnode.com
+  explorers:
+    - https://basescan.org/
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+
+indexer:
+  endpoint: https://vote.aquari.org/indexer/graphql
+  startBlock: 13533418x
+  rpc: https://erpc.ringdao.com/main/evm/1
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+contracts:
+  governor: "0x323A76393544d5ecca80cd6ef2A560C6a395b7E3"
+  governorToken:
+    address: "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72"
+    standard: ERC20
+  timeLock: "0xFe89cc7aBB2C4183683ab71653C4cdc9B02D44b7"
+
+timeLockAssets:
+  - name: Ethereum Name Service
+    contract: "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72"
+    standard: ERC20
+    priceId: ethereum-name-service
+  - name: USDC
+    contract: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    standard: ERC20
+    priceId: usd-coin
+
+safes:
+  - name: ENS Meta Governance Safe
+    chainId: 1
+    link: https://app.safe.global/home?safe=eth:0x91c32893216dE3eA0a55ABb9851f581d4503d39b
+  - name: ENS Ecosystem Safe
+    chainId: 1
+    link: https://app.safe.global/home?safe=eth:0x2686A8919Df194aA7673244549E68D42C1685d03
+  - name: ENS public goods Safe
+    chainId: 1
+    link: https://app.safe.global/home?safe=eth:0xcD42b4c4D102cc22864e3A1341Bb0529c17fD87d
