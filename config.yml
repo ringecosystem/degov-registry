@@ -22,9 +22,6 @@ ethereum:
   - code: ens-dao
     config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/ens-dao.yml
 
-  - code: uniswap-dao
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/uniswap-dao.yml
-
 base:
   - code: aquari-dao
     config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/aquari-dao.yml
