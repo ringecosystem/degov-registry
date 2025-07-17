@@ -31,26 +31,26 @@ chain:
 
 indexer:
   endpoint: https://vote.aquari.org/indexer/graphql
-  startBlock: 13533418x
-  rpc: https://erpc.ringdao.com/main/evm/1
-  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+  startBlock: 32888284
+  rpc: https://erpc.ringdao.com/main/evm/8453
+  gateway: https://v2.archive.subsquid.io/network/base-mainnet
 
 contracts:
-  governor: "0x323A76393544d5ecca80cd6ef2A560C6a395b7E3"
+  governor: "0x062f87ae9eCAd31398C0cF5Ef269feb9050b9DF6"
   governorToken:
-    address: "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72"
+    address: "0x23c2e12caaE858f1cc7a4B3d1499C6881C86839b"
     standard: ERC20
-  timeLock: "0xFe89cc7aBB2C4183683ab71653C4cdc9B02D44b7"
+  timeLock: "0x445A92e8dB20095a1755f4BE32E21E529E942E62"
 
-timeLockAssets:
-  - name: Ethereum Name Service
-    contract: "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72"
-    standard: ERC20
-    priceId: ethereum-name-service
-  - name: USDC
-    contract: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-    standard: ERC20
-    priceId: usd-coin
+# timeLockAssets:
+#   - name: Ethereum Name Service
+#     contract: "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72"
+#     standard: ERC20
+#     priceId: ethereum-name-service
+#   - name: USDC
+#     contract: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+#     standard: ERC20
+#     priceId: usd-coin
 
 safes:
   - name: ENS Meta Governance Safe
