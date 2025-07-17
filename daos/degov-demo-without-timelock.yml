@@ -5,13 +5,9 @@ offChainDiscussionUrl: https://github.com/ringecosystem/degov/discussions
 aiAgent:
   endpoint: https://agent.degov.ai
 description: >
-  This is the development test DAO interface for DeGov users, allowing them to
-  gain 
-
-  firsthand experience creating proposals and voting on them before deploying 
-
-  their own DeGov instance. The DAO is built on the Darwinia chain, an
-  Ethereum-compatible chain.
+  This is the development test DAO interface for DeGov users, allowing them to gain firsthand
+  experience creating proposals and voting on them before deploying their own DeGov instance.
+  The DAO is built on the Darwinia chain, an Ethereum-compatible chain.
 links:
   coingecko: https://www.coingecko.com/en/coins/ringdao
   website: https://ringdao.com/
