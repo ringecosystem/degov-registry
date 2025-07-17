@@ -1,0 +1,82 @@
+name: DeGov Development Test DAO
+logo: https://raw.githubusercontent.com/ringecosystem/degov/refs/heads/main/packages/web/public/example/logo.svg
+siteUrl: https://degov-dev.vercel.app
+offChainDiscussionUrl: https://github.com/ringecosystem/degov/discussions
+aiAgent:
+  endpoint: https://agent.degov.ai
+description: >
+  This is the development test DAO interface for DeGov users, allowing them to
+  gain 
+
+  firsthand experience creating proposals and voting on them before deploying 
+
+  their own DeGov instance. The DAO is built on the Darwinia chain, an
+  Ethereum-compatible chain.
+links:
+  coingecko: https://www.coingecko.com/en/coins/ringdao
+  website: https://ringdao.com/
+  twitter: https://x.com/ringecosystem
+  discord: https://discord.com/invite/BhNbKWWfGV
+  telegram: https://t.me/ringecosystem
+  github: https://github.com/ringecosystem/degov
+  email: null
+wallet:
+  walletConnectProjectId: 2719448e2ce94fdd269a3c8587123bcc
+chain:
+  name: Darwinia Network
+  rpcs:
+    - https://rpc.darwinia.network
+  explorers:
+    - https://explorer.darwinia.network
+  contracts:
+    multicall3:
+      address: "0xca11bde05977b3631167028862be2a173976ca11"
+      blockCreated: 69420
+  nativeToken:
+    priceId: darwinia-network-native-token
+    logo: null
+    symbol: RING
+    decimals: 18
+  id: 46
+  logo: https://darwinia.network/images/darwinia-logo-black-background-round.svg
+indexer:
+  endpoint: https://degov-indexer.vercel.app/graphql
+  startBlock: 5873342
+  rpc: wss://rpc.darwinia.network
+contracts:
+  governor: "0xC9EA55E644F496D6CaAEDcBAD91dE7481Dcd7517"
+  governorToken:
+    address: "0xbC9f58566810F7e853e1eef1b9957ac82F9971df"
+    standard: ERC20
+  timeLock: "0x6AB15C6ada9515A8E21321e241013dB457C8576c"
+timeLockAssets:
+  - name: FT
+    contract: "0x3ff4F23F328664FfD046eb4ca62be3d8aF3e452f"
+    standard: ERC20
+    priceId: FT
+    logo: null
+  - name: NFT
+    contract: "0xA785c85dADa2dFF129b3eba7523bD380eA8b4e2A"
+    standard: ERC721
+    priceId: NFT
+    logo: null
+safes:
+  - name: Test DAO Safe(Arbitrum)
+    chainId: 42161
+    link: https://app.safe.global/home?safe=arb1:0x80d180621B2f875269216f19A499e6fB9402776C
+  - name: Test DAO Safe(Sepolia)
+    chainId: 11155111
+    link: https://app.safe.global/home?safe=sep:0x80d180621B2f875269216f19A499e6fB9402776C
+apps:
+  - name: Token Wrap
+    description: Convert back and forth between the native token and the wrapped
+      governance token
+    icon: https://raw.githubusercontent.com/ringecosystem/degov/refs/heads/main/packages/web/public/example/logo.svg
+    link: https://token-wrap.degov.ai?config=https://degov-dev.vercel.app/degov.yml
+    params:
+      sourceToken:
+        address: "0x48C817eebE1fD79F946bd6b976EF579540517121"
+        icon: /example/token.svg
+      wrapToken:
+        address: "0x0ef0827A9d5D329DFbaA14c7d5Aae364453A4D32"
+        icon: /example/token.svg
