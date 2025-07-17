@@ -1,11 +1,30 @@
 darwinia:
-  - config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/ring-dao.yml
+  - code: ring-dao
+    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/ring-dao.yml
 
-  - config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/kton-dao.yml
-    
-  - config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/ring-dao-guild.yml
+  - code: kton-dao
+    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/kton-dao.yml
+
+  - code: ring-dao-guild
+    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/ring-dao-guild.yml
+
+  - code: degov-demo-without-timelock-dao
+    tags:
+      - demo
+    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/degov-demo-without-timelock.yml
+
+  - code: degov-demo-dao
+    tags:
+      - demo
+    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/degov-demo-dao.yml
 
 ethereum:
-  - config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/ens-dao.yml
+  - code: ens-dao
+    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/ens-dao.yml
 
-  - config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/daos-config/daos/uniswap-dao.yml
+  - code: uniswap-dao
+    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/uniswap-dao.yml
+
+base:
+  - code: aquari-dao
+    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/aquari-dao.yml
