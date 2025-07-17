@@ -14,7 +14,7 @@ links:
   telegram: https://t.me/aquariofficial
 
 wallet:
-  walletConnectProjectId: todo!
+  walletConnectProjectId: 1326a0170091f65349ae25b5bac61fc3
 
 chain:
   name: Base
