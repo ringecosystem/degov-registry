@@ -45,7 +45,7 @@ contracts:
   timeLock: "0x4DCf0f14cC58fc2Bf313e70573dDB7309523bb23"
 
 apps:
-  - name: Ring Staking
+  - name: RING Staking
     description: Staking RING to get gRING for governance and earn rewards.
     icon: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/RING/RING.svg
     link: https://collator-staking.ringdao.com

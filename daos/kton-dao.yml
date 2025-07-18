@@ -51,4 +51,4 @@ apps:
   - name: KTON Staking
     description: Stake KTON to earn rewards and participate in governance.
     icon: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/KTON/KTON.svg
-    link: https://staking.ktondao.xyz/
+    link: https://staking.ktondao.xyz
