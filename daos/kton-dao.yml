@@ -19,9 +19,9 @@ chain:
   logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/networks/darwinia/darwinia-pink.svg
   rpcs:
     - https://rpc.darwinia.network
+  explorers:
     - https://explorer.darwinia.network
   nativeToken:
-  explorers:
     symbol: RING
     priceId: darwinia-network-native-token
     decimals: 18
