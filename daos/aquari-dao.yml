@@ -45,7 +45,7 @@ contracts:
 apps:
   - name: AQUARI Token Wrap
     description: Convert back and forth between the native token and the wrapped governance token
-    icon: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/degov/DeGov.AI-head%402x.svg
+    icon: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/degov/degov-head.svg
     link: https://token-wrap.degov.ai?config=https://aquari.degov.ai/degov.yml
     params:
       sourceToken:

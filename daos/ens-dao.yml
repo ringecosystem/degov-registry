@@ -53,7 +53,7 @@ timeLockAssets:
     contract: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     standard: ERC20
     priceId: usd-coin
-    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/USDC/USDC%20Token.svg
+    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/USDC/USDC-Token.svg
 
 safes:
   - name: ENS Meta Governance Safe
