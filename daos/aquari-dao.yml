@@ -16,7 +16,7 @@ wallet:
   walletConnectProjectId: 1326a0170091f65349ae25b5bac61fc3
 
 chain:
-  name: Base
+  name: Base Network
   id: 8453
   logo: https://icons.llamao.fi/icons/chains/rsz_base.jpg
   rpcs:
@@ -27,6 +27,7 @@ chain:
     symbol: ETH
     priceId: ethereum
     decimals: 18
+    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/ETH/eth-diamond-black-gray.svg
 
 indexer:
   endpoint: https://vote.aquari.org/indexer/graphql
@@ -44,7 +45,7 @@ contracts:
 apps:
   - name: AQUARI Token Wrap
     description: Convert back and forth between the native token and the wrapped governance token
-    icon: https://raw.githubusercontent.com/ringecosystem/degov/refs/heads/main/packages/web/public/example/logo.svg
+    icon: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/degov/DeGov.AI-head%402x.svg
     link: https://token-wrap.degov.ai?config=https://aquari.degov.ai/degov.yml
     params:
       sourceToken:
