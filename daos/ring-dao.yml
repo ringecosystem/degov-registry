@@ -43,3 +43,9 @@ contracts:
     address: "0xdafa555e2785DC8834F4Ea9D1ED88B6049142999"
     standard: ERC20
   timeLock: "0x4DCf0f14cC58fc2Bf313e70573dDB7309523bb23"
+
+apps:
+  - name: RING Staking
+    description: Staking RING to get gRING for governance and earn rewards.
+    icon: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/RING/RING.svg
+    link: https://collator-staking.ringdao.com
