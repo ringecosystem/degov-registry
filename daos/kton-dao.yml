@@ -46,3 +46,9 @@ safes:
   - name: KtonDAO Treasury Manager
     chainId: 8453
     link: https://app.safe.global/home?safe=base:0x86394271Bb8C604b1F4E692624C45e751Cc7577B
+
+apps:
+  - name: KTON Staking
+    description: Stake KTON to earn rewards and participate in governance.
+    icon: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/KTON/KTON.svg
+    link: https://staking.ktondao.xyz/
