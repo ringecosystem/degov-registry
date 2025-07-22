@@ -1,0 +1,50 @@
+name: Virtuals Protocol
+logo: https://basescan.org/token/images/virtualprotocol_32.png
+siteUrl: https://virtuals.degov.ai
+offChainDiscussionUrl: https://t.me/virtuals
+aiAgent:
+  endpoint: https://agent.degov.ai
+description: AI powered on-chain governance platform for Virtuals Protocol. 
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/virtual-protocol
+  website: https://www.virtuals.io
+  twitter: https://x.com/virtuals_io
+  telegram: https://t.me/virtuals
+  github: https://github.com/Virtual-Protocol
+
+wallet:
+  walletConnectProjectId: todo!
+
+chain:
+  name: Base Network
+  id: 8453
+  logo: https://icons.llamao.fi/icons/chains/rsz_base.jpg
+  rpcs:
+    - https://base-rpc.publicnode.com
+  explorers:
+    - https://basescan.org/
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/ETH/eth-diamond-black-gray.svg
+
+indexer:
+  endpoint: todo!
+  startBlock: todo!
+  rpc: todo!
+  gateway: todo!
+
+
+contracts:
+  governor: "0xA1a98f9Aa6C56652e4f306D38A78FfF554776665"
+  governorToken:
+    address: "0x60a203ddcDE45fbfb325bdeEA93824B5726b4dF8"
+    standard: ERC20
+
+apps:
+  - name: VIRTUAL Staking
+    description: Staking $VIRTUAL to get veVIRTUAL for governance. 
+    icon: https://basescan.org/token/images/virtualprotocol_32.png
+    link: https://app.virtuals.io/lock
