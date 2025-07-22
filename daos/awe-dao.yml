@@ -1,0 +1,50 @@
+name: AWE DAO
+logo: https://assets.coingecko.com/coins/images/8713/standard/awe-network.jpg
+siteUrl: https://awe.degov.ai
+offChainDiscussionUrl: https://t.me/AWEofficial
+aiAgent:
+  endpoint: https://agent.degov.ai
+description: AI powered on-chain governance platform for AWE Network.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/awe-network
+  website: https://www.awenetwork.ai/
+  twitter: https://x.com/awenetwork_ai
+  telegram: https://t.me/AWEofficial
+
+wallet:
+  walletConnectProjectId: 
+
+chain:
+  name: Base Network
+  id: 8453
+  logo: https://icons.llamao.fi/icons/chains/rsz_base.jpg
+  rpcs:
+    - https://base-rpc.publicnode.com
+  explorers:
+    - https://basescan.org/
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/ETH/eth-diamond-black-gray.svg
+
+indexer:
+  endpoint: 
+  startBlock: 
+  rpc: 
+  gateway: 
+
+contracts:
+  governor: "0xAe18Aed3Dd3c9cd1d0A180315B6b5FCd61eF20f1"
+  governorToken:
+    address: "0x1B4617734C43F6159F3a70b7E06d883647512778"
+    standard: ERC20
+  timeLock: "0x91876F0F9Ba79A165422286Fd9e4620238C42929"
+
+timeLockAssets:
+  - name: AWE Network
+    contract: "0x1B4617734C43F6159F3a70b7E06d883647512778"
+    standard: ERC20
+    priceId: stp-network
+    logo: https://assets.coingecko.com/coins/images/8713/standard/awe-network.jpg
