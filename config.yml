@@ -25,3 +25,6 @@ ethereum:
 base:
   - code: aquari-dao
     config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/aquari-dao.yml
+
+  - code: lazy-summer-dao
+    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/lazy-summer.yml
