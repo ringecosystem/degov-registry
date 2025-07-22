@@ -25,3 +25,6 @@ ethereum:
 base:
   - code: aquari-dao
     config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/aquari-dao.yml
+
+  - code: virtuals-dao
+    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/virtuals-dao.yml
