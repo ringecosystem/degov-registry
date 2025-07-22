@@ -1,0 +1,44 @@
+name: CARV
+logo: https://assets.coingecko.com/coins/images/37689/standard/CARV_%281%29.png
+siteUrl: https://carv.degov.ai
+offChainDiscussionUrl: https://discord.com/carv
+aiAgent:
+  endpoint: https://agent.degov.ai
+description: AI powered on-chain governance platform for CARV DAO.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/carv
+  website: https://carv.io
+  twitter: https://x.com/carv_official
+  telegram: https://t.me/carv_official_global
+  discord: https://discord.com/carv
+
+wallet:
+  walletConnectProjectId: 
+
+chain:
+  name: Base Network
+  id: 8453
+  logo: https://icons.llamao.fi/icons/chains/rsz_base.jpg
+  rpcs:
+    - https://base-rpc.publicnode.com
+  explorers:
+    - https://basescan.org/
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/ETH/eth-diamond-black-gray.svg
+
+indexer:
+  endpoint: 
+  startBlock: 
+  rpc: 
+  gateway: 
+
+contracts:
+  governor: "0xe5C7Fc2B5562704902FbCF8Dfb1D36016a480612"
+  governorToken:
+    address: "0x97976abeF960A40B7EFd4C45E9ac2e178F6c5548"
+    standard: ERC20
+  timeLock: "0x8d5dCca55d5bA2A1e81be5A792c8f9CF1DC45a5c"
