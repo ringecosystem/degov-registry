@@ -1,5 +1,5 @@
 name: ENS DAO
-logo: https://x.com/ensdomains/photo
+logo: https://pbs.twimg.com/profile_images/1810706000669798400/nYlIMYkq_400x400.jpg
 siteUrl: https://ens.degov.ai
 offChainDiscussionUrl: https://discuss.ens.domains
 aiAgent:
@@ -19,7 +19,7 @@ wallet:
 chain:
   name: Ethereum Network
   id: 1
-  logo: https://x.com/ethereum/photo
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
   rpcs:
     - https://ethereum-rpc.publicnode.com
   explorers:
