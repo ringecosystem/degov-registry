@@ -1,0 +1,41 @@
+name: RnDAO 
+logo: https://x.com/RnDAO__/photo
+siteUrl: https://rndao.degov.ai
+offChainDiscussionUrl: https://discord.gg/ASraQetMhU
+aiAgent:
+  endpoint: https://agent.degov.ai
+description: 
+
+links:
+  website: https://www.rndao.io
+  twitter: https://x.com/RnDAO__
+  discord: https://discord.gg/ASraQetMhU
+
+wallet:
+  walletConnectProjectId: 
+
+chain:
+  name: Arbitrum
+  id: 
+  logo: 
+  rpcs:
+    - 
+  explorers:
+    - 
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: 
+
+indexer:
+  endpoint: 
+  startBlock: 
+  rpc: 
+  gateway: 
+
+contracts:
+  governor: "0xf73EE8B7AE7ddA64CF88CD4f722241BF88237157"
+  governorToken:
+    address: "0x33dB29274D2499F4afa91804850412C8473b83e2"
+    standard: ERC20
