@@ -1,0 +1,63 @@
+name: GMX
+logo: https://x.com/GMX_IO/photo
+siteUrl: https://gmx.degov.ai
+offChainDiscussionUrl: https://gov.gmx.io
+aiAgent:
+  endpoint: https://agent.degov.ai
+description: AI powered on-chain governance platform for GMX DAO.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/gmx
+  website: https://gmx.io
+  twitter: https://x.com/GMX_IO
+  telegram: https://t.me/GMX_IO
+  discord: https://discord.com/invite/H5PeQru3Aa
+  github: https://github.com/gmx-io
+
+wallet:
+  walletConnectProjectId: 
+
+chain:
+  name: Arbitrum
+  id: 
+  logo: 
+  rpcs:
+    - 
+  explorers:
+    - 
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/ETH/eth-diamond-black-gray.svg
+
+indexer:
+  endpoint: 
+  startBlock: 
+  rpc: 
+  gateway: 
+
+contracts:
+  governor: "0x03e8f708e9C85EDCEaa6AD7Cd06824CeB82A7E68"
+  governorToken: 
+    address: "0x2A29D3a792000750807cc401806d6fd539928481"
+    standard: ERC20
+  timeLock: "0x4bd1cdAab4254fC43ef6424653cA2375b4C94C0E"
+
+treasuryAssets:
+  - name: USDC
+    contract: "0xaf88d065e77c8cc2239327c5edb3a432268e5831"
+    standard: ERC20
+    priceId: usd-coin
+    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/USDC/USDC-Token.svg
+  - name: GMX
+    contract: "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a"
+    standard: ERC20
+    priceId: gmx
+    logo: https://assets.coingecko.com/coins/images/18323/standard/arbit.png
+  - name: ARB
+    contract: "0x912ce59144191c1204e64559fe8253a0e49e6548"
+    standard: ERC20
+    priceId: arbitrum
+    logo: https://assets.coingecko.com/coins/images/16547/standard/arb.jpg
+
