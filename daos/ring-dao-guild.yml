@@ -1,5 +1,5 @@
 name: RingDAO Community Guild
-logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/daos/rcg/head.svg
+logo: https://x.com/RingDAO_CG/photo
 siteUrl: https://guild-gov.ringdao.com
 offChainDiscussionUrl: https://github.com/orgs/ringdao-community-guild/discussions
 aiAgent:
@@ -18,7 +18,7 @@ wallet:
 chain:
   id: 46
   name: Darwinia Network
-  logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/networks/darwinia/darwinia-pink.svg
+  logo: https://x.com/DarwiniaNetwork/photo
   rpcs:
     - https://rpc.darwinia.network
   explorers:
@@ -27,7 +27,7 @@ chain:
     symbol: RING
     priceId: darwinia-network-native-token
     decimals: 18
-    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/RING/RING.svg
+    logo: https://assets.coingecko.com/coins/images/9443/standard/RING.png
 
 indexer:
   endpoint: https://guild-gov.ringdao.com/indexer/graphql

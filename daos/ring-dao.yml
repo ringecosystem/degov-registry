@@ -1,5 +1,5 @@
 name: RingDAO
-logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/daos/ringdao/ringdao-portfolio-black.svg
+logo: https://x.com/ringecosystem/photo
 siteUrl: https://gov.ringdao.com
 offChainDiscussionUrl: https://github.com/orgs/ringecosystem/discussions
 aiAgent:
@@ -21,7 +21,7 @@ wallet:
 chain:
   id: 46
   name: Darwinia Network
-  logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/networks/darwinia/darwinia-pink.svg
+  logo: https://x.com/DarwiniaNetwork/photo
   rpcs:
     - https://rpc.darwinia.network
   explorers:
@@ -30,7 +30,7 @@ chain:
     symbol: RING
     priceId: darwinia-network-native-token
     decimals: 18
-    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/RING/RING.svg
+    logo: https://assets.coingecko.com/coins/images/9443/standard/RING.png
 
 indexer:
   endpoint: https://gov.ringdao.com/indexer/graphql
@@ -47,5 +47,5 @@ contracts:
 apps:
   - name: RING Staking
     description: Staking RING to get gRING for governance and earn rewards.
-    icon: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/RING/RING.svg
+    icon: https://x.com/DarwiniaNetwork/photo
     link: https://collator-staking.ringdao.com

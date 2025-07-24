@@ -1,5 +1,5 @@
 name: ENS DAO
-logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/daos/ens/ens-mark-Blue.svg
+logo: https://x.com/ensdomains/photo
 siteUrl: https://ens.degov.ai
 offChainDiscussionUrl: https://discuss.ens.domains
 aiAgent:
@@ -19,7 +19,7 @@ wallet:
 chain:
   name: Ethereum Network
   id: 1
-  logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/ETH/eth-diamond-purple.svg
+  logo: https://x.com/ethereum/photo
   rpcs:
     - https://ethereum-rpc.publicnode.com
   explorers:
@@ -28,7 +28,7 @@ chain:
     symbol: ETH
     priceId: ethereum
     decimals: 18
-    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/ETH/eth-diamond-black-gray.svg
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
   endpoint: https://ens.degov.ai/indexer/graphql
@@ -43,17 +43,17 @@ contracts:
     standard: ERC20
   timeLock: "0xFe89cc7aBB2C4183683ab71653C4cdc9B02D44b7"
 
-timeLockAssets:
+treasuryAssets:
   - name: Ethereum Name Service
     contract: "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72"
     standard: ERC20
     priceId: ethereum-name-service
-    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/ENS/token-icon.svg
+    logo: https://assets.coingecko.com/coins/images/19785/standard/ENS.jpg
   - name: USDC
     contract: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
     standard: ERC20
     priceId: usd-coin
-    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/USDC/USDC-Token.svg
+    logo: https://assets.coingecko.com/coins/images/6319/standard/usdc.png
 
 safes:
   - name: ENS Meta Governance Safe
