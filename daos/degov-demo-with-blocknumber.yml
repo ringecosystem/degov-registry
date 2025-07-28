@@ -1,4 +1,4 @@
-name: DeGov Development DAO (without Timelock)
+name: DeGov Development DAO (with Blocknumber)
 logo: https://pbs.twimg.com/profile_images/1912415584257474560/GznnScP3_400x400.jpg
 siteUrl: https://degov-dev.vercel.app
 offChainDiscussionUrl: https://github.com/ringecosystem/degov/discussions
@@ -35,30 +35,32 @@ chain:
     priceId: darwinia-network-native-token
     logo: https://assets.coingecko.com/coins/images/9443/standard/RING.png
 
-
 indexer:
   endpoint: https://degov-indexer.vercel.app/graphql
   startBlock: 5873342
+  # if set this, indexer rpc will be use this first
   rpc: wss://rpc.darwinia.network
 
+# Core contracts related to the DAO Governance
 contracts:
-  governor: "0xC9EA55E644F496D6CaAEDcBAD91dE7481Dcd7517"
+  governor: "0x398d514611291aB0C1c7c8447589A15b4bD08E3D"
   governorToken:
-    address: "0xbC9f58566810F7e853e1eef1b9957ac82F9971df"
+    address: "0xB81A00CAa77CD98C3c6a7dc6E1e5393656650773"
     standard: ERC20
-  timeLock: "0x6AB15C6ada9515A8E21321e241013dB457C8576c"
+  timeLock: "0x4891332494a67AB7C446dBfb1C08b8125cDA4229"
 
+# The treasury assets information
 treasuryAssets:
   - name: FT
     contract: "0x3ff4F23F328664FfD046eb4ca62be3d8aF3e452f"
     standard: ERC20
     priceId: FT
-    logo: null
+    logo: # Default logo if not provided
   - name: NFT
     contract: "0xA785c85dADa2dFF129b3eba7523bD380eA8b4e2A"
     standard: ERC721
     priceId: NFT
-    logo: null
+    logo: # Default logo if not provided
 
 safes:
   - name: Test DAO Safe(Arbitrum)
@@ -76,7 +78,7 @@ apps:
     params:
       sourceToken:
         address: '0x48C817eebE1fD79F946bd6b976EF579540517121'
-        icon: https://assets.coingecko.com/coins/images/9443/standard/RING.png  
+        icon: https://assets.coingecko.com/coins/images/9443/standard/RING.png
       wrapToken:
         address: '0x0ef0827A9d5D329DFbaA14c7d5Aae364453A4D32'
         icon: https://assets.coingecko.com/coins/images/9443/standard/RING.png
