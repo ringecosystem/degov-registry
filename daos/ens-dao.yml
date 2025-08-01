@@ -23,7 +23,7 @@ chain:
   rpcs:
     - https://ethereum-rpc.publicnode.com
   explorers:
-    - https://etherscan.io/
+    - https://etherscan.io
   nativeToken:
     symbol: ETH
     priceId: ethereum
