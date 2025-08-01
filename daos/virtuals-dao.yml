@@ -23,7 +23,7 @@ chain:
   rpcs:
     - https://base-rpc.publicnode.com
   explorers:
-    - https://basescan.org/
+    - https://basescan.org
   nativeToken:
     symbol: ETH
     priceId: ethereum
