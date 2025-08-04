@@ -2,8 +2,6 @@ name: ENS DAO
 logo: https://pbs.twimg.com/profile_images/1810706000669798400/nYlIMYkq_400x400.jpg
 siteUrl: https://ens.degov.ai
 offChainDiscussionUrl: https://discuss.ens.domains
-aiAgent:
-  endpoint: https://agent.degov.ai
 description: AI powered on-chain governance platform for ENS DAO
 
 links:
@@ -35,6 +33,9 @@ indexer:
   startBlock: 13533418
   rpc: https://erpc.ringdao.com/main/evm/1
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x323A76393544d5ecca80cd6ef2A560C6a395b7E3"
