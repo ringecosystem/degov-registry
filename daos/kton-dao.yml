@@ -2,8 +2,6 @@ name: KtonDAO
 logo: https://assets.coingecko.com/coins/images/11895/standard/KTON.png
 siteUrl: https://gov.ktondao.xyz
 offChainDiscussionUrl: https://github.com/orgs/ktondao/discussions
-aiAgent:
-  endpoint: https://agent.degov.ai
 description: The DAO governed by KTON token holders.
 links:
   coingecko: https://www.coingecko.com/en/coins/darwinia-commitment-token
@@ -31,6 +29,9 @@ indexer:
   endpoint: https://gov.ktondao.xyz/indexer/graphql
   startBlock: 3320858
   rpc: wss://rpc.darwinia.network
+
+aiAgent:
+  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0xaAC63c40930cCAF99603229F6381D82966b145ef"

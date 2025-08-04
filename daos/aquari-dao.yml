@@ -2,8 +2,6 @@ name: Aquari DAO
 logo: https://pbs.twimg.com/profile_images/1904221405777907713/HvSbQs-1_400x400.jpg
 siteUrl: https://aquari.degov.ai
 offChainDiscussionUrl: https://forum.aquari.org
-aiAgent:
-  endpoint: https://agent.degov.ai
 description: Aquari is at the forefront of a new movement in environmental conservation, blending advanced blockchain technology with a user-friendly app to change how we value and reward efforts to protect our environment. In the past, organizations working in this field often struggled with funding and efficiency, but Aquari is shaking things up by introducing a system where people can actually earn through their conservation efforts.
 
 links:
@@ -34,6 +32,9 @@ indexer:
   startBlock: 32888284
   rpc: https://erpc.ringdao.com/main/evm/8453
   gateway: https://v2.archive.subsquid.io/network/base-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x062f87ae9eCAd31398C0cF5Ef269feb9050b9DF6"
