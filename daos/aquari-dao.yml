@@ -10,6 +10,12 @@ links:
   twitter: https://twitter.com/AquariOfficial
   telegram: https://t.me/aquariofficial
 
+theme:
+  logoDark: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/aquari-dark.svg
+  logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/aquari-light.svg
+  banner: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/banners/aquari.jpg
+  bannerMobile: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/banners/aquari-mobile.jpg
+
 wallet:
   walletConnectProjectId: 1326a0170091f65349ae25b5bac61fc3
 

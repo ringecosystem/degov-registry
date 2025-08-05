@@ -11,6 +11,10 @@ links:
   discord: https://chat.ens.domains
   github: https://github.com/ensdomains
 
+theme:
+  logoDark: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/ens-dark.svg
+  logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/ens-light.svg
+
 wallet:
   walletConnectProjectId: 8063b1bcbb07009f73c3a06f54d75d83
 
