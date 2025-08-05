@@ -1,30 +1,30 @@
 darwinia:
   - code: ring-dao
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/ring-dao.yml
+    config: daos/ring-dao.yml
 
   - code: kton-dao
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/kton-dao.yml
+    config: daos/kton-dao.yml
 
   - code: ring-dao-guild
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/ring-dao-guild.yml
+    config: daos/ring-dao-guild.yml
 
   - code: degov-demo-without-timelock-dao
     tags:
       - demo
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/degov-demo-without-timelock.yml
+    config: daos/degov-demo-without-timelock.yml
 
   - code: degov-demo-dao
     tags:
       - demo
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/degov-demo-dao.yml
+    config: daos/degov-demo-dao.yml
 
 ethereum:
   - code: ens-dao
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/ens-dao.yml
+    config: daos/ens-dao.yml
 
 base:
   - code: aquari-dao
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/aquari-dao.yml
+    config: daos/aquari-dao.yml
 
   - code: virtuals-dao
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/virtuals-dao.yml
+    config: daos/virtuals-dao.yml
