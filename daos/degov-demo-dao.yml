@@ -16,6 +16,12 @@ links:
   github: https://github.com/ringecosystem/degov
   email: # It's ok to leave it empty
 
+theme:
+  logoDark: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/demo-dark.svg
+  logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/demo-light.svg
+  banner: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/banners/demo.jpg
+  bannerMobile: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/banners/demo-mobile.jpg
+
 wallet:
   walletConnectProjectId: 2719448e2ce94fdd269a3c8587123bcc
 

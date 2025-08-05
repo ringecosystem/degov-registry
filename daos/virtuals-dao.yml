@@ -11,6 +11,10 @@ links:
   telegram: https://t.me/virtuals
   github: https://github.com/Virtual-Protocol
 
+theme:
+  logoDark: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/virtuals-dark.svg
+  logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/virtuals-light.svg
+
 wallet:
   walletConnectProjectId: 65852999decdd23ed2694b0de5bd6ee0
 
