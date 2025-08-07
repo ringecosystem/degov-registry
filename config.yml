@@ -11,12 +11,12 @@ darwinia:
   - code: degov-demo-without-timelock-dao
     tags:
       - demo
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/degov-demo-without-timelock.yml
+    config: 
 
   - code: degov-demo-dao
     tags:
       - demo
-    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/degov-demo-dao.yml
+    config: 
 
 ethereum:
   - code: ens-dao
