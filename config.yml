@@ -8,6 +8,16 @@ darwinia:
   - code: ring-dao-guild
     config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/ring-dao-guild.yml
 
+  - code: demo-no-timelock-dao
+    tags:
+      - demo
+    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/degov-no-timelock.yml
+
+  - code: demo-blocknumber-dao
+    tags:
+      - demo
+    config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/degov-blocknumber.yml
+
 ethereum:
   - code: ens-dao
     config: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/daos/ens-dao.yml
