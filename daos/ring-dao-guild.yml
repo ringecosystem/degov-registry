@@ -2,8 +2,6 @@ name: RingDAO Community Guild
 logo: https://pbs.twimg.com/profile_images/1917656235387551745/k4L5nUlr_400x400.jpg
 siteUrl: https://guild-gov.ringdao.com
 offChainDiscussionUrl: https://github.com/orgs/ringdao-community-guild/discussions
-aiAgent:
-  endpoint: https://agent.degov.ai
 description: |
   Community guild that focuses on the shaping of the RingDAO ecosystem.
 links:
@@ -33,6 +31,9 @@ indexer:
   endpoint: https://guild-gov.ringdao.com/indexer/graphql
   startBlock: 2639678
   rpc: wss://rpc.darwinia.network
+
+aiAgent:
+  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x234179ae929D886fceA83a6D04af69A86134AA3B"

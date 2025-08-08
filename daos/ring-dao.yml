@@ -2,18 +2,22 @@ name: RingDAO
 logo: https://pbs.twimg.com/profile_images/1830098608638889984/J0JrhC1L_400x400.png
 siteUrl: https://gov.ringdao.com
 offChainDiscussionUrl: https://github.com/orgs/ringecosystem/discussions
-aiAgent:
-  endpoint: https://agent.degov.ai
 description: |
   RingDAO is a Venture DAO focused on curating DeFi and DAO applications within the blockchain space, originally from the Darwinia chain.
   The DAO's operations are governed by all RING holders, who make decisions to innovate and expand the ecosystem.
 links:
   coingecko: https://www.coingecko.com/en/coins/ringdao
-  website: https://ringdao.com/
+  website: https://ringdao.com
   twitter: https://x.com/ringecosystem
   discord: https://discord.com/invite/BhNbKWWfGV
   telegram: https://t.me/ringecosystem
   github: https://github.com/ringecosystem
+
+theme:
+  logoDark: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/ringdao-dark.svg
+  logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/ringdao-light.svg
+  banner: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/banners/ringdao.jpg
+  bannerMobile: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/banners/ringdao-mobile.jpg
 
 wallet:
   walletConnectProjectId: ddec8a363be3b4f9c2a34beaf38cc251
@@ -36,6 +40,9 @@ indexer:
   endpoint: https://gov.ringdao.com/indexer/graphql
   startBlock: 4455584
   rpc: wss://rpc.darwinia.network
+
+aiAgent:
+  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x52cDD25f7C83c335236Ce209fA1ec8e197E96533"

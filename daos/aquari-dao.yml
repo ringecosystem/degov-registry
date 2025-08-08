@@ -2,8 +2,6 @@ name: Aquari DAO
 logo: https://pbs.twimg.com/profile_images/1904221405777907713/HvSbQs-1_400x400.jpg
 siteUrl: https://aquari.degov.ai
 offChainDiscussionUrl: https://forum.aquari.org
-aiAgent:
-  endpoint: https://agent.degov.ai
 description: Aquari is at the forefront of a new movement in environmental conservation, blending advanced blockchain technology with a user-friendly app to change how we value and reward efforts to protect our environment. In the past, organizations working in this field often struggled with funding and efficiency, but Aquari is shaking things up by introducing a system where people can actually earn through their conservation efforts.
 
 links:
@@ -11,6 +9,12 @@ links:
   website: https://aquari.org
   twitter: https://twitter.com/AquariOfficial
   telegram: https://t.me/aquariofficial
+
+theme:
+  logoDark: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/aquari-dark.svg
+  logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/aquari-light.svg
+  banner: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/banners/aquari.jpg
+  bannerMobile: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/banners/aquari-mobile.jpg
 
 wallet:
   walletConnectProjectId: 1326a0170091f65349ae25b5bac61fc3
@@ -22,7 +26,7 @@ chain:
   rpcs:
     - https://base-rpc.publicnode.com
   explorers:
-    - https://basescan.org/
+    - https://basescan.org
   nativeToken:
     symbol: ETH
     priceId: ethereum
@@ -35,6 +39,9 @@ indexer:
   rpc: https://erpc.ringdao.com/main/evm/8453
   gateway: https://v2.archive.subsquid.io/network/base-mainnet
 
+aiAgent:
+  endpoint: https://agent.degov.ai
+
 contracts:
   governor: "0x062f87ae9eCAd31398C0cF5Ef269feb9050b9DF6"
   governorToken:
@@ -46,7 +53,7 @@ apps:
   - name: AQUARI Token Wrap
     description: Convert back and forth between the native token and the wrapped governance token
     icon: https://pbs.twimg.com/profile_images/1912415584257474560/GznnScP3_400x400.jpg
-    link: https://token-wrap.degov.ai?config=https://aquari.degov.ai/degov.yml
+    link: https://token-wrap.degov.ai?config=https://api.degov.ai/dao/config/aquari-dao
     params:
       sourceToken:
         address: "0x7f0e9971d3320521fc88f863e173a4cddbb051ba"

@@ -2,8 +2,6 @@ name: ENS DAO
 logo: https://pbs.twimg.com/profile_images/1810706000669798400/nYlIMYkq_400x400.jpg
 siteUrl: https://ens.degov.ai
 offChainDiscussionUrl: https://discuss.ens.domains
-aiAgent:
-  endpoint: https://agent.degov.ai
 description: AI powered on-chain governance platform for ENS DAO
 
 links:
@@ -12,6 +10,10 @@ links:
   twitter: https://x.com/ensdomains
   discord: https://chat.ens.domains
   github: https://github.com/ensdomains
+
+theme:
+  logoDark: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/ens-dark.svg
+  logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/ens-light.svg
 
 wallet:
   walletConnectProjectId: 8063b1bcbb07009f73c3a06f54d75d83
@@ -23,7 +25,7 @@ chain:
   rpcs:
     - https://ethereum-rpc.publicnode.com
   explorers:
-    - https://etherscan.io/
+    - https://etherscan.io
   nativeToken:
     symbol: ETH
     priceId: ethereum
@@ -35,6 +37,9 @@ indexer:
   startBlock: 13533418
   rpc: https://erpc.ringdao.com/main/evm/1
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x323A76393544d5ecca80cd6ef2A560C6a395b7E3"

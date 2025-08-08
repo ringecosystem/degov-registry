@@ -2,8 +2,6 @@ name: Virtuals Protocol
 logo: https://pbs.twimg.com/profile_images/1944238220901810176/CnL8ESNz_400x400.jpg
 siteUrl: https://virtuals.degov.ai
 offChainDiscussionUrl: https://t.me/virtuals
-aiAgent:
-  endpoint: https://agent.degov.ai
 description: AI powered on-chain governance platform for Virtuals Protocol. 
 
 links:
@@ -12,6 +10,10 @@ links:
   twitter: https://x.com/virtuals_io
   telegram: https://t.me/virtuals
   github: https://github.com/Virtual-Protocol
+
+theme:
+  logoDark: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/virtuals-dark.svg
+  logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/virtuals-light.svg
 
 wallet:
   walletConnectProjectId: 65852999decdd23ed2694b0de5bd6ee0
@@ -23,7 +25,7 @@ chain:
   rpcs:
     - https://base-rpc.publicnode.com
   explorers:
-    - https://basescan.org/
+    - https://basescan.org
   nativeToken:
     symbol: ETH
     priceId: ethereum
@@ -36,6 +38,8 @@ indexer:
   rpc: https://erpc.ringdao.com/main/evm/8453
   gateway: https://v2.archive.subsquid.io/network/base-mainnet
 
+aiAgent:
+  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0xA1a98f9Aa6C56652e4f306D38A78FfF554776665"
