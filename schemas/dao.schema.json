@@ -314,7 +314,7 @@
   },
   "required": [
     "name",
-    "code", 
+    "code",
     "logo",
     "siteUrl",
     "description",
