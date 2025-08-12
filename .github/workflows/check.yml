@@ -1,0 +1,18 @@
+name: Check
+
+on:
+  pull_request:
+
+jobs:
+  check-config:
+    name: Check config
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: validate config
+        uses: GrantBirki/json-yaml-validate@v3
+        with:
+          yaml_schema: schemas/config.schema.yml
+          files: config.yml
+          comment: "true"

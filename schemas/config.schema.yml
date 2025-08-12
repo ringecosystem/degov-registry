@@ -1,0 +1,22 @@
+---
+# Schema for network-based DAO configuration
+# Each top-level key represents a network name (e.g., darwinia, ethereum, base, etc.)
+
+"^[a-zA-Z0-9_-]+$": # Pattern for network names
+  type: array
+  description: List of DAO configurations for this network
+  items:
+    type: object
+    properties:
+      config:
+        type: string
+        required: true
+        description: Path to DAO configuration file (relative to daos/ directory)
+        pattern: "^daos/[a-zA-Z0-9_-]+\\.yml$"
+      tags:
+        type: array
+        description: Optional tags to categorize the DAO
+        items:
+          type: string
+    required:
+      - config
