@@ -275,9 +275,14 @@
             "type": "string",
             "format": "uri",
             "description": "Application URL"
+          },
+          "params": {
+            "type": "object",
+            "description": "Application-specific parameters",
+            "additionalProperties": true
           }
         },
-        "required": ["name", "description", "icon", "link"],
+        "required": ["name", "description", "link"],
         "additionalProperties": false
       }
     }
