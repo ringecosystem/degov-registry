@@ -1,5 +1,5 @@
 darwinia:
-  - configx: daos/ring-dao.yml
+  - config: daos/ring-dao.yml
 
   - config: daos/kton-dao.yml
 
