@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://schemas.degov.io/config.schema.json",
+  "title": "DeGov Registry Configuration Schema",
+  "description": "Schema for network-based DAO configuration registry",
+  "type": "object",
+  "patternProperties": {
+    "^[a-zA-Z0-9_-]+$": {
+      "type": "array",
+      "description": "List of DAO configurations for this network",
+      "items": {
+        "type": "object",
+        "properties": {
+          "config": {
+            "type": "string",
+            "description": "Path to DAO configuration file (relative to daos/ directory)",
+            "pattern": "^daos/[a-zA-Z0-9_-]+\\.yml$",
+            "examples": [
+              "daos/ring-dao.yml",
+              "daos/ens-dao.yml"
+            ]
+          },
+          "tags": {
+            "type": "array",
+            "description": "Optional tags to categorize the DAO",
+            "items": {
+              "type": "string"
+            },
+            "examples": [
+              ["demo"],
+              ["testnet", "experimental"]
+            ]
+          }
+        },
+        "required": ["config"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false,
+  "examples": [
+    {
+      "darwinia": [
+        {
+          "config": "daos/ring-dao.yml"
+        },
+        {
+          "config": "daos/degov-demo.yml",
+          "tags": ["demo"]
+        }
+      ],
+      "ethereum": [
+        {
+          "config": "daos/ens-dao.yml"
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,8 @@
 name: Check
 
 on:
+  push:
+    branches: [main]
   pull_request:
 
 jobs:
@@ -13,6 +15,6 @@ jobs:
       - name: validate config
         uses: GrantBirki/json-yaml-validate@v3
         with:
-          yaml_schema: schemas/config.schema.yml
+          json_schema: schemas/config.schema.json
           files: config.yml
           comment: "true"
