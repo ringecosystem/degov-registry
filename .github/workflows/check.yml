@@ -16,6 +16,7 @@ jobs:
         uses: GrantBirki/json-yaml-validate@v3
         with:
           json_schema: schemas/config.schema.json
+          yaml_as_json: true
           files: config.yml
           comment: "true"
 
@@ -23,5 +24,6 @@ jobs:
         uses: GrantBirki/json-yaml-validate@v3
         with:
           json_schema: schemas/config.schema.json
+          yaml_as_json: true
           base_dir: daos
           comment: "true"
