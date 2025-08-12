@@ -277,6 +277,65 @@
       "required": ["governor", "governorToken"],
       "additionalProperties": false
     },
+    "treasuryAssets": {
+      "type": "array",
+      "description": "Treasury assets managed by the DAO",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Asset name"
+          },
+          "contract": {
+            "type": "string",
+            "pattern": "^0x[a-fA-F0-9]{40}$",
+            "description": "Token contract address"
+          },
+          "standard": {
+            "type": "string",
+            "enum": ["ERC20", "ERC721", "ERC1155"],
+            "description": "Token standard"
+          },
+          "priceId": {
+            "type": "string",
+            "description": "CoinGecko price ID for the asset"
+          },
+          "logo": {
+            "type": "string",
+            "format": "uri",
+            "description": "Asset logo URL"
+          }
+        },
+        "required": ["name", "contract", "standard"],
+        "additionalProperties": false
+      }
+    },
+    "safes": {
+      "type": "array",
+      "description": "Safe multisig wallets associated with the DAO",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Safe wallet name/description"
+          },
+          "chainId": {
+            "type": "integer",
+            "description": "Chain ID where the safe is deployed",
+            "minimum": 1
+          },
+          "link": {
+            "type": "string",
+            "format": "uri",
+            "description": "Link to the Safe interface"
+          }
+        },
+        "required": ["name", "chainId", "link"],
+        "additionalProperties": false
+      }
+    },
     "apps": {
       "type": "array",
       "description": "Related applications or tools",
