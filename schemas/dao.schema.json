@@ -145,6 +145,31 @@
           },
           "minItems": 1
         },
+        "contracts": {
+          "type": "object",
+          "description": "Chain-level smart contracts (optional)",
+          "properties": {
+            "multicall3": {
+              "type": "object",
+              "description": "Multicall3 contract configuration",
+              "properties": {
+                "address": {
+                  "type": "string",
+                  "pattern": "^0x[a-fA-F0-9]{40}$",
+                  "description": "Multicall3 contract address"
+                },
+                "blockCreated": {
+                  "type": "integer",
+                  "description": "Block number when the contract was deployed",
+                  "minimum": 0
+                }
+              },
+              "required": ["address", "blockCreated"],
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": true
+        },
         "nativeToken": {
           "type": "object",
           "description": "Native token configuration",
