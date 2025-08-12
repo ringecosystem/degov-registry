@@ -1,0 +1,29 @@
+name: Check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  check-config:
+    name: Check config
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: validate config
+        uses: GrantBirki/json-yaml-validate@v3
+        with:
+          json_schema: schemas/config.schema.json
+          yaml_as_json: true
+          files: config.yml
+          comment: "true"
+
+      - name: validate dao
+        uses: GrantBirki/json-yaml-validate@v3
+        with:
+          json_schema: schemas/dao.schema.json
+          yaml_as_json: true
+          base_dir: daos
+          comment: "true"
