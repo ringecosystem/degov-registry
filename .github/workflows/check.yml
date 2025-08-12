@@ -18,3 +18,10 @@ jobs:
           json_schema: schemas/config.schema.json
           files: config.yml
           comment: "true"
+
+      - name: validate dao
+        uses: GrantBirki/json-yaml-validate@v3
+        with:
+          json_schema: schemas/dao.schema.json
+          base_dir: daos
+          comment: "true"

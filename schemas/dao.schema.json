@@ -1,0 +1,298 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://schemas.degov.io/dao.schema.json",
+  "title": "DeGov DAO Configuration Schema",
+  "description": "Schema for individual DAO configuration files",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Display name of the DAO",
+      "examples": ["RingDAO", "ENS DAO", "Aquari DAO"]
+    },
+    "code": {
+      "type": "string",
+      "description": "Unique code identifier for the DAO",
+      "pattern": "^[a-zA-Z0-9_-]+$",
+      "examples": ["ring-dao", "ens-code", "aquari-dao"]
+    },
+    "logo": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the DAO's logo image"
+    },
+    "siteUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to the DAO's governance site"
+    },
+    "offChainDiscussionUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL for off-chain discussions (forum, GitHub discussions, etc.)"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the DAO"
+    },
+    "links": {
+      "type": "object",
+      "description": "Social and external links for the DAO",
+      "properties": {
+        "coingecko": {
+          "type": "string",
+          "format": "uri"
+        },
+        "website": {
+          "type": "string",
+          "format": "uri"
+        },
+        "twitter": {
+          "type": "string",
+          "format": "uri"
+        },
+        "discord": {
+          "type": "string",
+          "format": "uri"
+        },
+        "telegram": {
+          "type": "string",
+          "format": "uri"
+        },
+        "github": {
+          "type": "string",
+          "format": "uri"
+        },
+        "email": {
+          "type": "string",
+          "format": "email"
+        }
+      },
+      "additionalProperties": false
+    },
+    "theme": {
+      "type": "object",
+      "description": "Visual theme configuration for the DAO",
+      "properties": {
+        "logoDark": {
+          "type": "string",
+          "format": "uri",
+          "description": "Logo for dark theme"
+        },
+        "logoLight": {
+          "type": "string",
+          "format": "uri",
+          "description": "Logo for light theme"
+        },
+        "banner": {
+          "type": "string",
+          "format": "uri",
+          "description": "Desktop banner image"
+        },
+        "bannerMobile": {
+          "type": "string",
+          "format": "uri",
+          "description": "Mobile banner image"
+        }
+      },
+      "additionalProperties": false
+    },
+    "wallet": {
+      "type": "object",
+      "description": "Wallet connection configuration",
+      "properties": {
+        "walletConnectProjectId": {
+          "type": "string",
+          "description": "WalletConnect project ID"
+        }
+      },
+      "required": ["walletConnectProjectId"],
+      "additionalProperties": false
+    },
+    "chain": {
+      "type": "object",
+      "description": "Blockchain configuration",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "description": "Chain ID",
+          "minimum": 1
+        },
+        "name": {
+          "type": "string",
+          "description": "Chain name"
+        },
+        "logo": {
+          "type": "string",
+          "format": "uri",
+          "description": "Chain logo URL"
+        },
+        "rpcs": {
+          "type": "array",
+          "description": "RPC endpoints",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          },
+          "minItems": 1
+        },
+        "explorers": {
+          "type": "array",
+          "description": "Block explorer URLs",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          },
+          "minItems": 1
+        },
+        "nativeToken": {
+          "type": "object",
+          "description": "Native token configuration",
+          "properties": {
+            "symbol": {
+              "type": "string",
+              "description": "Token symbol"
+            },
+            "priceId": {
+              "type": "string",
+              "description": "CoinGecko price ID"
+            },
+            "decimals": {
+              "type": "integer",
+              "description": "Token decimals",
+              "minimum": 0,
+              "maximum": 18
+            },
+            "logo": {
+              "type": "string",
+              "format": "uri",
+              "description": "Token logo URL"
+            }
+          },
+          "required": ["symbol", "decimals"],
+          "additionalProperties": false
+        }
+      },
+      "required": ["id", "name", "rpcs", "explorers", "nativeToken"],
+      "additionalProperties": false
+    },
+    "indexer": {
+      "type": "object",
+      "description": "Indexer configuration",
+      "properties": {
+        "endpoint": {
+          "type": "string",
+          "format": "uri",
+          "description": "GraphQL endpoint for the indexer"
+        },
+        "startBlock": {
+          "type": "integer",
+          "description": "Starting block for indexing",
+          "minimum": 0
+        },
+        "rpc": {
+          "type": "string",
+          "description": "RPC endpoint for indexing (can be WebSocket or HTTP)"
+        },
+        "gateway": {
+          "type": "string",
+          "format": "uri",
+          "description": "Archive gateway URL"
+        }
+      },
+      "required": ["endpoint", "startBlock"],
+      "additionalProperties": false
+    },
+    "aiAgent": {
+      "type": "object",
+      "description": "AI agent configuration",
+      "properties": {
+        "endpoint": {
+          "type": "string",
+          "format": "uri",
+          "description": "AI agent API endpoint"
+        }
+      },
+      "required": ["endpoint"],
+      "additionalProperties": false
+    },
+    "contracts": {
+      "type": "object",
+      "description": "Smart contract addresses",
+      "properties": {
+        "governor": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{40}$",
+          "description": "Governor contract address"
+        },
+        "governorToken": {
+          "type": "object",
+          "description": "Governance token contract",
+          "properties": {
+            "address": {
+              "type": "string",
+              "pattern": "^0x[a-fA-F0-9]{40}$",
+              "description": "Token contract address"
+            },
+            "standard": {
+              "type": "string",
+              "enum": ["ERC20", "ERC721", "ERC1155"],
+              "description": "Token standard"
+            }
+          },
+          "required": ["address", "standard"],
+          "additionalProperties": false
+        },
+        "timeLock": {
+          "type": "string",
+          "pattern": "^0x[a-fA-F0-9]{40}$",
+          "description": "Timelock contract address (optional)"
+        }
+      },
+      "required": ["governor", "governorToken"],
+      "additionalProperties": false
+    },
+    "apps": {
+      "type": "array",
+      "description": "Related applications or tools",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Application name"
+          },
+          "description": {
+            "type": "string",
+            "description": "Application description"
+          },
+          "icon": {
+            "type": "string",
+            "format": "uri",
+            "description": "Application icon URL"
+          },
+          "link": {
+            "type": "string",
+            "format": "uri",
+            "description": "Application URL"
+          }
+        },
+        "required": ["name", "description", "icon", "link"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "name",
+    "code", 
+    "logo",
+    "siteUrl",
+    "description",
+    "wallet",
+    "chain",
+    "indexer",
+    "aiAgent",
+    "contracts"
+  ],
+  "additionalProperties": false
+}
