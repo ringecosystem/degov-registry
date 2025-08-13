@@ -1,0 +1,53 @@
+name: Unlock Protocol
+code: unlock-dao
+logo: https://basescan.org/token/images/up_32.png
+siteUrl: https://unlock.degov.ai
+offChainDiscussionUrl: https://discord.unlock-protocol.com
+description: AI powered on-chain governance platform for Unlock Protocol.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/unlockprotocoltoken
+  website: https://unlock-protocol.com/
+  twitter: https://x.com/UnlockProtocol
+  github: https://github.com/unlock-protocol
+  discord: https://discord.unlock-protocol.com
+
+wallet:
+  walletConnectProjectId: ddec8a363be3b4f9c2a34beaf38cc251
+
+chain:
+  name: Base Network
+  id: 8453
+  logo: https://icons.llamao.fi/icons/chains/rsz_base.jpg
+  rpcs:
+    - https://base-rpc.publicnode.com
+  explorers:
+    - https://basescan.org
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/ETH/eth-diamond-black-gray.svg
+
+indexer:
+  endpoint: https://unlock.degov.ai/indexer/graphql
+  startBlock: 18035311
+  rpc: https://erpc.ringdao.com/main/evm/8453
+  gateway: https://v2.archive.subsquid.io/network/base-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+contracts:
+  governor: "0x65bA0624403Fc5Ca2b20479e9F626eD4D78E0aD9"
+  governorToken:
+    address: "0xaC27fa800955849d6D17cC8952Ba9dD6EAA66187"
+    standard: ERC20
+  timeLock: "0xB34567C4cA697b39F72e1a8478f285329A98ed1b"
+
+treasuryAssets:
+  - name: USDC
+    contract: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
+    standard: ERC20
+    priceId: usd-coin
+    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/USDC/USDC-Token.svg
