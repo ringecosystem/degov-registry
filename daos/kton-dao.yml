@@ -27,7 +27,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/9443/standard/RING.png
 
 indexer:
-  endpoint: https://gov.ktondao.xyz/indexer/graphql
+  endpoint: https://indexer.degov.ai/kton-dao/graphql
   startBlock: 3320858
   rpc: wss://rpc.darwinia.network
 
