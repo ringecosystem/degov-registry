@@ -13,7 +13,7 @@ links:
   discord: https://discord.unlock-protocol.com
 
 wallet:
-  walletConnectProjectId: ddec8a363be3b4f9c2a34beaf38cc251
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
 chain:
   name: Base Network
