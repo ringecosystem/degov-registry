@@ -17,7 +17,7 @@ theme:
   logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/virtuals-light.svg
 
 wallet:
-  walletConnectProjectId: 65852999decdd23ed2694b0de5bd6ee0
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
 chain:
   name: Base

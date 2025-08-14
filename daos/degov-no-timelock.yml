@@ -17,7 +17,7 @@ links:
   github: https://github.com/ringecosystem/degov
 
 wallet:
-  walletConnectProjectId: 2719448e2ce94fdd269a3c8587123bcc
+  walletConnectProjectId: faf5e91ac5ed4d0a94d2648a6fcc9daa
 
 chain:
   id: 46
