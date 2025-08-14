@@ -18,7 +18,7 @@ theme:
   bannerMobile: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/banners/aquari-mobile.jpg
 
 wallet:
-  walletConnectProjectId: 1326a0170091f65349ae25b5bac61fc3
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
 chain:
   name: Base Network
