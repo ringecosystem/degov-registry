@@ -12,6 +12,10 @@ links:
   github: https://github.com/unlock-protocol
   discord: https://discord.unlock-protocol.com
 
+theme:
+  logoDark: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/unlock-dark.svg
+  logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/unlock-light.svg
+
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
