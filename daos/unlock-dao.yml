@@ -59,6 +59,6 @@ treasuryAssets:
 
 apps:
   - name: Unlock Base Migration
-    description: Migrate your UDT from Ethereum to UPT on Base.
+    description: Migrate your UDT from Ethereum to UP on Base.
     icon: https://pbs.twimg.com/profile_images/1510010252787212290/Kuiapnmy_400x400.jpg
     link: https://up-swap.unlock-protocol.com
