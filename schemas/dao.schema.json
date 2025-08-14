@@ -107,7 +107,7 @@
               "answer": {
                 "type": "string",
                 "format": "uri",
-                "description": "URL to the answer or documentation"
+                "description": "Text answer or URL to documentation"
               }
             },
             "required": ["question", "answer"],
