@@ -1,6 +1,6 @@
 name: Unlock Protocol
 code: unlock-dao
-logo: https://basescan.org/token/images/up_32.png
+logo: https://pbs.twimg.com/profile_images/1510010252787212290/Kuiapnmy_400x400.jpg
 siteUrl: https://unlock.degov.ai
 offChainDiscussionUrl: https://discord.unlock-protocol.com
 description: AI powered on-chain governance platform for Unlock Protocol.
@@ -12,13 +12,17 @@ links:
   github: https://github.com/unlock-protocol
   discord: https://discord.unlock-protocol.com
 
+theme:
+  logoDark: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/unlock-dark.svg
+  logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/unlock-light.svg
+
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
 chain:
   name: Base Network
   id: 8453
-  logo: https://icons.llamao.fi/icons/chains/rsz_base.jpg
+  logo: https://pbs.twimg.com/profile_images/1821025913976287232/l0WGRm5B_400x400.jpg
   rpcs:
     - https://base-rpc.publicnode.com
   explorers:
@@ -27,7 +31,7 @@ chain:
     symbol: ETH
     priceId: ethereum
     decimals: 18
-    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/ETH/eth-diamond-black-gray.svg
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
   endpoint: https://indexer.degov.ai/unlock-dao/graphql
@@ -46,8 +50,19 @@ contracts:
   timeLock: "0xB34567C4cA697b39F72e1a8478f285329A98ed1b"
 
 treasuryAssets:
+  - name: Unlock Protocol Token
+    contract: "0xAC27fa800955849d6D17cC8952Ba9dD6EAA66187"
+    standard: ERC20
+    priceId: unlockprotocoltoken
+    logo: https://assets.coingecko.com/coins/images/51457/standard/up2.png
   - name: USDC
     contract: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
     standard: ERC20
     priceId: usd-coin
-    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/USDC/USDC-Token.svg
+    logo: https://assets.coingecko.com/coins/images/6319/standard/usdc.png
+
+apps:
+  - name: Unlock Base Migration
+    description: Migrate your UDT from Ethereum to UP on Base.
+    icon: https://pbs.twimg.com/profile_images/1510010252787212290/Kuiapnmy_400x400.jpg
+    link: https://up-swap.unlock-protocol.com
