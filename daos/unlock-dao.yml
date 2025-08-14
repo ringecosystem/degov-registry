@@ -51,7 +51,7 @@ contracts:
 
 treasuryAssets:
   - name: Unlock Protocol Token
-    contract: "0xAC27fa800955849d6D17cC8952Ba9dD6EAA66187"
+    contract: "0xaC27fa800955849d6D17cC8952Ba9dD6EAA66187"
     standard: ERC20
     priceId: unlockprotocoltoken
     logo: https://assets.coingecko.com/coins/images/51457/standard/up2.png
