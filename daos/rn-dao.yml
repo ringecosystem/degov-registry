@@ -5,7 +5,7 @@ siteUrl: https://rndao.degov.ai
 offChainDiscussionUrl: https://discord.gg/ASraQetMhU
 aiAgent:
   endpoint: https://agent.degov.ai
-description: 
+description: AI powered on-chain governance platform for RnDAO.
 
 links:
   website: https://www.rndao.io
