@@ -1,5 +1,6 @@
 darwinia:
   - config: daos/ring-dao.yml
+    visibility: public
   - config: daos/kton-dao.yml
   - config: daos/ring-dao-guild.yml
   - config: daos/degov-no-timelock.yml
@@ -20,3 +21,4 @@ base:
 
 arbitrum:
   - config: daos/rn-dao.yml
+    visibility: draft
