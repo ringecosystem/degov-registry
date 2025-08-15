@@ -50,3 +50,4 @@ timeLockAssets:
     standard: ERC20
     priceId: usd-coin
     logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/USDC/USDC-Token.svg
+
