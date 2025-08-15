@@ -44,7 +44,7 @@ contracts:
     standard: ERC20
   timeLock: "0x968D6A288d7B024D5012c0B25d67A889E4E3eC19"
 
-timeLockAssets:
+treasuryAssets:
   - name: USDC
     contract: "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913"
     standard: ERC20
