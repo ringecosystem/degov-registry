@@ -10,7 +10,7 @@ links:
   github: https://github.com/ktondao
 
 wallet:
-  walletConnectProjectId: 265a3e6100e658324e44fd09cad26c94
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
 chain:
   id: 46
@@ -27,7 +27,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/9443/standard/RING.png
 
 indexer:
-  endpoint: https://gov.ktondao.xyz/indexer/graphql
+  endpoint: https://indexer.degov.ai/kton-dao/graphql
   startBlock: 3320858
   rpc: wss://rpc.darwinia.network
 
