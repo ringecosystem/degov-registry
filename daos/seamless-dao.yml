@@ -1,9 +1,8 @@
 name: Seamless Protocol
+code: seamless-dao
 logo: https://basescan.org/token/images/seamless_32.png
 siteUrl: https://seamless.degov.ai
 offChainDiscussionUrl: https://seamlessprotocol.discourse.group
-aiAgent:
-  endpoint: https://agent.degov.ai
 description: AI powered on-chain governance platform for Seamless Protocol.
 
 links:
@@ -15,27 +14,30 @@ links:
   github: https://github.com/seamless-protocol
 
 wallet:
-  walletConnectProjectId: 
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
 chain:
   name: Base Network
   id: 8453
-  logo: https://icons.llamao.fi/icons/chains/rsz_base.jpg
+  logo: https://pbs.twimg.com/profile_images/1821025913976287232/l0WGRm5B_400x400.jpg
   rpcs:
     - https://base-rpc.publicnode.com
   explorers:
-    - https://basescan.org/
+    - https://basescan.org
   nativeToken:
     symbol: ETH
     priceId: ethereum
     decimals: 18
-    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/ETH/eth-diamond-black-gray.svg
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: 
-  startBlock: 
-  rpc: 
-  gateway: 
+  endpoint: https://indexer.degov.ai/unlock-dao/graphql
+  startBlock: 3238235
+  rpc: https://erpc.ringdao.com/main/evm/8453
+  gateway: https://v2.archive.subsquid.io/network/base-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x8768c789C6df8AF1a92d96dE823b4F80010Db294"
