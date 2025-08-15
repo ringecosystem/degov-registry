@@ -93,6 +93,26 @@
           "type": "string",
           "format": "uri",
           "description": "Mobile banner image"
+        },
+        "faqs": {
+          "type": "array",
+          "description": "General FAQs displayed on the dashboard",
+          "items": {
+            "type": "object",
+            "properties": {
+              "question": {
+                "type": "string",
+                "description": "The FAQ question"
+              },
+              "answer": {
+                "type": "string",
+                "format": "uri",
+                "description": "Text answer or URL to documentation"
+              }
+            },
+            "required": ["question", "answer"],
+            "additionalProperties": false
+          }
         }
       },
       "additionalProperties": false
