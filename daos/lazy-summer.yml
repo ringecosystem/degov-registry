@@ -1,9 +1,8 @@
 name: Lazy Summer Protocol
+code: lazy-summer-dao
 logo: https://assets.coingecko.com/coins/images/54144/standard/Group_427320880.png
 siteUrl: https://lazy-summer.degov.ai
 offChainDiscussionUrl: https://forum.summer.fi
-aiAgent:
-  endpoint: https://agent.degov.ai
 description: AI powered on-chain governance platform for Lazy Summer Protocol.
 
 links:
@@ -13,27 +12,30 @@ links:
   discord: https://discord.com/summerfi
 
 wallet:
-  walletConnectProjectId: 
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
 chain:
   name: Base Network
   id: 8453
-  logo: https://icons.llamao.fi/icons/chains/rsz_base.jpg
+  logo: https://pbs.twimg.com/profile_images/1821025913976287232/l0WGRm5B_400x400.jpg
   rpcs:
     - https://base-rpc.publicnode.com
   explorers:
-    - https://basescan.org/
+    - https://basescan.org
   nativeToken:
     symbol: ETH
     priceId: ethereum
     decimals: 18
-    logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/tokens/ETH/eth-diamond-black-gray.svg
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: 
-  startBlock:
-  rpc:
-  gateway: 
+  endpoint: https://indexer.degov.ai/unlock-dao/graphql
+  startBlock: 25642493
+  rpc: https://erpc.ringdao.com/main/evm/8453
+  gateway: https://v2.archive.subsquid.io/network/base-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0xBE5A4DD68c3526F32B454fE28C9909cA0601e9Fa"
