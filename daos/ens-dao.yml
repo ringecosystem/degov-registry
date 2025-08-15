@@ -17,7 +17,7 @@ theme:
   logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/ens-light.svg
 
 wallet:
-  walletConnectProjectId: 8063b1bcbb07009f73c3a06f54d75d83
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
 chain:
   name: Ethereum Network
@@ -34,7 +34,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: https://ens.degov.ai/indexer/graphql
+  endpoint: https://indexer.degov.ai/ens-dao/graphql
   startBlock: 13533418
   rpc: https://erpc.ringdao.com/main/evm/1
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet

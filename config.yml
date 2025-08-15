@@ -1,10 +1,7 @@
 darwinia:
   - config: daos/ring-dao.yml
-
   - config: daos/kton-dao.yml
-
   - config: daos/ring-dao-guild.yml
-
   - config: daos/degov-no-timelock.yml
     tags:
       - demo
@@ -18,7 +15,7 @@ ethereum:
 
 base:
   - config: daos/aquari-dao.yml
-
   - config: daos/virtuals-dao.yml
-
+  - config: daos/unlock-dao.yml
   - config: daos/lazy-summer.yml
+

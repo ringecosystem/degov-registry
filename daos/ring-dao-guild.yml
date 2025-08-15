@@ -12,7 +12,7 @@ links:
   github: https://github.com/ringdao-community-guild
 
 wallet:
-  walletConnectProjectId: b23beccaae95544d0a4cdee932487c17
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
 chain:
   id: 46
@@ -29,7 +29,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/9443/standard/RING.png
 
 indexer:
-  endpoint: https://guild-gov.ringdao.com/indexer/graphql
+  endpoint: https://indexer.degov.ai/ring-dao-guild/graphql
   startBlock: 2639678
   rpc: wss://rpc.darwinia.network
 
