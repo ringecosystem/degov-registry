@@ -44,3 +44,4 @@ contracts:
     address: "0x97976abeF960A40B7EFd4C45E9ac2e178F6c5548"
     standard: ERC20
   timeLock: "0x8d5dCca55d5bA2A1e81be5A792c8f9CF1DC45a5c"
+
