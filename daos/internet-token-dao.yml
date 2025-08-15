@@ -1,0 +1,53 @@
+name: Internet Token
+code: internet-token-dao
+logo: https://pbs.twimg.com/profile_images/1771212301703495684/C8NCEG9A_400x400.jpg
+siteUrl: https://internet-token.degov.ai
+offChainDiscussionUrl: https://t.me/internettokenlottery
+description: AI powered on-chain governance platform for Internet Token DAO.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/internet-token
+  website: https://theinternettoken.com
+  twitter: https://x.com/Internet_token
+  telegram: https://t.me/internettokenlottery
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+chain:
+  name: Base Network
+  id: 8453
+  logo: https://pbs.twimg.com/profile_images/1821025913976287232/l0WGRm5B_400x400.jpg
+  rpcs:
+    - https://base-rpc.publicnode.com
+  explorers:
+    - https://basescan.org
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint: https://indexer.degov.ai/internet-token-dao/graphql
+  startBlock: 12149008
+  rpc: https://erpc.ringdao.com/main/evm/8453
+  gateway: https://v2.archive.subsquid.io/network/base-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+contracts:
+  governor: "0xc5C3a1882Eff9539527D88E2453cAB10d9bc1581"
+  governorToken:
+    address: "0x968D6A288d7B024D5012c0B25d67A889E4E3eC19"
+    standard: ERC20
+  timeLock: "0xE05dD5B785f578337B2B8F695Fbc521669c69403"
+
+treasuryAssets:
+  - name: USDC
+    contract: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+    standard: ERC20
+    priceId: usd-coin
+    logo: https://assets.coingecko.com/coins/images/6319/standard/usdc.png
+
