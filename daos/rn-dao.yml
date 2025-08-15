@@ -3,8 +3,6 @@ code: rn-dao
 logo: https://x.com/RnDAO__/photo
 siteUrl: https://rndao.degov.ai
 offChainDiscussionUrl: https://discord.gg/ASraQetMhU
-aiAgent:
-  endpoint: https://agent.degov.ai
 description: AI powered on-chain governance platform for RnDAO.
 
 links:
@@ -34,6 +32,9 @@ indexer:
   startBlock: 191754212
   rpc: https://erpc.ringdao.com/main/evm/42161
   gateway: https://v2.archive.subsquid.io/network/arbitrum-one
+
+aiAgent:
+  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0xf73EE8B7AE7ddA64CF88CD4f722241BF88237157"
