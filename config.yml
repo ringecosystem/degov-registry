@@ -20,3 +20,4 @@ base:
 
 arbitrum:
   - config: daos/rn-dao.yml
+  - config: daos/gmx-dao.yml
