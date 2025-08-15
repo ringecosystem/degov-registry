@@ -1,0 +1,52 @@
+name: Lazy Summer Protocol
+code: lazy-summer-dao
+logo: https://pbs.twimg.com/profile_images/1884604242138222592/wF1Cbo9s_400x400.png
+siteUrl: https://lazy-summer.degov.ai
+offChainDiscussionUrl: https://forum.summer.fi
+description: AI powered on-chain governance platform for Lazy Summer Protocol.
+
+links:
+  website: https://lazy.summer.fi/earn/sumr
+  twitter: https://twitter.com/@summerfinance_
+  telegram: https://t.me/SummerFiPro
+  discord: https://discord.com/summerfi
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+chain:
+  name: Base Network
+  id: 8453
+  logo: https://pbs.twimg.com/profile_images/1821025913976287232/l0WGRm5B_400x400.jpg
+  rpcs:
+    - https://base-rpc.publicnode.com
+  explorers:
+    - https://basescan.org
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint: https://indexer.degov.ai/lazy-summer-dao/graphql
+  startBlock: 25642493
+  rpc: https://erpc.ringdao.com/main/evm/8453
+  gateway: https://v2.archive.subsquid.io/network/base-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+contracts:
+  governor: "0xBE5A4DD68c3526F32B454fE28C9909cA0601e9Fa"
+  governorToken:
+    address: "0x194f360D130F2393a5E9F3117A6a1B78aBEa1624"
+    standard: ERC20
+  timeLock: "0x447BF9d1485ABDc4C1778025DfdfbE8b894C3796"
+
+treasuryAssets:
+  - name: USDC
+    contract: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+    standard: ERC20
+    priceId: usd-coin
+    logo: https://assets.coingecko.com/coins/images/6319/standard/usdc.png
