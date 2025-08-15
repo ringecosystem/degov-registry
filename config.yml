@@ -19,3 +19,6 @@ base:
   - config: daos/unlock-dao.yml
   - config: daos/lazy-summer.yml
 
+
+arbitrum:
+  - config: daos/rn-dao.yml
