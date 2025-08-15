@@ -1,7 +1,7 @@
 name: DeGov Demo DAO - No Timelock
 code: demo-no-timelock-dao
 logo: https://pbs.twimg.com/profile_images/1912415584257474560/GznnScP3_400x400.jpg
-siteUrl: https://degov-no-timelock.vercel.app
+siteUrl: https://demo-no-timelock.degov.ai
 offChainDiscussionUrl: https://github.com/ringecosystem/degov/discussions
 description: |
   It's a demo DAO for developers and users to experience DeGov's features, including the
@@ -17,7 +17,7 @@ links:
   github: https://github.com/ringecosystem/degov
 
 wallet:
-  walletConnectProjectId: 2719448e2ce94fdd269a3c8587123bcc
+  walletConnectProjectId: faf5e91ac5ed4d0a94d2648a6fcc9daa
 
 chain:
   id: 46
@@ -34,7 +34,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/9443/standard/RING.png
 
 indexer:
-  endpoint: https://degov-indexer.vercel.app/graphql
+  endpoint: https://indexer.degov.ai/demo-no-timelock-dao/graphql
   startBlock: 5873342
   rpc: wss://rpc.darwinia.network
 
