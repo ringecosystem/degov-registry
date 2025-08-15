@@ -18,3 +18,6 @@ base:
   - config: daos/virtuals-dao.yml
   - config: daos/unlock-dao.yml
   - config: daos/internet-token-dao.yml
+
+arbitrum:
+  - config: daos/rn-dao.yml
