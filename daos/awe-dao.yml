@@ -43,7 +43,7 @@ contracts:
     standard: ERC20
   timeLock: "0x91876F0F9Ba79A165422286Fd9e4620238C42929"
 
-timeLockAssets:
+treasuryAssets:
   - name: AWE Network
     contract: "0x1B4617734C43F6159F3a70b7E06d883647512778"
     standard: ERC20
