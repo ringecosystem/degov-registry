@@ -20,7 +20,7 @@ chain:
   rpcs:
     - https://arbitrum-one-rpc.publicnode.com
   explorers:
-    - https://arbiscan.io/
+    - https://arbiscan.io
   nativeToken:
     symbol: ETH
     priceId: ethereum
