@@ -16,8 +16,8 @@ ethereum:
 base:
   - config: daos/aquari-dao.yml
   - config: daos/virtuals-dao.yml
-  - config: daos/seamless-dao.yml
   - config: daos/unlock-dao.yml
+  - config: daos/seamless-dao.yml
 
 arbitrum:
   - config: daos/rn-dao.yml
