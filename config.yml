@@ -19,3 +19,5 @@ base:
   - config: daos/seamless-dao.yml
   - config: daos/unlock-dao.yml
 
+arbitrum:
+  - config: daos/rn-dao.yml
