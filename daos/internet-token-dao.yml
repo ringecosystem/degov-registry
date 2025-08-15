@@ -12,7 +12,7 @@ links:
   telegram: https://t.me/internettokenlottery
 
 wallet:
-  walletConnectProjectId: 
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
 chain:
   name: Base Network
