@@ -3,8 +3,6 @@ code: gmx-dao
 logo: https://x.com/GMX_IO/photo
 siteUrl: https://gmx.degov.ai
 offChainDiscussionUrl: https://gov.gmx.io
-aiAgent:
-  endpoint: https://agent.degov.ai
 description: AI powered on-chain governance platform for GMX DAO.
 
 links:
@@ -37,6 +35,9 @@ indexer:
   startBlock: 168596066
   rpc: https://erpc.ringdao.com/main/evm/42161
   gateway: https://v2.archive.subsquid.io/network/arbitrum-one
+
+aiAgent:
+  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x03e8f708e9C85EDCEaa6AD7Cd06824CeB82A7E68"
