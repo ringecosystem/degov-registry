@@ -17,7 +17,7 @@ theme:
   logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/virtuals-light.svg
 
 wallet:
-  walletConnectProjectId: 65852999decdd23ed2694b0de5bd6ee0
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
 chain:
   name: Base
@@ -34,7 +34,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: https://virtuals.degov.ai/indexer/graphql
+  endpoint: https://indexer.degov.ai/virtuals-dao/graphql
   startBlock: 11841008
   rpc: https://erpc.ringdao.com/main/evm/8453
   gateway: https://v2.archive.subsquid.io/network/base-mainnet
