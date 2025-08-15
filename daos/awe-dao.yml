@@ -1,10 +1,8 @@
 name: AWE DAO
 code: awe-dao
-logo: https://assets.coingecko.com/coins/images/8713/standard/awe-network.jpg
+logo: https://pbs.twimg.com/profile_images/1947277654299750400/tS9Ez-Ii_400x400.jpg
 siteUrl: https://awe.degov.ai
 offChainDiscussionUrl: https://t.me/AWEofficial
-aiAgent:
-  endpoint: https://agent.degov.ai
 description: AI powered on-chain governance platform for AWE Network.
 
 links:
@@ -19,7 +17,7 @@ wallet:
 chain:
   name: Base Network
   id: 8453
-  logo: https://icons.llamao.fi/icons/chains/rsz_base.jpg
+  logo: https://pbs.twimg.com/profile_images/1821025913976287232/l0WGRm5B_400x400.jpg
   rpcs:
     - https://base-rpc.publicnode.com
   explorers:
@@ -35,6 +33,9 @@ indexer:
   startBlock: 26359902
   rpc: https://erpc.ringdao.com/main/evm/8453
   gateway: https://v2.archive.subsquid.io/network/base-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0xAe18Aed3Dd3c9cd1d0A180315B6b5FCd61eF20f1"
