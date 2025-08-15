@@ -42,7 +42,7 @@ contracts:
   governorToken:
     address: "0x968D6A288d7B024D5012c0B25d67A889E4E3eC19"
     standard: ERC20
-  timeLock: "0x968D6A288d7B024D5012c0B25d67A889E4E3eC19"
+  timeLock: "0xE05dD5B785f578337B2B8F695Fbc521669c69403"
 
 treasuryAssets:
   - name: USDC
