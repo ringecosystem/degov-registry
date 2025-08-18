@@ -22,3 +22,6 @@ base:
 arbitrum:
   - config: daos/rn-dao.yml
     state: draft
+  - config: daos/gmx-dao.yml
+    state: draft
+
