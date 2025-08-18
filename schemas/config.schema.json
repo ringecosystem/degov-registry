@@ -20,6 +20,12 @@
               "daos/ens-dao.yml"
             ]
           },
+          "state": {
+            "type": "string",
+            "description": "Optional state of the DAO configuration",
+            "enum": ["active", "draft", "inactive"],
+            "examples": ["active", "draft", "inactive"]
+          },
           "tags": {
             "type": "array",
             "description": "Optional tags to categorize the DAO",
@@ -42,11 +48,13 @@
     {
       "darwinia": [
         {
-          "config": "daos/ring-dao.yml"
+          "config": "daos/ring-dao.yml",
+          "state": "active"
         },
         {
           "config": "daos/degov-demo.yml",
-          "tags": ["demo"]
+          "tags": ["demo"],
+          "state": "draft"
         }
       ],
       "ethereum": [
