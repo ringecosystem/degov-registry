@@ -26,6 +26,8 @@ base:
     state: draft
   - config: daos/lazy-summer.yml
     state: draft
+  - config: daos/seamless-dao.yml
+    state: draft
 
 arbitrum:
   - config: daos/rn-dao.yml
