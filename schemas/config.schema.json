@@ -24,7 +24,7 @@
             "type": "string",
             "description": "Optional state of the DAO configuration",
             "enum": ["active", "draft", "inactive"],
-            "examples": ["active", "draft"]
+            "examples": ["active", "draft", "inactive"]
           },
           "tags": {
             "type": "array",
