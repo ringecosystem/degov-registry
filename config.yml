@@ -20,6 +20,8 @@ base:
   - config: daos/unlock-dao.yml
   - config: daos/carv-dao.yml
     state: draft
+  - config: daos/awe-dao.yml
+    state: draft
 
 arbitrum:
   - config: daos/rn-dao.yml
