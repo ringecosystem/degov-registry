@@ -11,6 +11,10 @@ links:
   telegram: https://t.me/SummerFiPro
   discord: https://discord.com/summerfi
 
+theme:
+  logoDark: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/summerfi-dark.svg
+  logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/summerfi-light.svg
+
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
