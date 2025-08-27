@@ -16,6 +16,17 @@ theme:
   logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/aquari-light.svg
   banner: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/banners/aquari.jpg
   bannerMobile: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/banners/aquari-mobile.jpg
+  faqs:
+    - question: How is Aquari different from traditional environment organizations?
+      answer: https://aquari.org
+    - question: Can I really earn a living cleaning up my local area?
+      answer: https://aquari.org
+    - question: What's special about Aquari's subscription model?
+      answer: https://aquari.org
+    - question: Why focus on emerging market waste management?
+      answer: https://aquari.org
+    - question: How do you handle the "proof of clean" problem?
+      answer: https://aquari.org
 
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
