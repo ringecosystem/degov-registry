@@ -14,7 +14,6 @@ darwinia:
 ethereum:
   - config: daos/ens-dao.yml
   - config: daos/truefi-dao.yml
-    state: draft
 
 base:
   - config: daos/aquari-dao.yml
@@ -32,4 +31,3 @@ arbitrum:
 
 optimism:
   - config: daos/hai-dao.yml
-    state: draft
