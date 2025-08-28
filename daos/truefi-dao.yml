@@ -1,0 +1,58 @@
+name: TrueFi
+code: truefi-dao
+logo: https://pbs.twimg.com/profile_images/1876966467175845888/g4ECn-m8_400x400.jpg
+siteUrl: https://truefi.degov.ai
+offChainDiscussionUrl: https://forum.truefi.io
+description: TrueFi is making credit more accessible, transparent, and programmable by bringing debt infrastructure on-chain.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/truefi
+  website: https://truefi.io
+  twitter: https://x.com/TrueFiDAO
+  telegram: https://t.me/jointruefi
+  discord: https://discord.gg/Yx7J4jZ
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint: https://indexer.degov.ai/truefi-dao/graphql
+  startBlock: 11884565
+  rpc: https://erpc.ringdao.com/main/evm/1
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+contracts:
+  governor: "0x585CcA060422ef1779Fb0Dd710A49e7C49A823C9"
+  governorToken:
+    address: "0x23696914Ca9737466D8553a2d619948f548Ee424"
+    standard: ERC20
+  timeLock: "0x4f4AC7a7032A14243aEbDa98Ee04a5D7Fe293d07"
+
+treasuryAssets:
+  - name: TRU
+    contract: "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784"
+    standard: ERC20
+    priceId: truefi
+    logo: https://assets.coingecko.com/coins/images/13180/standard/truefi_glyph_color.png
+  - name: USDC
+    contract: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+    standard: ERC20
+    priceId: usd-coin
+    logo: https://assets.coingecko.com/coins/images/6319/standard/usdc.png
