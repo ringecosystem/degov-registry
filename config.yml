@@ -28,3 +28,6 @@ arbitrum:
   - config: daos/rn-dao.yml
   - config: daos/gmx-dao.yml
 
+optimism:
+  - config: daos/hai-dao.yml
+    state: draft
