@@ -3,7 +3,7 @@ code: virtuals-dao
 logo: https://pbs.twimg.com/profile_images/1944238220901810176/CnL8ESNz_400x400.jpg
 siteUrl: https://virtuals.degov.ai
 offChainDiscussionUrl: https://t.me/virtuals
-description: AI powered on-chain governance platform for Virtuals Protocol. 
+description: A society of productive AI agents, each designed to generate services or products and autonomously engage in commerce—either with humans or other agents—onchain.
 
 links:
   coingecko: https://www.coingecko.com/en/coins/virtual-protocol
@@ -50,6 +50,6 @@ contracts:
 
 apps:
   - name: VIRTUAL Staking
-    description: Staking $VIRTUAL to get veVIRTUAL for governance. 
+    description: Staking $VIRTUAL to get veVIRTUAL for governance.
     icon: https://pbs.twimg.com/profile_images/1944238220901810176/CnL8ESNz_400x400.jpg
     link: https://app.virtuals.io/lock

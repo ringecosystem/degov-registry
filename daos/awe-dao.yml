@@ -3,13 +3,14 @@ code: awe-dao
 logo: https://pbs.twimg.com/profile_images/1947277654299750400/tS9Ez-Ii_400x400.jpg
 siteUrl: https://awe.degov.ai
 offChainDiscussionUrl: https://t.me/AWEofficial
-description: AI powered on-chain governance platform for AWE Network.
+description: AWE Network is opening the portal to Autonomous Worlds where AI Agents collaborate, adapt and evolve.
 
 links:
   coingecko: https://www.coingecko.com/en/coins/awe-network
-  website: https://www.awenetwork.ai/
+  website: https://www.awenetwork.ai
   twitter: https://x.com/awenetwork_ai
   telegram: https://t.me/AWEofficial
+  github: https://github.com/STPDevteam
 
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
