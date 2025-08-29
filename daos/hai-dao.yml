@@ -11,11 +11,15 @@ links:
   discord: https://discord.com/invite/letsgethai
   telegram: https://discord.com/invite/letsgethai
 
+theme:
+  logoDark: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/haidao.svg
+  logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/haidao.svg
+
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
 chain:
-  name: OP Mainnet
+  name: Optimism
   id: 10
   logo: https://pbs.twimg.com/profile_images/1734354549496836096/-laoU9C9_400x400.jpg
   rpcs:
