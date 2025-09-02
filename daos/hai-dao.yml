@@ -33,7 +33,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: https://indexer.degov.ai/hai-dao/graphql
+  endpoint: http://degovuniverse-degovindexerproxyv2t-ahpryl-063b8c-168-119-79-153.traefik.me/hai-dao/graphql
   startBlock: 116055145
   rpc: https://erpc.ringdao.com/main/evm/10
   gateway: https://v2.archive.subsquid.io/network/optimism-mainnet

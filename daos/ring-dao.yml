@@ -38,7 +38,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/9443/standard/RING.png
 
 indexer:
-  endpoint: https://indexer.degov.ai/ring-dao/graphql
+  endpoint: http://degovuniverse-degovindexerproxyv2t-ahpryl-063b8c-168-119-79-153.traefik.me/ring-dao/graphql
   startBlock: 4455584
   rpc: wss://rpc.darwinia.network
 

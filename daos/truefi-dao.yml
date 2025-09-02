@@ -30,7 +30,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: https://indexer.degov.ai/truefi-dao/graphql
+  endpoint: http://degovuniverse-degovindexerproxyv2t-ahpryl-063b8c-168-119-79-153.traefik.me/truefi-dao/graphql
   startBlock: 11884565
   rpc: https://erpc.ringdao.com/main/evm/1
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
