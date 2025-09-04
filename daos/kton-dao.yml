@@ -1,7 +1,7 @@
 name: KtonDAO
 code: kton-dao
 logo: https://assets.coingecko.com/coins/images/11895/standard/KTON.png
-siteUrl: https://gov.ktondao.xyz
+siteUrl: https://degov.xiequan.info
 offChainDiscussionUrl: https://github.com/orgs/ktondao/discussions
 description: The DAO governed by KTON token holders.
 links:
@@ -27,7 +27,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/9443/standard/RING.png
 
 indexer:
-  endpoint: https://indexer.degov.ai/kton-dao/graphql
+  endpoint: https://indexer.xiequan.info/kton-dao/graphql
   startBlock: 3320858
   rpc: wss://rpc.darwinia.network
 
