@@ -28,7 +28,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: http://degovuniverse-degovindexerproxyv2t-ahpryl-063b8c-168-119-79-153.traefik.me/rn-dao/graphql
+  endpoint: https://indexer.degov.ai/rn-dao/graphql
   startBlock: 191754212
   rpc: https://erpc.ringdao.com/main/evm/42161
   gateway: https://v2.archive.subsquid.io/network/arbitrum-one
