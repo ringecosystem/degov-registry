@@ -31,3 +31,7 @@ arbitrum:
 
 optimism:
   - config: daos/hai-dao.yml
+
+lisk:
+  - config: daos/lisk-dao.yml
+    state: draft
