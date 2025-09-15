@@ -34,4 +34,3 @@ optimism:
 
 lisk:
   - config: daos/lisk-dao.yml
-    state: draft
