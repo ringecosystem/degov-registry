@@ -1,0 +1,81 @@
+name: Lisk DAO
+code: lisk-dao
+logo: https://pbs.twimg.com/profile_images/1856318181310169088/TBnjpS5P_400x400.png
+siteUrl: https://lisk.degov.ai
+offChainDiscussionUrl: https://forum.lisk.com
+description: A purpose built L2 for builders in high-growth markets. Built on the Superchain.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/lisk
+  website: https://lisk.com
+  twitter: https://x.com/LiskHQ
+  discord: https://discord.com/invite/lisk
+  telegram: https://t.me/Lisk_HQ
+  github: https://github.com/LiskHQ
+
+theme:
+  faqs:
+    - question: What is Lisk?
+      answer: https://docs.lisk.com/docs/
+    - question: How to claim LSK?
+      answer: https://docs.lisk.com/user/claiming
+    - question: How to stake LSK?
+      answer: https://docs.lisk.com/user/staking/stake-unstake
+    - question: How to unstake early?
+      answer: https://docs.lisk.com/user/staking/early-unstake
+    - question: How secure is Lisk?
+      answer: https://docs.lisk.com/docs/#how-secure-is-lisk
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+chain:
+  id: 1135
+  name: Lisk
+  logo: https://pbs.twimg.com/profile_images/1856318181310169088/TBnjpS5P_400x400.png
+  rpcs:
+    - https://rpc.api.lisk.com
+  explorers:
+    - https://blockscout.lisk.com
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint: https://indexer.degov.ai/lisk-dao/graphql
+  startBlock: 568752
+  rpc: https://rpc.api.lisk.com
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+contracts:
+  governor: "0x58a61b1807a7bDA541855DaAEAEe89b1DDA48568"
+  governorToken:
+    address: "0x2eE6Eca46d2406454708a1C80356a6E63b57D404"
+    standard: ERC20
+  timeLock: "0x2294A7f24187B84995A2A28112f82f07BE1BceAD"
+
+treasuryAssets:
+  - name: LSK
+    contract: "0xac485391EB2d7D88253a7F1eF18C37f4242D1A24"
+    standard: ERC20
+    priceId: lisk
+    logo: https://assets.coingecko.com/coins/images/385/standard/Lisk_logo.png
+
+safes:
+  - name: Superchain safe
+    chainId: 10
+    link: https://safe.optimism.io/welcome
+
+apps:
+  - name: Lisk Portal
+    description: Your gateway to the Lisk ecosystem.
+    icon: https://pbs.twimg.com/profile_images/1856318181310169088/TBnjpS5P_400x400.png
+    link: https://portal.lisk.com
+  - name: Lisk Alliance Boost
+    description: Earn rewards by completing tasks from our partners
+    icon: https://pbs.twimg.com/profile_images/1856318181310169088/TBnjpS5P.png
+    link: https://lisk.com/alliance-boost
