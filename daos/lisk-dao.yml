@@ -44,9 +44,9 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
+  endpoint: https://indexer.degov.ai/list-dao/graphql
   startBlock: 568752
-  rpc:
+  rpc: https://rpc.api.lisk.com
 
 aiAgent:
   endpoint: https://agent.degov.ai
