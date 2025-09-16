@@ -44,9 +44,10 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
+  endpoint: https://indexer.degov.ai/fluence-dao/graphql
   startBlock: 19235767
-  rpc:
+  rpc: https://erpc.ringdao.com/main/evm/1
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:
   endpoint: https://agent.degov.ai
