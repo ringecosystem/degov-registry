@@ -35,7 +35,6 @@ chain:
 indexer:
   endpoint: https://indexer.degov.ai/hai-dao/graphql
   startBlock: 116055145
-  rpc: https://erpc.ringdao.com/main/evm/10
   gateway: https://v2.archive.subsquid.io/network/optimism-mainnet
 
 aiAgent:

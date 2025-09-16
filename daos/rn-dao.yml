@@ -30,7 +30,6 @@ chain:
 indexer:
   endpoint: https://indexer.degov.ai/rn-dao/graphql
   startBlock: 191754212
-  rpc: https://erpc.ringdao.com/main/evm/42161
   gateway: https://v2.archive.subsquid.io/network/arbitrum-one
 
 aiAgent:
