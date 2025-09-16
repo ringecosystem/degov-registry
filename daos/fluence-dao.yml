@@ -1,0 +1,67 @@
+name: Fluence DAO
+code: fluence-dao
+logo: https://pbs.twimg.com/profile_images/1927014075344490496/fGyBe4ld_400x400.jpg
+siteUrl: https://fluence.degov.ai
+offChainDiscussionUrl: https://gov.fluence.network
+description: Fluence is a decentralized computing platform built on enterprise-grade infrastructure with unmatched scalability and cost efficiency.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/fluence
+  website: https://www.fluence.network
+  twitter: https://twitter.com/fluence_project
+  discord: https://discord.com/invite/EFHYR6nZrD
+  telegram: https://t.me/fluence_project
+  github: https://github.com/fluencelabs
+
+theme:
+  faqs:
+    - question: What is Fluence Cloudless Virtual Server?
+      answer: https://www.fluence.network/virtual-servers
+    - question: How to stake FLT to get rewards?
+      answer: https://fluence.dev/docs/stake/staking_app_guide
+    - question: What's the difference between DeGov.AI and Tally?
+      answer: https://docs.degov.ai/faqs/#whats-the-difference-between-degovai-and-tally
+    - question: How can I create or vote on proposals?
+      answer: https://docs.degov.ai/faqs/#how-can-i-create-or-vote-on-proposals
+    - question: How is AI integrated into DeGov.AI?
+      answer: https://docs.degov.ai/faqs/#how-does-degovai-utilize-ai-capabilities
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint: https://indexer.degov.ai/fluence-dao/graphql
+  startBlock: 19235767
+  rpc: https://erpc.ringdao.com/main/evm/1
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+contracts:
+  governor: "0x674299Cc65CEFAac9057f7EB307f5f6bB861f8E0"
+  governorToken:
+    address: "0x236501327e701692a281934230AF0b6BE8Df3353"
+    standard: ERC20
+  timeLock: "0xf5693Bbe961F166a2fE96094d25567f7517f27B7"
+
+treasuryAssets:
+  - name: FLT
+    contract: "0x236501327e701692a281934230AF0b6BE8Df3353"
+    standard: ERC20
+    priceId: fluence-2
+    logo: https://assets.coingecko.com/coins/images/36339/standard/IMG_3928.png

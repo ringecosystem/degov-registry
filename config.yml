@@ -17,6 +17,8 @@ darwinia:
 ethereum:
   - config: daos/ens-dao.yml
   - config: daos/truefi-dao.yml
+  - config: daos/fluence-dao.yml
+    state: draft
 
 base:
   - config: daos/aquari-dao.yml
