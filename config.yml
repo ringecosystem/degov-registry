@@ -3,11 +3,14 @@ darwinia:
     state: active
   - config: daos/kton-dao.yml
   - config: daos/ring-dao-guild.yml
+
   - config: daos/degov-no-timelock.yml
     tags:
       - demo
-
   - config: daos/degov-blocknumber.yml
+    tags:
+      - demo
+  - config: https://demo.degov.ai/degov.yml
     tags:
       - demo
 

@@ -13,11 +13,13 @@
         "properties": {
           "config": {
             "type": "string",
-            "description": "Path to DAO configuration file (relative to daos/ directory)",
-            "pattern": "^daos/[a-zA-Z0-9_-]+\\.yml$",
+            "description": "Path to DAO configuration file (relative to daos/ directory) or HTTP/HTTPS URL",
+            "pattern": "^(daos/[a-zA-Z0-9_-]+\\.yml|https?://[^\\s]+)$",
             "examples": [
               "daos/ring-dao.yml",
-              "daos/ens-dao.yml"
+              "daos/ens-dao.yml",
+              "https://example.com/dao-config.yml",
+              "http://localhost:8080/config.yml"
             ]
           },
           "state": {
