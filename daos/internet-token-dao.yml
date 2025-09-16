@@ -31,7 +31,6 @@ chain:
 indexer:
   endpoint: https://indexer.degov.ai/internet-token-dao/graphql
   startBlock: 12149008
-  rpc: https://erpc.ringdao.com/main/evm/8453
   gateway: https://v2.archive.subsquid.io/network/base-mainnet
 
 aiAgent:

@@ -46,7 +46,6 @@ chain:
 indexer:
   endpoint: https://indexer.degov.ai/lisk-dao/graphql
   startBlock: 568752
-  rpc: https://rpc.api.lisk.com
 
 aiAgent:
   endpoint: https://agent.degov.ai
