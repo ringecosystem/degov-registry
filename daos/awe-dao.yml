@@ -1,7 +1,7 @@
 name: AWE DAO
 code: awe-dao
 logo: https://pbs.twimg.com/profile_images/1947277654299750400/tS9Ez-Ii_400x400.jpg
-siteUrl: https://awe.degov.ai
+siteUrl: https://awe-dao.xiequan.info
 offChainDiscussionUrl: https://t.me/AWEofficial
 description: AWE Network is opening the portal to Autonomous Worlds where AI Agents collaborate, adapt and evolve.
 
@@ -30,7 +30,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: https://indexer.degov.ai/awe-dao/graphql
+  endpoint: https://indexer.xiequan.info/awe-dao/graphql
   startBlock: 26359902
   rpc: https://erpc.ringdao.com/main/evm/8453
   gateway: https://v2.archive.subsquid.io/network/base-mainnet

@@ -1,7 +1,7 @@
 name: Virtuals Protocol
 code: virtuals-dao
 logo: https://pbs.twimg.com/profile_images/1944238220901810176/CnL8ESNz_400x400.jpg
-siteUrl: https://virtuals.degov.ai
+siteUrl: https://virtuals-dao.xiequan.info
 offChainDiscussionUrl: https://t.me/virtuals
 description: A society of productive AI agents, each designed to generate services or products and autonomously engage in commerce—either with humans or other agents—onchain.
 
@@ -34,7 +34,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: https://indexer.degov.ai/virtuals-dao/graphql
+  endpoint: https://indexer.xiequan.info/virtuals-dao/graphql
   startBlock: 11841008
   rpc: https://erpc.ringdao.com/main/evm/8453
   gateway: https://v2.archive.subsquid.io/network/base-mainnet

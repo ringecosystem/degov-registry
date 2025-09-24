@@ -1,7 +1,7 @@
 name: RingDAO Community Guild
 code: ring-dao-guild
 logo: https://pbs.twimg.com/profile_images/1917656235387551745/k4L5nUlr_400x400.jpg
-siteUrl: https://guild-gov.ringdao.com
+siteUrl: https://guild-gov-dao.xiequan.info
 offChainDiscussionUrl: https://github.com/orgs/ringdao-community-guild/discussions
 description: |
   Community guild that focuses on the shaping of the RingDAO ecosystem.
@@ -29,7 +29,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/9443/standard/RING.png
 
 indexer:
-  endpoint: https://indexer.degov.ai/ring-dao-guild/graphql
+  endpoint: https://indexer.xiequan.info/ring-dao-guild/graphql
   startBlock: 2639678
   rpc: wss://rpc.darwinia.network
 

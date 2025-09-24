@@ -1,7 +1,7 @@
 name: Aquari DAO
 code: aquari-dao
 logo: https://pbs.twimg.com/profile_images/1904221405777907713/HvSbQs-1_400x400.jpg
-siteUrl: https://aquari.degov.ai
+siteUrl: https://aquari-dao.xiequan.info
 offChainDiscussionUrl: https://forum.aquari.org
 description: |
   Aquari is at the forefront of a new movement in environmental conservation, blending advanced blockchain technology with a user-friendly app to change how we value and reward efforts to protect our environment.
@@ -48,7 +48,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: https://indexer.degov.ai/aquari-dao/graphql
+  endpoint: https://indexer.xiequan.info/aquari-dao/graphql
   startBlock: 32888284
   rpc: https://erpc.ringdao.com/main/evm/8453
   gateway: https://v2.archive.subsquid.io/network/base-mainnet

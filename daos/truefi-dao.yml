@@ -1,7 +1,7 @@
 name: TrueFi
 code: truefi-dao
 logo: https://pbs.twimg.com/profile_images/1876966467175845888/g4ECn-m8_400x400.jpg
-siteUrl: https://truefi.degov.ai
+siteUrl: https://truefi-dao.xiequan.info
 offChainDiscussionUrl: https://forum.truefi.io
 description: TrueFi is making credit more accessible, transparent, and programmable by bringing debt infrastructure on-chain.
 
@@ -30,7 +30,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: https://indexer.degov.ai/truefi-dao/graphql
+  endpoint: https://indexer.xiequan.info/truefi-dao/graphql
   startBlock: 11884565
   rpc: https://erpc.ringdao.com/main/evm/1
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet

@@ -1,7 +1,7 @@
 name: Lazy Summer Protocol
 code: lazy-summer-dao
 logo: https://pbs.twimg.com/profile_images/1884604242138222592/wF1Cbo9s_400x400.png
-siteUrl: https://lazy-summer.degov.ai
+siteUrl: https://lazy-summer-dao.xiequan.info
 offChainDiscussionUrl: https://forum.summer.fi
 description: Automated exposure to DeFi highest quality yield.
 
@@ -33,7 +33,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: https://indexer.degov.ai/lazy-summer-dao/graphql
+  endpoint: https://indexer.xiequan.info/lazy-summer-dao/graphql
   startBlock: 25642493
   rpc: https://erpc.ringdao.com/main/evm/8453
   gateway: https://v2.archive.subsquid.io/network/base-mainnet

@@ -1,7 +1,7 @@
 name: HAI DAO
 code: hai-dao
 logo: https://pbs.twimg.com/profile_images/1722030843475234816/56k8ALwl_400x400.jpg
-siteUrl: https://hai.degov.ai
+siteUrl: https://hai-dao.xiequan.info
 offChainDiscussionUrl: https://dao.letsgethai.com/forum
 description: HAI is a decentralized stablecoin backed by yield bearing assets (YBAs) and governed by its community.
 
@@ -33,7 +33,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: https://indexer.degov.ai/hai-dao/graphql
+  endpoint: https://indexer.xiequan.info/hai-dao/graphql
   startBlock: 116055145
   rpc: https://erpc.ringdao.com/main/evm/10
   gateway: https://v2.archive.subsquid.io/network/optimism-mainnet

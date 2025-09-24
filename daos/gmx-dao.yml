@@ -1,7 +1,7 @@
 name: GMX
 code: gmx-dao
 logo: https://pbs.twimg.com/profile_images/1947381312630730752/shMGbB06_400x400.jpg
-siteUrl: https://gmx.degov.ai
+siteUrl: https://gmx-dao.xiequan.info
 offChainDiscussionUrl: https://gov.gmx.io
 description: GMX is the go-to non-custodial exchange for trading perpetuals and spot, providing a seamless trading experience across various public blockchains.
 
@@ -31,7 +31,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: https://indexer.degov.ai/gmx-dao/graphql
+  endpoint: https://indexer.xiequan.info/gmx-dao/graphql
   startBlock: 168596066
   rpc: https://erpc.ringdao.com/main/evm/42161
   gateway: https://v2.archive.subsquid.io/network/arbitrum-one

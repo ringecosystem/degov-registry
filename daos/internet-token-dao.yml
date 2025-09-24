@@ -1,7 +1,7 @@
 name: Internet Token
 code: internet-token-dao
 logo: https://pbs.twimg.com/profile_images/1771212301703495684/C8NCEG9A_400x400.jpg
-siteUrl: https://internet-token.degov.ai
+siteUrl: https://internet-token-dao.xiequan.info
 offChainDiscussionUrl: https://t.me/internettokenlottery
 description: INT is an onchain lottery you can play or own.
 
@@ -29,7 +29,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: https://indexer.degov.ai/internet-token-dao/graphql
+  endpoint: https://indexer.xiequan.info/internet-token-dao/graphql
   startBlock: 12149008
   rpc: https://erpc.ringdao.com/main/evm/8453
   gateway: https://v2.archive.subsquid.io/network/base-mainnet

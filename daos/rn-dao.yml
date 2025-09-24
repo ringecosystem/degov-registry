@@ -1,7 +1,7 @@
 name: RnDAO
 code: rn-dao
 logo: https://pbs.twimg.com/profile_images/1498337715661778946/7YEners2_400x400.jpg
-siteUrl: https://rndao.degov.ai
+siteUrl: https://rn-dao.xiequan.info
 offChainDiscussionUrl: https://discord.gg/ASraQetMhU
 description: A venture studio on a mission to empower humane collaboration.
 
@@ -28,7 +28,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: https://indexer.degov.ai/rn-dao/graphql
+  endpoint: https://indexer.xiequan.info/rn-dao/graphql
   startBlock: 191754212
   rpc: https://erpc.ringdao.com/main/evm/42161
   gateway: https://v2.archive.subsquid.io/network/arbitrum-one
