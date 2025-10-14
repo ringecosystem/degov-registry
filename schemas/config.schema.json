@@ -43,8 +43,7 @@
             "type": "array",
             "description": "List of domains associated with the DAO",
             "items": {
-              "type": "string",
-              "format": "uri"
+              "type": "string"
             },
             "examples": [
               ["demo.example.com"]
