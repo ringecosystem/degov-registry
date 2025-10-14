@@ -38,6 +38,17 @@
               ["demo"],
               ["testnet", "experimental"]
             ]
+          },
+          "domains": {
+            "type": "array",
+            "description": "List of domains associated with the DAO",
+            "items": {
+              "type": "string",
+              "format": "uri"
+            },
+            "examples": [
+              ["demo.example.com"]
+            ]
           }
         },
         "required": ["config"],
