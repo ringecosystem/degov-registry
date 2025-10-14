@@ -31,6 +31,11 @@
       "format": "uri",
       "description": "URL for off-chain discussions (forum, GitHub discussions, etc.)"
     },
+    "editLink": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL for editing the DAO configuration file"
+    },
     "description": {
       "type": "string",
       "description": "Detailed description of the DAO"
