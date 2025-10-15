@@ -3,6 +3,7 @@ code: kton-dao
 logo: https://assets.coingecko.com/coins/images/11895/standard/KTON.png
 siteUrl: https://gov.ktondao.xyz
 offChainDiscussionUrl: https://github.com/orgs/ktondao/discussions
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/kton-dao.yml
 description: The DAO governed by KTON token holders.
 links:
   coingecko: https://www.coingecko.com/en/coins/darwinia-commitment-token
