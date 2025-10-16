@@ -407,7 +407,7 @@
               "type": "string",
               "pattern": "^G-[A-Z0-9]{10}$",
               "description": "Google Analytics 4 measurement ID (format: G-XXXXXXXXXX)",
-              "examples": ["G-BCRTFBKS4G"]
+              "examples": ["G-ABCDEFGHIJ"]
             }
           },
           "required": ["tag"],
