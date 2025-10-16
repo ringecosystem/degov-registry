@@ -19,6 +19,10 @@ theme:
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
+analysis:
+  ga:
+    tag: G-LKWFD2DJVN
+
 chain:
   name: Base Network
   id: 8453

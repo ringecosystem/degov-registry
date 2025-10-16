@@ -17,6 +17,10 @@ links:
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
+analysis:
+  ga:
+    tag: G-2V2W9HXVPQ
+
 chain:
   name: Base Network
   id: 8453
