@@ -19,6 +19,10 @@ theme:
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
+analysis:
+  ga:
+    tag: G-86Y12EL16R
+
 chain:
   name: Optimism
   id: 10
