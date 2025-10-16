@@ -15,6 +15,10 @@ links:
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
+analysis:
+  ga:
+    tag: G-FR6XJJQ8ZE
+
 chain:
   id: 46
   name: Darwinia Network
@@ -43,7 +47,3 @@ contracts:
     address: "0x21D4A3c5390D098073598d30FD49d32F9d9E355E"
     standard: ERC721
   timeLock: "0x5881f5CF92bf616fdD10eA82DF8f9e709EC5a81D"
-
-analysis:
-  ga:
-    tag: G-FR6XJJQ8ZE
