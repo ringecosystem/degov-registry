@@ -394,28 +394,28 @@
         "required": ["name", "description", "link"],
         "additionalProperties": false
       }
-    }
-  },
-  "analysis": {
-    "type": "object",
-    "description": "Analytics and tracking configuration",
-    "properties": {
-      "ga": {
-        "type": "object",
-        "description": "Google Analytics configuration",
-        "properties": {
-          "tag": {
-            "type": "string",
-            "pattern": "^G-[A-Z0-9]{10}$",
-            "description": "Google Analytics 4 measurement ID (format: G-XXXXXXXXXX)",
-            "examples": ["G-BCRTFBKS4G"]
-          }
-        },
-        "required": ["tag"],
-        "additionalProperties": false
-      }
     },
-    "additionalProperties": false
+    "analysis": {
+      "type": "object",
+      "description": "Analytics and tracking configuration",
+      "properties": {
+        "ga": {
+          "type": "object",
+          "description": "Google Analytics configuration",
+          "properties": {
+            "tag": {
+              "type": "string",
+              "pattern": "^G-[A-Z0-9]{10}$",
+              "description": "Google Analytics 4 measurement ID (format: G-XXXXXXXXXX)",
+              "examples": ["G-BCRTFBKS4G"]
+            }
+          },
+          "required": ["tag"],
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
   },
   "required": [
     "name",
