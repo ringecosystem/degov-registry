@@ -32,6 +32,8 @@ base:
   - config: daos/internet-token-dao.yml
   - config: daos/lazy-summer.yml
   - config: daos/seamless-dao.yml
+  - config: daos/aixbt-dao.yml
+    state: draft
 
 arbitrum:
   - config: daos/rn-dao.yml
