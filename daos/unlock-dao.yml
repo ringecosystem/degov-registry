@@ -53,18 +53,6 @@ contracts:
     standard: ERC20
   timeLock: "0xB34567C4cA697b39F72e1a8478f285329A98ed1b"
 
-treasuryAssets:
-  - name: Unlock Protocol Token
-    contract: "0xaC27fa800955849d6D17cC8952Ba9dD6EAA66187"
-    standard: ERC20
-    priceId: unlockprotocoltoken
-    logo: https://assets.coingecko.com/coins/images/51457/standard/up2.png
-  - name: USDC
-    contract: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
-    standard: ERC20
-    priceId: usd-coin
-    logo: https://assets.coingecko.com/coins/images/6319/standard/usdc.png
-
 apps:
   - name: Unlock Base Migration
     description: Migrate your UDT from Ethereum to UP on Base.
