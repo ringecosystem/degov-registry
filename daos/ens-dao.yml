@@ -53,18 +53,6 @@ contracts:
     standard: ERC20
   timeLock: "0xFe89cc7aBB2C4183683ab71653C4cdc9B02D44b7"
 
-treasuryAssets:
-  - name: Ethereum Name Service
-    contract: "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72"
-    standard: ERC20
-    priceId: ethereum-name-service
-    logo: https://assets.coingecko.com/coins/images/19785/standard/ENS.jpg
-  - name: USDC
-    contract: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-    standard: ERC20
-    priceId: usd-coin
-    logo: https://assets.coingecko.com/coins/images/6319/standard/usdc.png
-
 safes:
   - name: ENS Meta Governance Safe
     chainId: 1

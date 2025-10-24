@@ -63,10 +63,3 @@ contracts:
     address: "0x236501327e701692a281934230AF0b6BE8Df3353"
     standard: ERC20
   timeLock: "0xf5693Bbe961F166a2fE96094d25567f7517f27B7"
-
-treasuryAssets:
-  - name: FLT
-    contract: "0x236501327e701692a281934230AF0b6BE8Df3353"
-    standard: ERC20
-    priceId: fluence-2
-    logo: https://assets.coingecko.com/coins/images/36339/standard/IMG_3928.png

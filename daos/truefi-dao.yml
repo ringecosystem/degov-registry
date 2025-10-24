@@ -52,15 +52,3 @@ contracts:
     address: "0x23696914Ca9737466D8553a2d619948f548Ee424"
     standard: ERC20
   timeLock: "0x4f4AC7a7032A14243aEbDa98Ee04a5D7Fe293d07"
-
-treasuryAssets:
-  - name: TRU
-    contract: "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784"
-    standard: ERC20
-    priceId: truefi
-    logo: https://assets.coingecko.com/coins/images/13180/standard/truefi_glyph_color.png
-  - name: USDC
-    contract: "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
-    standard: ERC20
-    priceId: usd-coin
-    logo: https://assets.coingecko.com/coins/images/6319/standard/usdc.png

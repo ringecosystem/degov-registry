@@ -51,10 +51,3 @@ contracts:
     address: "0x194f360D130F2393a5E9F3117A6a1B78aBEa1624"
     standard: ERC20
   timeLock: "0x447BF9d1485ABDc4C1778025DfdfbE8b894C3796"
-
-treasuryAssets:
-  - name: USDC
-    contract: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
-    standard: ERC20
-    priceId: usd-coin
-    logo: https://assets.coingecko.com/coins/images/6319/standard/usdc.png

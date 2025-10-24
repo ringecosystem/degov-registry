@@ -49,20 +49,3 @@ contracts:
     address: "0x2A29D3a792000750807cc401806d6fd539928481"
     standard: ERC20
   timeLock: "0x4bd1cdAab4254fC43ef6424653cA2375b4C94C0E"
-
-treasuryAssets:
-  - name: USDC
-    contract: "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
-    standard: ERC20
-    priceId: usd-coin
-    logo: https://assets.coingecko.com/coins/images/6319/standard/usdc.png
-  - name: GMX
-    contract: "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a"
-    standard: ERC20
-    priceId: gmx
-    logo: https://assets.coingecko.com/coins/images/18323/standard/arbit.png
-  - name: ARB
-    contract: "0x912CE59144191C1204E64559FE8253a0e49E6548"
-    standard: ERC20
-    priceId: arbitrum
-    logo: https://assets.coingecko.com/coins/images/16547/standard/arb.jpg
