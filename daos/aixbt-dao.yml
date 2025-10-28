@@ -17,7 +17,7 @@ wallet:
 
 analysis:
   ga:
-    tag:
+    tag: G-VX66NBF4BK
 
 chain:
   name: Base Network
@@ -34,10 +34,9 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
+  endpoint: https://indexer.degov.ai/aixbt-dao/graphql
   startBlock: 21867924
-  rpc:
-  gateway:
+  gateway: https://v2.archive.subsquid.io/network/base-mainnet
 
 aiAgent:
   endpoint: https://agent.degov.ai
