@@ -1,0 +1,48 @@
+name: AIXBT
+code: aixbt-dao
+logo: https://pbs.twimg.com/profile_images/1874758416658509824/UPaVddbm_400x400.jpg
+siteUrl: https://aixbt.degov.ai
+offChainDiscussionUrl: https://t.me/aixbtportal
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/aixbt-dao.yml
+description: AIXBT is a real-time market intelligence platform designed to detect emerging trends ahead of mainstream recognition.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/aixbt-by-virtuals
+  website: https://aixbt.tech
+  twitter: https://x.com/aixbt_agent
+  telegram: https://t.me/aixbtportal
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+analysis:
+  ga:
+    tag: G-VX66NBF4BK
+
+chain:
+  name: Base Network
+  id: 8453
+  logo: https://pbs.twimg.com/profile_images/1821025913976287232/l0WGRm5B_400x400.jpg
+  rpcs:
+    - https://base-rpc.publicnode.com
+  explorers:
+    - https://basescan.org
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint: https://indexer.degov.ai/aixbt-dao/graphql
+  startBlock: 21867924
+  gateway: https://v2.archive.subsquid.io/network/base-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+contracts:
+  governor: "0x48880738f4Ccafd105a8d75Cf8c64052F33b543f"
+  governorToken:
+    address: "0x3d5e95218dB18E0A8b75ce0C0Da0d281A33F8a62"
+    standard: ERC20
