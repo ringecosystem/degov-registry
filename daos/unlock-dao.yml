@@ -16,6 +16,17 @@ links:
 theme:
   logoDark: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/unlock-dark.svg
   logoLight: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/logos/unlock-light.svg
+  faqs:
+    - question: What is Unlock Protocol?
+      answer: https://docs.unlock-protocol.com/getting-started/what-is-unlock
+    - question: What is Unlock DAO?
+      answer: https://docs.unlock-protocol.com/governance/frequently-asked-questions/#what-is-the-unlock-dao
+    - question: Where do governance discussions take place?
+      answer: https://docs.unlock-protocol.com/governance/frequently-asked-questions/#where-do-governance-discussions-take-place
+    - question: What is the Unlock Token (UP)?
+      answer: https://docs.unlock-protocol.com/governance/frequently-asked-questions#what-is-the-unlock-protocol-token-up
+    - question: Is there any minimum UP holding threshold for delegate consideration?
+      answer: https://docs.unlock-protocol.com/governance/frequently-asked-questions/#is-there-any-minimum-up-holding-threshold-for-delegate-consideration
 
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
