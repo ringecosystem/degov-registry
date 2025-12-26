@@ -58,10 +58,6 @@ contracts:
   timeLock: "0x4DCf0f14cC58fc2Bf313e70573dDB7309523bb23"
 
 treasuryAssets:
-  - name: FT
-    contract: "0x3ff4F23F328664FfD046eb4ca62be3d8aF3e452f"
-    standard: ERC20
-    priceId: FT
 
 apps:
   - name: RING Staking
