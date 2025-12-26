@@ -49,7 +49,3 @@ contracts:
   timeLock: "0x5881f5CF92bf616fdD10eA82DF8f9e709EC5a81D"
 
 treasuryAssets:
-  - name: FT
-    contract: "0x3ff4F23F328664FfD046eb4ca62be3d8aF3e452f"
-    standard: ERC20
-    priceId: FT
