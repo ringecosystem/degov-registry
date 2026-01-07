@@ -1,15 +1,25 @@
 darwinia:
   - config: daos/ring-dao.yml
     state: active
+    features:
+      - fulfill
   - config: daos/kton-dao.yml
+    features:
+      - fulfill
   - config: daos/ring-dao-guild.yml
+    features:
+      - fulfill
 
   - config: daos/degov-no-timelock.yml
     tags:
       - demo
+    features:
+      - fulfill
   - config: daos/degov-blocknumber.yml
     tags:
       - demo
+    features:
+      - fulfill
   - config: https://demo.degov.ai/degov.yml
     domains:
       - demo.degov.ai
@@ -20,27 +30,55 @@ darwinia:
 
 ethereum:
   - config: daos/ens-dao.yml
+    features:
+      - fulfill
   # - config: daos/truefi-dao.yml
   - config: daos/fluence-dao.yml
+    features:
+      - fulfill
 
 base:
   - config: daos/aquari-dao.yml
     domains:
       - gov.aquari.org
+    features:
+      - fulfill
   - config: daos/unlock-dao.yml
+    features:
+      - fulfill
   - config: daos/carv-dao.yml
+    features:
+      - fulfill
   - config: daos/awe-dao.yml
+    features:
+      - fulfill
   - config: daos/internet-token-dao.yml
+    features:
+      - fulfill
   - config: daos/lazy-summer.yml
+    features:
+      - fulfill
   - config: daos/seamless-dao.yml
+    features:
+      - fulfill
   - config: daos/aixbt-dao.yml
+    features:
+      - fulfill
 
 arbitrum:
   - config: daos/rn-dao.yml
+    features:
+      - fulfill
   - config: daos/gmx-dao.yml
+    features:
+      - fulfill
 
 optimism:
   - config: daos/hai-dao.yml
+    features:
+      - fulfill
 
 lisk:
   - config: daos/lisk-dao.yml
+    features:
+      - fulfill
