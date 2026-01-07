@@ -48,6 +48,16 @@
             "examples": [
               ["demo.example.com"]
             ]
+          },
+          "features": {
+            "type": "array",
+            "description": "Optional features for this DAO",
+            "items": {
+              "type": "string"
+            },
+            "examples": [
+              ["fulfill"]
+            ]
           }
         },
         "required": ["config"],
