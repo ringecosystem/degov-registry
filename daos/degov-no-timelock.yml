@@ -37,7 +37,6 @@ chain:
 indexer:
   endpoint: https://indexer.degov.ai/demo-no-timelock-dao/graphql
   startBlock: 5873342
-  rpc: wss://rpc.darwinia.network
 
 aiAgent:
   endpoint: https://agent.degov.ai

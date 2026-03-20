@@ -34,7 +34,6 @@ chain:
 indexer:
   endpoint: https://indexer.degov.ai/kton-dao/graphql
   startBlock: 3320858
-  rpc: wss://rpc.darwinia.network
 
 aiAgent:
   endpoint: https://agent.degov.ai
