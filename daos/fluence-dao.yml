@@ -51,7 +51,6 @@ chain:
 indexer:
   endpoint: https://indexer.degov.ai/fluence-dao/graphql
   startBlock: 19235767
-  rpc: https://erpc.ringdao.com/main/evm/1
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:
