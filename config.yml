@@ -42,6 +42,12 @@ ethereum:
   - config: daos/radworks-dao.yml
     features:
       - fulfill
+  - config: daos/compound-dao.yml
+    features:
+      - fulfill
+  - config: daos/gitcoin-dao.yml
+    features:
+      - fulfill
 
 base:
   - config: daos/aquari-dao.yml
