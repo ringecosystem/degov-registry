@@ -36,6 +36,12 @@ ethereum:
   - config: daos/fluence-dao.yml
     features:
       - fulfill
+  - config: daos/instadapp-dao.yml
+    features:
+      - fulfill
+  - config: daos/radworks-dao.yml
+    features:
+      - fulfill
 
 base:
   - config: daos/aquari-dao.yml
@@ -70,6 +76,9 @@ arbitrum:
     features:
       - fulfill
   - config: daos/gmx-dao.yml
+    features:
+      - fulfill
+  - config: daos/onchainaustria-dao.yml
     features:
       - fulfill
 
