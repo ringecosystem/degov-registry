@@ -59,6 +59,7 @@ base:
     features:
       - fulfill
   - config: daos/seamless-dao.yml
+    state: inactive
     features:
       - fulfill
   - config: daos/aixbt-dao.yml
