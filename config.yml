@@ -48,6 +48,9 @@ ethereum:
   - config: daos/gitcoin-dao.yml
     features:
       - fulfill
+  - config: daos/threshold-dao.yml
+    features:
+      - fulfill
 
 base:
   - config: daos/aquari-dao.yml
