@@ -51,6 +51,9 @@ ethereum:
   - config: daos/threshold-dao.yml
     features:
       - fulfill
+  - config: daos/obol-dao.yml
+    features:
+      - fulfill
 
 base:
   - config: daos/aquari-dao.yml
