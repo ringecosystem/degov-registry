@@ -90,6 +90,7 @@ base:
     features:
       - fulfill
   - config: daos/seamless-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/aixbt-dao.yml
