@@ -1,0 +1,51 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description: Build N Build Chain aka BNB Chain, dedicates to delivering its core infrastructure for future public adoption, and always remains as a community-first and open-source ecosystem built on a permissionless and decentralized environment.
+
+links:
+  coingecko:
+  website: https://www.bnbchain.org/
+  twitter: https://twitter.com/BNBCHAIN
+  telegram: https://t.me/BNBchaincommunity
+  discord: https://discord.com/invite/bnbchain
+  github:
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+analysis:
+  ga:
+    tag: G-CD0VKPP1BL
+
+chain:
+  name: BSC
+  id:
+  logo:
+  rpcs:
+    -
+  explorers:
+    -
+  nativeToken:
+    symbol:
+    priceId:
+    decimals:
+    logo:
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway:
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+contracts:
+  governor: "0x0000000000000000000000000000000000002004"
+  governorToken:
+    address: "0x0000000000000000000000000000000000002005"
+    standard: ERC20
+  timeLock: "0x0000000000000000000000000000000000002006"

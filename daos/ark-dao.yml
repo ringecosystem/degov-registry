@@ -1,0 +1,50 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description: This is a DAO dedicated to ARK DeFAI.
+
+links:
+  coingecko:
+  website:
+  twitter:
+  telegram:
+  discord:
+  github:
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+analysis:
+  ga:
+    tag: G-CD0VKPP1BL
+
+chain:
+  name: BSC
+  id:
+  logo:
+  rpcs:
+    -
+  explorers:
+    -
+  nativeToken:
+    symbol:
+    priceId:
+    decimals:
+    logo:
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway:
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+contracts:
+  governor: "0xd069d9b52CAD356edc41365C9140184A02095E5B"
+  governorToken:
+    address: "0xF5E3D1290FDBFC50ec436f021ad516D0Bcac5d28"
+    standard: ERC20
