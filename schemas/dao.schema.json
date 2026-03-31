@@ -27,9 +27,16 @@
       "description": "URL to the DAO's governance site"
     },
     "offChainDiscussionUrl": {
-      "type": "string",
-      "format": "uri",
-      "description": "URL for off-chain discussions (forum, GitHub discussions, etc.)"
+      "description": "URL for off-chain discussions (forum, GitHub discussions, etc.)",
+      "anyOf": [
+        {
+          "type": "string",
+          "format": "uri"
+        },
+        {
+          "type": "null"
+        }
+      ]
     },
     "editLink": {
       "type": "string",
@@ -45,28 +52,70 @@
       "description": "Social and external links for the DAO",
       "properties": {
         "coingecko": {
-          "type": "string",
-          "format": "uri"
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "website": {
-          "type": "string",
-          "format": "uri"
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "twitter": {
-          "type": "string",
-          "format": "uri"
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "discord": {
-          "type": "string",
-          "format": "uri"
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "telegram": {
-          "type": "string",
-          "format": "uri"
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "github": {
-          "type": "string",
-          "format": "uri"
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "email": {
           "type": "string",
@@ -231,9 +280,16 @@
       "description": "Indexer configuration",
       "properties": {
         "endpoint": {
-          "type": "string",
-          "format": "uri",
-          "description": "GraphQL endpoint for the indexer"
+          "description": "GraphQL endpoint for the indexer",
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "null"
+            }
+          ]
         },
         "startBlock": {
           "type": "integer",
@@ -245,9 +301,16 @@
           "description": "RPC endpoint for indexing (can be WebSocket or HTTP)"
         },
         "gateway": {
-          "type": "string",
-          "format": "uri",
-          "description": "Archive gateway URL"
+          "description": "Archive gateway URL",
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "type": "null"
+            }
+          ]
         }
       },
       "required": ["endpoint", "startBlock"],
@@ -412,7 +475,7 @@
           "properties": {
             "tag": {
               "type": "string",
-              "pattern": "^G-[A-Z0-9]{10}$",
+              "pattern": "^G-([A-Z0-9]{10}|xxx)$",
               "description": "Google Analytics 4 measurement ID (format: G-XXXXXXXXXX)",
               "examples": ["G-ABCDEFGHIJ"]
             }
@@ -430,7 +493,6 @@
     "logo",
     "siteUrl",
     "description",
-    "wallet",
     "chain",
     "indexer",
     "aiAgent",
