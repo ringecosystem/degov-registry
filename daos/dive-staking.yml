@@ -1,0 +1,48 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description: Diva is an ETH Liquid Staking protocol powered by Distributed Validators that's both trustless and permissionless.
+
+links:
+  coingecko:
+  website: https://www.divastaking.net/
+  twitter: https://twitter.com/divastaking
+  discord: https://discord.com/invite/divastaking
+
+
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0xFb6B7C11a55C57767643F1FF65c34C8693a11A70"
+  governorToken:
+    address: "0xBFAbdE619ed5C4311811cF422562709710DB587d"
+    standard: ERC20
+  timeLock: "0x4eBB20995B6264b4b1E25f4473a4636CDB6a9790"

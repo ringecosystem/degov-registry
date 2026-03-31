@@ -1,0 +1,49 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl: https://snapshot.org/#/agld-dao.eth
+editLink:
+description: Credit is more than a tool for speculation, it’s the mechanism by which money turns into productive capital.
+
+links:
+  coingecko:
+  website: https://www.adventuregold.org/
+  twitter: https://twitter.com/AdventureLayer
+  discord: https://discord.com/invite/WMXwkcGnNk
+  telegram:
+
+
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0xe1b3F07a9032F0d3deDf3E96c395A4Da74130f6e"
+  governorToken:
+    address: "0x5Dfe42eEA70a3e6f93EE54eD9C321aF07A85535C"
+    standard: ERC20
+  timeLock: "0xBBD3321f377742c4b3fe458b270c2F271d3294D8"

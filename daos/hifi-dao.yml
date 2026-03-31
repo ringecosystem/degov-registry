@@ -1,0 +1,50 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description:
+
+links:
+  coingecko:
+  website: https://hifi.finance/
+  twitter: https://twitter.com/HifiFinance
+  discord: https://discord.com/invite/wBCBYqsSqw
+  github: https://github.com/hifi-finance
+  telegram:
+
+
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0xef0A0421Ea43b602E5Be35e9018Dd3E34Bcee007"
+  governorToken:
+    address: "0x4b9278b94a1112cAD404048903b8d343a810B07e"
+    standard: ERC20
+  timeLock: "0xAC46Db50B44BBeF8DC25f778359e1834248147F7"

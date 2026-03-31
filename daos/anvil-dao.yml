@@ -1,0 +1,48 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description:
+
+links:
+  coingecko:
+  website: https://anvil.xyz/
+  twitter: https://twitter.com/anvil_xyz
+  telegram:
+
+
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0x00e83d0698FAf01BD080A4Dd2927e6aB7C4874c9"
+  governorToken:
+    address: "0xAEEAa594e7dc112D67b8547fe9767a02c15B5597"
+    standard: ERC20
+  timeLock: "0x4eeB7c5BB75Fc0DBEa4826BF568FD577f62cad21"

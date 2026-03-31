@@ -1,0 +1,48 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description: The Kroma Security Council, a multisig-based mechanism with at least 8 parties, holds two key roles, safeguarding assets and proposing/voting on Layer 1(Ethereum) and Layer 2(Kroma) contract upgrades, serving as the final security layer.
+
+links:
+  coingecko:
+  website:
+  twitter:
+  telegram:
+
+
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0xb3c415c2Aad428D5570208e1772cb68e7D06a537"
+  governorToken:
+    address: "0xe4D08346609055c091D3DEECdAAd3Bf83119B08c"
+    standard: ERC20
+  timeLock: "0x22605A12cB77Fe420B0cC1263cEb58a77352FDc1"

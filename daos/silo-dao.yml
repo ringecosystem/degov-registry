@@ -1,0 +1,48 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description: Silo is a non-custodial lending protocol to borrow any crypto asset with another.
+
+links:
+  coingecko:
+  website:
+  twitter:
+  telegram:
+
+
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0xA89163F7B2D68A8fbA6Ca36BEEd32Bd4f3EeAf61"
+  governorToken:
+    address: "0x6f80310CA7F2C654691D1383149Fa1A57d8AB1f8"
+    standard: ERC20
+  timeLock: "0xe1F03b7B0eBf84e9B9f62a1dB40f1Efb8FaA7d22"

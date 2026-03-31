@@ -1,0 +1,47 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description: Lightchain AI DAO governs and scales Lightchain’s open network, enabling token holders to propose, discuss, and vote on upgrades, funding, and partnerships.
+
+links:
+  coingecko:
+  website: https://lightchain.ai/
+  twitter: https://twitter.com/LightchainAI
+  discord: https://discord.com/lightchain
+  
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0x6dfa413B5900a1a7947BC75E68AbBA093cB2492d"
+  governorToken:
+    address: "0x75F3D01c4D960FE986A598B7954A3b786B29cE49"
+    standard: ERC20
+  timeLock: "0xbE1c37F8C4DA77dD06F4A8AC5098Ec70273093d7"
