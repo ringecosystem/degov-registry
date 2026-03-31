@@ -1,0 +1,49 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description: Dope World is a fully decentralized, community driven, gaming metaverse project inspired by hip-hop culture.
+
+links:
+  coingecko:
+  website: https://dopeworld.gg/
+  twitter: https://twitter.com/dopeworldgg
+  discord: https://discord.com/invite/dope-world
+  telegram: https://t.me/DopeWorldGG
+
+
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0xDBd38F7e739709fe5bFaE6cc8eF67C3820830E0C"
+  governorToken:
+    address: "0x8707276DF042E89669d69A177d3DA7dC78bd8723"
+    standard: ERC20
+  timeLock: "0xB57Ab8767CAe33bE61fF15167134861865F7D22C"

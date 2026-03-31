@@ -1,0 +1,47 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description: Build the bridge from Web3 to AGI
+
+links:
+  coingecko:
+  website: https://bytomdao.org/
+  twitter: https://twitter.com/BytomDAO
+  telegram:
+
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0x44214252CEdA1B087cF5D7D08d26a5913f31D40d"
+  governorToken:
+    address: "0xfd057f0936cbd552Ed34f2F929ACEd2F7BF054ac"
+    standard: ERC20
+  timeLock: "0x364D3C6aFB249c456Cdae644a07331aA8694ddc0"

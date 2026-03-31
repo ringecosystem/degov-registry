@@ -1,0 +1,51 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description:
+
+links:
+  coingecko:
+  website:
+  twitter:
+  telegram:
+  discord:
+  github:
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+analysis:
+  ga:
+    tag: G-CD0VKPP1BL
+
+chain:
+  name: Arbitrum
+  id: 42161
+  logo: https://pbs.twimg.com/profile_images/1952411676621295616/KUOmiy3l_400x400.jpg
+  rpcs:
+    - https://arbitrum-one-rpc.publicnode.com
+  explorers:
+    - https://arbiscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/arbitrum-one
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+contracts:
+  governor: "0xd6387c4bD0D8DDed2f447054486fB8d7aBb98E08"
+  governorToken:
+    address: "0xf4A24C6371F7a4A2F679eBb0bbf27F6e12892C1b"
+    standard: ERC20
+  timeLock: "0x34352B4021877FBa2a9F6cf768871bE4c5a0EA4F"

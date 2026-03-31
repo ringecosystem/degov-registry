@@ -1,0 +1,49 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description: Idle Finance is a decentralized protocol dedicated to bringing automatic asset allocation and yield aggregation to the interest-bearing tokens economy.
+
+links:
+  coingecko:
+  website:
+  twitter: https://twitter.com/idlefinance
+  discord: https://discord.gg/mpySAJp
+  telegram: https://t.me/idlefinance
+
+
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0x3D5Fc645320be0A085A32885F078F7121e5E5375"
+  governorToken:
+    address: "0x875773784Af8135eA0ef43b5a374AaD105c5D39e"
+    standard: ERC20
+  timeLock: "0xD6dABBc2b275114a2366555d6C481EF08FDC2556"

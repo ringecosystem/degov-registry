@@ -1,0 +1,47 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description:
+
+links:
+  coingecko:
+  website:
+  twitter:
+  telegram:
+
+
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0xDA9C9eD96f6D42f7e74f3C7eEa6772d64eD84bdf"
+  governorToken:
+    address: "0x431B366BE6069aE62f8121a901C6160B34Af7F80"
+    standard: ERC20

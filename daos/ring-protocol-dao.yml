@@ -1,0 +1,51 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description: Ring Protocol is a decentralized protocol for automated liquidity provision on Blast.
+
+links:
+  coingecko:
+  website: https://ring.exchange/
+  twitter: https://twitter.com/ProtocolRing
+  telegram:
+  discord: https://discord.com/invite/TefBNDZBQP
+  github:
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+analysis:
+  ga:
+    tag: G-CD0VKPP1BL
+
+chain:
+  name: Blast
+  id:
+  logo:
+  rpcs:
+    -
+  explorers:
+    -
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway:
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+contracts:
+  governor: "0xd2F37FF7eCfAcEB4De1A2bAcb8D9C539A4D6a943"
+  governorToken:
+    address: "0x25F233C3E3676f9e900a89644a3FE5404d643c84"
+    standard: ERC20
+  timeLock: "0x337c4F3054f091D0E2239ce09c0b112D874dEBf7"

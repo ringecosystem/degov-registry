@@ -1,0 +1,47 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description: Governance DAO for sudoAMM protocol
+
+links:
+  coingecko:
+  website:
+  twitter: https://twitter.com/sudoswap
+  telegram:
+
+
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0x6853f8865BA8e9FBd9C8CCE3155ce5023fB7EEB0"
+  governorToken:
+    address: "0x3446Dd70B2D52A6Bf4a5a192D9b0A161295aB7F9"
+    standard: ERC20

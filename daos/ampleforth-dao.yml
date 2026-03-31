@@ -1,0 +1,48 @@
+name: Ampleforth
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description:
+
+links:
+  coingecko:
+  website:
+  twitter:
+  telegram:
+
+
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0x8a994C6F55Be1fD2B4d0dc3B8f8F7D4E3a2dA8F1"
+  governorToken:
+    address: "0x77FbA179C79De5B7653F68b5039Af940AdA60ce0"
+    standard: ERC20
+  timeLock: "0x223592a191ECfC7FDC38a9256c3BD96E771539A9"

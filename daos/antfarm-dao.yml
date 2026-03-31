@@ -1,0 +1,49 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description: The mission of the DAO is to protect the Antfarm protocol and take the right decisions to help develop the ecosystem
+
+links:
+  coingecko:
+  website:
+  twitter: https://twitter.com/antfarmfinance
+  discord: https://discord.com/invite/6YuMk7zXsV
+  telegram: https://t.me/antfarmfinance
+
+
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0xD63123527551F037fAAc74bf5fDA5B71569cf5af"
+  governorToken:
+    address: "0xDCd2B58585DF999DD145e529f09e8ACaFA6cd244"
+    standard: ERC20
+  timeLock: "0x529C78Ee582e4293a20Ab60c848506eADd8723D8"

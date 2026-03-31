@@ -1,0 +1,48 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description: DAO to manage openscan
+
+links:
+  coingecko:
+  website: http://openscan.eth/
+  twitter: https://twitter.com/openscan_eth
+  telegram:
+
+
+analysis:
+  ga:
+    tag: G-30MY2D0MMM
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+
+contracts:
+  governor: "0x2cb9e4d600c52832a43e201Dc3535E29300Ea212"
+  governorToken:
+    address: "0xAe6fefD97266c482EfeDC0eF88636c75f1C83e87"
+    standard: ERC20
+  timeLock: "0x992f2Ae6eC322fdeaFA97FBC2Aa3E046F0171227"
