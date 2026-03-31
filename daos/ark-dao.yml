@@ -1,18 +1,14 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
-description: This is a DAO dedicated to ARK DeFAI.
+name: ARK DAO
+code: ark-dao
+logo: https://www.arkdefai.com/logo.png
+siteUrl: https://www.ark.degov.ai
+offChainDiscussionUrl: https://t.me/arkdefai
+editLink: https://github.com/arkdefai/ark-dao/edit/main/daos/ark-dao.yml
+description: A place for ARK holders to vote on proposal to guide the direction of the dao.
 
 links:
-  coingecko:
-  website:
-  twitter:
-  telegram:
-  discord:
-  github:
+  website: https://www.arkdefai.com
+  telegram: https://t.me/arkdefai
 
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
@@ -22,22 +18,22 @@ analysis:
     tag: G-CD0VKPP1BL
 
 chain:
-  name: BSC
-  id:
-  logo:
+  name: BNB Smart Chain
+  id:  56
+  logo: https://pbs.twimg.com/profile_images/2037267603853647872/OucNzNYm_400x400.jpg
   rpcs:
-    -
+    - https://bsc-rpc.publicnode.com
   explorers:
-    -
+    - https://bscscan.com
   nativeToken:
-    symbol:
-    priceId:
-    decimals:
-    logo:
+    symbol: BNB
+    priceId: binancecoin
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/825/standard/bnb-icon2_2x.png
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 58915375
   gateway:
 
 aiAgent:
@@ -47,4 +43,4 @@ contracts:
   governor: "0xd069d9b52CAD356edc41365C9140184A02095E5B"
   governorToken:
     address: "0xF5E3D1290FDBFC50ec436f021ad516D0Bcac5d28"
-    standard: ERC20
+    standard: ERC721

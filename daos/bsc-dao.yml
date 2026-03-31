@@ -1,15 +1,15 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
-description: Build N Build Chain aka BNB Chain, dedicates to delivering its core infrastructure for future public adoption, and always remains as a community-first and open-source ecosystem built on a permissionless and decentralized environment.
+name: BNB Chain DAO
+code: bnb-chain-dao
+logo: https://pbs.twimg.com/profile_images/2037267603853647872/OucNzNYm_400x400.jpg
+siteUrl: https://www.bnb.degov.ai
+offChainDiscussionUrl: http://t.me/bnbchaincommunity
+editLink: https://github.com/arkdefai/ark-dao/edit/main/daos/bsc-dao.yml
+description: A place for BNB holders to vote on proposal to guide the direction of the dao.
 
 links:
-  coingecko:
-  website: https://www.bnbchain.org/
-  twitter: https://twitter.com/BNBCHAIN
+  coingecko: https://www.coingecko.com/en/coins/bnb
+  website: https://www.bnbchain.org
+  twitter: https://x.com/BNBCHAIN
   telegram: https://t.me/BNBchaincommunity
   discord: https://discord.com/invite/bnbchain
   github:
@@ -22,22 +22,23 @@ analysis:
     tag: G-CD0VKPP1BL
 
 chain:
-  name: BSC
-  id:
-  logo:
+  name: BNB Smart Chain
+  id:  56
+  logo: https://pbs.twimg.com/profile_images/2037267603853647872/OucNzNYm_400x400.jpg
   rpcs:
-    -
+    - https://bsc-rpc.publicnode.com
   explorers:
-    -
+    - https://bscscan.com
   nativeToken:
-    symbol:
-    priceId:
-    decimals:
-    logo:
+    symbol: BNB
+    priceId: binancecoin
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/825/standard/bnb-icon2_2x.png
+
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 0
   gateway:
 
 aiAgent:
