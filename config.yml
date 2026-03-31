@@ -60,6 +60,12 @@ ethereum:
   - config: daos/ampleforth-dao.yml
     features:
       - fulfill
+  - config: daos/antfarm-dao.yml
+    features:
+      - fulfill
+  - config: daos/anvil-dao.yml
+    features:
+      - fulfill
 
 
 base:
@@ -108,5 +114,13 @@ optimism:
 
 lisk:
   - config: daos/lisk-dao.yml
+    features:
+      - fulfill
+
+bnb-smart-chain:
+  - config: daos/ark-dao.yml
+    features:
+      - fulfill
+  - config: daos/bsc-dao.yml
     features:
       - fulfill

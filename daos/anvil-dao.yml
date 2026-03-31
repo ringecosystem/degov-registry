@@ -1,16 +1,16 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
-description:
+name: Anvil DAO
+code: anvil-dao
+logo: https://pbs.twimg.com/profile_images/2037610627024470016/LmjgvoHC_400x400.jpg
+siteUrl: https://anvil.degov.ai
+offChainDiscussionUrl: https://forum.anvil.xyz
+editLink: https://github.com/AcronymFoundation/anvil-contracts/edit/main/daos/anvil-dao.yml
+description: A place for Anvil holders to vote on proposal to guide the direction of the dao.
 
 links:
-  coingecko:
-  website: https://anvil.xyz/
-  twitter: https://twitter.com/anvil_xyz
-  telegram:
+  website: https://anvil.xyz
+  twitter: https://x.com/anvil_xyz
+  discord: https://discord.gg/esfFn3dedz
+  github: https://github.com/AcronymFoundation/anvil-contracts
 
 
 analysis:
@@ -33,7 +33,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 20014135
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:
