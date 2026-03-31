@@ -1,0 +1,50 @@
+name:
+code:
+logo:
+siteUrl:
+offChainDiscussionUrl:
+editLink:
+description:
+
+links:
+  coingecko:
+  website: https://fameladysociety.com/
+  twitter: https://twitter.com/fameladysociety
+  telegram: https://t.me/+RYjY8hmjLtxlYmVh
+  github:
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+analysis:
+  ga:
+    tag: G-WP9FDHLHDR
+
+chain:
+  name: Base Network
+  id: 8453
+  logo: https://pbs.twimg.com/profile_images/1821025913976287232/l0WGRm5B_400x400.jpg
+  rpcs:
+    - https://base-rpc.publicnode.com
+  explorers:
+    - https://basescan.org
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint:
+  startBlock:
+  gateway: https://v2.archive.subsquid.io/network/base-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+contracts:
+  governor: "0xbB2BD06084aB8AB66f14CE33fc713093E0f1d8D8"
+  governorToken:
+    address: "0x12cf4e3B1a07DDAC4046B18714D6bAb9063De852"
+    standard: ERC20
+  timeLock: "0x08f0194e4ca54ebDF4C28cD06273053e0eDc2Da0"

@@ -54,6 +54,13 @@ ethereum:
   - config: daos/obol-dao.yml
     features:
       - fulfill
+  - config: daos/adventure-gold-dao.yml
+    features:
+      - fulfill
+  - config: daos/ampleforth-dao.yml
+    features:
+      - fulfill
+
 
 base:
   - config: daos/aquari-dao.yml
