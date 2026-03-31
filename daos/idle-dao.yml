@@ -1,9 +1,9 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
+name: Idle DAO
+code: idle-dao
+logo: https://static.tally.xyz/c67b7c6f-e868-4d04-870f-b79ef8c8aa7e_original.png
+siteUrl: https://idle.degov.ai
+offChainDiscussionUrl: https://discord.gg/mpySAJp
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/idle-dao.yml
 description: Idle Finance is a decentralized protocol dedicated to bringing automatic asset allocation and yield aggregation to the interest-bearing tokens economy.
 
 links:
@@ -16,7 +16,7 @@ links:
 
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: G-xxx
 
 chain:
   name: Ethereum Network
@@ -34,7 +34,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 11333729
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

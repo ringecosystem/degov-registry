@@ -1,9 +1,9 @@
-name:
-code:
-logo:
-siteUrl:
+name: Silo
+code: silo-dao
+logo: https://static.tally.xyz/9c5c9d1a-2fa7-4860-8516-bd958acfc22a_400x400.jpg
+siteUrl: https://silo.degov.ai
 offChainDiscussionUrl:
-editLink:
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/silo-dao.yml
 description: Silo is a non-custodial lending protocol to borrow any crypto asset with another.
 
 links:
@@ -15,7 +15,7 @@ links:
 
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: G-xxx
 
 chain:
   name: Ethereum Network
@@ -33,7 +33,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 13716347
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

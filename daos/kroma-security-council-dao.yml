@@ -1,9 +1,9 @@
-name:
-code:
-logo:
-siteUrl:
+name: Kroma Security Council (L1)
+code: kroma-security-council-dao
+logo: https://static.tally.xyz/4e53f0bb-e0c9-46d4-b83f-b3f08311de7a_original.png
+siteUrl: https://kroma-security-council.degov.ai
 offChainDiscussionUrl:
-editLink:
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/kroma-security-council-dao.yml
 description: The Kroma Security Council, a multisig-based mechanism with at least 8 parties, holds two key roles, safeguarding assets and proposing/voting on Layer 1(Ethereum) and Layer 2(Kroma) contract upgrades, serving as the final security layer.
 
 links:
@@ -15,7 +15,7 @@ links:
 
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: G-xxx
 
 chain:
   name: Ethereum Network
@@ -33,7 +33,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 18067276
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

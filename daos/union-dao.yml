@@ -1,9 +1,9 @@
-name:
-code:
-logo:
-siteUrl:
+name: Union
+code: union-dao
+logo: https://static.tally.xyz/7873aa6b-9eb3-45f4-8e94-87fdb2077686_original.png
+siteUrl: https://union.degov.ai
 offChainDiscussionUrl: https://snapshot.org/#/agld-dao.eth
-editLink:
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/union-dao.yml
 description: Credit is more than a tool for speculation, it’s the mechanism by which money turns into productive capital.
 
 links:
@@ -16,7 +16,7 @@ links:
 
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: G-xxx
 
 chain:
   name: Ethereum Network
@@ -34,7 +34,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 13816628
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

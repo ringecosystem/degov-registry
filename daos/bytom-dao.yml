@@ -1,9 +1,9 @@
-name:
-code:
-logo:
-siteUrl:
+name: BytomDAO
+code: bytom-dao
+logo: https://static.tally.xyz/f1666511-fb38-48dc-a686-48fdf53b2642_original.png
+siteUrl: https://bytom.degov.ai
 offChainDiscussionUrl:
-editLink:
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/bytom-dao.yml
 description: Build the bridge from Web3 to AGI
 
 links:
@@ -14,7 +14,7 @@ links:
 
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: G-xxx
 
 chain:
   name: Ethereum Network
@@ -32,7 +32,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 19432497
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

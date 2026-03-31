@@ -1,9 +1,9 @@
-name:
-code:
-logo:
-siteUrl:
+name: Open Dollar
+code: opendollar-dao
+logo: https://static.tally.xyz/002e7178-5ad0-4764-aa8b-803ad13bba50_original.png
+siteUrl: https://opendollar.degov.ai
 offChainDiscussionUrl:
-editLink:
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/opendollar-daoy.yml
 description: Borrow against Liquid Staking Tokens & Arbitrum native assets with our flexible and transparently over-collateralized stablecoin
 
 links:
@@ -19,7 +19,7 @@ wallet:
 
 analysis:
   ga:
-    tag: G-CD0VKPP1BL
+    tag: G-xxx
 
 chain:
   name: Arbitrum
@@ -37,7 +37,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 171166901
   gateway: https://v2.archive.subsquid.io/network/arbitrum-one
 
 aiAgent:

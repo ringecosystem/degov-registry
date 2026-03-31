@@ -1,9 +1,9 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
+name: Diva Staking
+code: diva-staking
+logo: https://static.tally.xyz/ff819cab-350c-41d8-87fd-daa2a7cca422_original.png
+siteUrl: https://diva-staking.degov.ai
+offChainDiscussionUrl: https://discord.com/invite/divastaking
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/dive-staking.yml
 description: Diva is an ETH Liquid Staking protocol powered by Distributed Validators that's both trustless and permissionless.
 
 links:
@@ -15,7 +15,7 @@ links:
 
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: G-xxx
 
 chain:
   name: Ethereum Network
@@ -33,7 +33,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 17572623
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

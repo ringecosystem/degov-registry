@@ -37,35 +37,25 @@ ethereum:
     features:
       - fulfill
   - config: daos/instadapp-dao.yml
-    features:
-      - fulfill
+    state: draft
   - config: daos/radworks-dao.yml
-    features:
-      - fulfill
+    state: draft
   - config: daos/compound-dao.yml
-    features:
-      - fulfill
+    state: draft
   - config: daos/gitcoin-dao.yml
-    features:
-      - fulfill
+    state: draft
   - config: daos/threshold-dao.yml
-    features:
-      - fulfill
+    state: draft
   - config: daos/obol-dao.yml
-    features:
-      - fulfill
+    state: draft
   - config: daos/adventure-gold-dao.yml
-    features:
-      - fulfill
+    state: draft
   - config: daos/ampleforth-dao.yml
-    features:
-      - fulfill
+    state: draft
   - config: daos/antfarm-dao.yml
-    features:
-      - fulfill
+    state: draft
   - config: daos/anvil-dao.yml
-    features:
-      - fulfill
+    state: draft
 
 
 base:
@@ -105,8 +95,7 @@ arbitrum:
     features:
       - fulfill
   - config: daos/onchainaustria-dao.yml
-    features:
-      - fulfill
+    state: draft
 
 optimism:
   - config: daos/hai-dao.yml
@@ -120,8 +109,6 @@ lisk:
 
 bnb-smart-chain:
   - config: daos/ark-dao.yml
-    features:
-      - fulfill
+    state: draft
   - config: daos/bsc-dao.yml
-    features:
-      - fulfill
+    state: draft

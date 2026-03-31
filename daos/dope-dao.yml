@@ -1,9 +1,9 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
+name: Dope DAO
+code: dope-dao
+logo: https://static.tally.xyz/6b1e8e31-de1d-425f-a46d-634c0d1e230e_400x400.jpg
+siteUrl: https://dope.degov.ai
+offChainDiscussionUrl: https://discord.com/invite/dope-world
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/dope-dao.yml
 description: Dope World is a fully decentralized, community driven, gaming metaverse project inspired by hip-hop culture.
 
 links:
@@ -16,7 +16,7 @@ links:
 
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: G-xxx
 
 chain:
   name: Ethereum Network
@@ -34,7 +34,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 13136082
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

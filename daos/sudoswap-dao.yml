@@ -1,9 +1,9 @@
-name:
-code:
-logo:
-siteUrl:
+name: sudoswap DAO
+code: sudoswap-dao
+logo: https://static.tally.xyz/c8e4a42a-b60f-41a6-9cff-3f78cd22bfaf_original.png
+siteUrl: https://sudoswap.degov.ai
 offChainDiscussionUrl:
-editLink:
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/sudoswap-dao.yml
 description: Governance DAO for sudoAMM protocol
 
 links:
@@ -15,7 +15,7 @@ links:
 
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: G-xxx
 
 chain:
   name: Ethereum Network
@@ -33,7 +33,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 16521290
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

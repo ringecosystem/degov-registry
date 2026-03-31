@@ -1,9 +1,9 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
+name: Flayer
+code: flayer-dao
+logo: https://static.tally.xyz/a67339f7-93be-4dc0-9a28-86802a70759e_original.png
+siteUrl: https://flayer.degov.ai
+offChainDiscussionUrl: https://discord.com/invite/flaunch
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/flayer-dao.yml
 description: FLAY powers protocols built by Flayer Labs including the Flaunch.gg protocol - a memecoin launchpad built on Base and powered by Uniswap V4.
 
 links:
@@ -15,7 +15,7 @@ links:
 
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: G-xxx
 
 chain:
   name: Ethereum Network
@@ -33,7 +33,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 20769913
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

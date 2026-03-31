@@ -1,9 +1,9 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
+name: Lightchain AI DAO
+code: lightchain-dao
+logo: https://static.tally.xyz/c1661f03-7885-4ed8-a210-564891f989ae_original.png
+siteUrl: https://lightchain.degov.ai
+offChainDiscussionUrl: https://discord.com/lightchain
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/lightchain-dao.yml
 description: Lightchain AI DAO governs and scales Lightchain’s open network, enabling token holders to propose, discuss, and vote on upgrades, funding, and partnerships.
 
 links:
@@ -14,7 +14,7 @@ links:
   
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: G-xxx
 
 chain:
   name: Ethereum Network
@@ -32,7 +32,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 24321042
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

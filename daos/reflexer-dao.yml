@@ -1,9 +1,9 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
+name: Reflexer Ungovernor
+code: reflexer-dao
+logo: https://static.tally.xyz/eba37ab8-f4ee-459a-8270-2c8d79690a72_original.png
+siteUrl: https://reflexer.degov.ai
+offChainDiscussionUrl: https://discord.com/invite/AXwXHGsTaJ
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/reflexer-dao.yml
 description: Governs the few remaining mutable parameters in the RAI protocol as well as the protocol treasury.
 
 links:
@@ -16,7 +16,7 @@ links:
 
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: G-xxx
 
 chain:
   name: Ethereum Network
@@ -34,7 +34,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 11848366
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

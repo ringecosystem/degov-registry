@@ -1,10 +1,10 @@
-name:
-code:
-logo:
-siteUrl:
+name: Ondo DAO
+code: ondo-dao
+logo: https://static.tally.xyz/28a0e1d0-1aa0-4587-a751-3f55a55de833_original.png
+siteUrl: https://ondo.degov.ai
 offChainDiscussionUrl:
-editLink:
-description:
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/ondo-dao.yml
+description: DAO which governs Ondo and affiliated products, including Flux Finance
 
 links:
   coingecko:
@@ -15,7 +15,7 @@ links:
 
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: G-xxx
 
 chain:
   name: Ethereum Network
@@ -33,7 +33,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 14670968
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

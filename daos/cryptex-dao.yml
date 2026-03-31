@@ -1,10 +1,10 @@
-name:
-code:
-logo:
-siteUrl:
+name: Cryptex
+code: cryptex-dao
+logo: https://static.tally.xyz/15f21cc4-7bbc-46c9-82df-d4bd4c0228db_400x400.jpg
+siteUrl: https://cryptex.degov.ai
 offChainDiscussionUrl:
-editLink:
-description:
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/cryptex-dao.yml
+description: The world's first total crypto market cap token.
 
 links:
   coingecko:
@@ -15,7 +15,7 @@ links:
 
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: G-xxx
 
 chain:
   name: Ethereum Network
@@ -33,7 +33,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 12183936
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

@@ -19,7 +19,7 @@ wallet:
 
 analysis:
   ga:
-    tag: G-CD0VKPP1BL
+    tag: G-xxx
 
 chain:
   name: BNB Smart Chain
@@ -39,7 +39,7 @@ chain:
 indexer:
   endpoint:
   startBlock: 0
-  gateway:
+  gateway: https://v2.archive.subsquid.io/network/binance-mainnet
 
 aiAgent:
   endpoint: https://agent.degov.ai

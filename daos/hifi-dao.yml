@@ -1,10 +1,10 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
-description:
+name: Hifi DAO
+code: hifi-dao
+logo: https://static.tally.xyz/0f8cdc4f-e509-4095-a558-efbec5e26260_original.png
+siteUrl: https://hifi.degov.ai
+offChainDiscussionUrl: https://discord.com/invite/wBCBYqsSqw
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/hifi-dao.yml
+description: Hifi is a fixed-rate, fixed-term lending protocol.
 
 links:
   coingecko:
@@ -17,7 +17,7 @@ links:
 
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: G-xxx
 
 chain:
   name: Ethereum Network
@@ -35,7 +35,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 16143034
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

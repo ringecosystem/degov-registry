@@ -1,17 +1,17 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
-description:
+name: Content Guild
+code: content-guild-dao
+logo: https://static.tally.xyz/0878ef59-afed-4bcc-b75c-019c7f824f1f_original.png
+siteUrl: https://content-guild.degov.ai
+offChainDiscussionUrl: https://discord.com/auNyZCW9Y9
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/content-guild-dao.yml
+description: This is the current active governance hub of Content Guild.
 
 links:
   coingecko:
-  website:
-  twitter:
+  website: https://contentguild.xyz
+  twitter: https://twitter.com/contentguildxyz
   telegram:
-  discord:
+  discord: https://discord.com/auNyZCW9Y9
   github:
 
 wallet:
@@ -19,7 +19,7 @@ wallet:
 
 analysis:
   ga:
-    tag: G-CD0VKPP1BL
+    tag: G-xxx
 
 chain:
   name: Arbitrum
@@ -37,7 +37,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 195195743
   gateway: https://v2.archive.subsquid.io/network/arbitrum-one
 
 aiAgent:
