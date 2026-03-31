@@ -1,16 +1,16 @@
 name: Ampleforth
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
-description:
+code: ampleforth-dao
+logo: https://pbs.twimg.com/profile_images/1934616735841452033/osTJ6cqo_400x400.jpg
+siteUrl: https://ampleforth.degov.ai
+offChainDiscussionUrl: https://forum.ampleforth.org
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/ampleforth-dao.yml
+description: A place for Ampleforth holders to vote on proposal to guide the direction of the dao.
 
 links:
-  coingecko:
-  website:
-  twitter:
-  telegram:
+  website: https://www.ampleforth.org
+  twitter: https://x.com/AmpleforthOrg
+  telegram: https://t.me/Ampleforth
+  github: https://github.com/ampleforth
 
 
 analysis:
@@ -33,7 +33,7 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 12141775
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:
