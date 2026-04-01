@@ -1,17 +1,16 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
-description:
+name: Cryptex Finance
+code: cryptex-dao
+logo: https://pbs.twimg.com/profile_images/2020994116549738497/RyRWoxDW_400x400.jpg
+siteUrl: https://cryptex.degov.ai
+offChainDiscussionUrl: https://discord.gg/TDyhBNEndh
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/cryptex-dao.yml
+description: A place for the Cryptex Finance community to come together and govern the future of the protocol.
 
 links:
-  coingecko:
-  website:
-  twitter:
-  telegram:
-
+  website: https://www.cryptex.finance/
+  twitter: https://x.com/CryptexFinance
+  telegram: https://t.me/cryptexfinance
+  discord: https://discord.gg/TDyhBNEndh
 
 analysis:
   ga:
@@ -33,12 +32,11 @@ chain:
 
 indexer:
   endpoint:
-  startBlock:
+  startBlock: 12183936
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:
   endpoint: https://agent.degov.ai
-
 
 contracts:
   governor: "0x874C5D592AfC6803c3DD60d6442357879F196d5b"

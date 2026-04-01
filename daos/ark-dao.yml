@@ -3,7 +3,7 @@ code: ark-dao
 logo: https://www.arkdefai.com/logo.png
 siteUrl: https://www.ark.degov.ai
 offChainDiscussionUrl: https://t.me/arkdefai
-editLink: https://github.com/arkdefai/ark-dao/edit/main/daos/ark-dao.yml
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/ark-dao.yml
 description: A place for ARK holders to vote on proposal to guide the direction of the dao.
 
 links:

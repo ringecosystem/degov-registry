@@ -66,6 +66,15 @@ ethereum:
   - config: daos/anvil-dao.yml
     features:
       - fulfill
+  - config: daos/bytom-dao.yml
+    features:
+      - fulfill
+  - config: daos/cryptex-dao.yml
+    features:
+      - fulfill
+  - config: daos/dive-staking-dao.yml
+    features:
+      - fulfill
 
 
 base:
@@ -104,6 +113,9 @@ arbitrum:
     features:
       - fulfill
   - config: daos/onchainaustria-dao.yml
+    features:
+      - fulfill
+  - config: daos/content-guild-dao.yml
     features:
       - fulfill
 
