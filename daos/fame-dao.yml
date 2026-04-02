@@ -17,7 +17,7 @@ wallet:
 
 analysis:
   ga:
-    tag: G-WP9FDHLHDR
+    tag: "#TODO"
 
 chain:
   name: Base Network

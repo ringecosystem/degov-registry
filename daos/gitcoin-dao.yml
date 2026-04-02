@@ -18,7 +18,7 @@ wallet:
 
 analysis:
   ga:
-    tag: G-30MY2D0MMM
+    tag: "#TODO"
 
 chain:
   name: Ethereum Network

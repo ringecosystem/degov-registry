@@ -37,81 +37,107 @@ ethereum:
     features:
       - fulfill
   - config: daos/instadapp-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/radworks-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/compound-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/gitcoin-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/threshold-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/obol-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/adventure-gold-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/ampleforth-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/antfarm-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/anvil-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/bytom-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/cryptex-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/dive-staking-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/dope-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/flayer-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/hifi-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/idle-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/kroma-security-council-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/lightchain-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/ondo-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/openscan-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/public-nouns-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/reflexer-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/silo-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/sudoswap-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/union-dao.yml
+    state: draft
     features:
       - fulfill
 
@@ -144,6 +170,7 @@ base:
     features:
       - fulfill
   - config: daos/fame-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/virtuals-dao.yml
@@ -158,9 +185,11 @@ arbitrum:
     features:
       - fulfill
   - config: daos/content-guild-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/opendollar-daoy.yml
+    state: draft
     features:
       - fulfill
 
@@ -176,13 +205,16 @@ lisk:
 
 blast:
   - config: daos/ring-protocol-dao.yml
+    state: draft
     features:
       - fulfill
 
 bnb-smart-chain:
   - config: daos/ark-dao.yml
+    state: draft
     features:
       - fulfill
   - config: daos/bsc-dao.yml
+    state: draft
     features:
       - fulfill
