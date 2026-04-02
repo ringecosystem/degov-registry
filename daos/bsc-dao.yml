@@ -35,9 +35,9 @@ chain:
     logo: https://assets.coingecko.com/coins/images/825/standard/bnb-icon2_2x.png
 
 indexer:
-  endpoint: # TODO
+  endpoint: "#TODO"
   startBlock: 37959559
-  gateway: # TODO
+  gateway: "#TODO"
 
 aiAgent:
   endpoint: https://agent.degov.ai

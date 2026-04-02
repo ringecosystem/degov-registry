@@ -231,8 +231,15 @@
       "description": "Indexer configuration",
       "properties": {
         "endpoint": {
-          "type": ["string", "null"],
-          "format": "uri",
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "const": "#TODO"
+            }
+          ],
           "description": "GraphQL endpoint for the indexer"
         },
         "startBlock": {
@@ -245,8 +252,15 @@
           "description": "RPC endpoint for indexing (can be WebSocket or HTTP)"
         },
         "gateway": {
-          "type": ["string", "null"],
-          "format": "uri",
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "const": "#TODO"
+            }
+          ],
           "description": "Archive gateway URL"
         }
       },
