@@ -1,16 +1,17 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
-description:
+name: Ondo Finance
+code: ondo-dao
+logo: https://unavatar.io/x/OndoFoundation
+siteUrl: https://ondo.degov.ai
+offChainDiscussionUrl: https://discord.com/invite/ondofinance
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/ondo-dao.yml
+description: Ondo brings institutional-grade financial products onchain and enables ONDO holders to participate in protocol governance.
 
 links:
-  coingecko:
-  website:
-  twitter: https://twitter.com/OndoFoundation
-  telegram:
+  coingecko: https://www.coingecko.com/en/coins/ondo-finance
+  website: https://ondo.finance/
+  twitter: https://x.com/OndoFoundation
+  discord: https://discord.com/invite/ondofinance
+  telegram: # TODO
 
 
 analysis:
@@ -32,8 +33,8 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
-  startBlock:
+  endpoint: # TODO
+  startBlock: 14670968
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

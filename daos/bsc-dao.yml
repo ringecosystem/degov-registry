@@ -12,7 +12,7 @@ links:
   twitter: https://x.com/BNBCHAIN
   telegram: https://t.me/BNBchaincommunity
   discord: https://discord.com/invite/bnbchain
-  github:
+  github: # TODO
 
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
@@ -37,9 +37,9 @@ chain:
 
 
 indexer:
-  endpoint:
-  startBlock: 0
-  gateway:
+  endpoint: # TODO
+  startBlock: 37959559
+  gateway: # TODO
 
 aiAgent:
   endpoint: https://agent.degov.ai

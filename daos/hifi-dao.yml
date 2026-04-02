@@ -1,18 +1,18 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
-description:
+name: Hifi Finance
+code: hifi-dao
+logo: https://unavatar.io/x/HifiFinance
+siteUrl: https://hifi.degov.ai
+offChainDiscussionUrl: https://forum.hifi.finance/
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/hifi-dao.yml
+description: Hifi is a fixed-rate, fixed-term lending protocol built on the Ethereum blockchain.
 
 links:
-  coingecko:
+  coingecko: https://www.coingecko.com/en/coins/hifi-finance
   website: https://hifi.finance/
-  twitter: https://twitter.com/HifiFinance
+  twitter: https://x.com/HifiFinance
   discord: https://discord.com/invite/wBCBYqsSqw
   github: https://github.com/hifi-finance
-  telegram:
+  telegram: # TODO
 
 
 analysis:
@@ -34,8 +34,8 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
-  startBlock:
+  endpoint: # TODO
+  startBlock: 16143034
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

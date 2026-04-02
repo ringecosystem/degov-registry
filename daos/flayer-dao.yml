@@ -1,15 +1,15 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
+name: Flayer
+code: flayer-dao
+logo: https://unavatar.io/x/flaunchgg
+siteUrl: https://flayer.degov.ai
+offChainDiscussionUrl: https://discord.com/invite/flaunch
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/flayer-dao.yml
 description: FLAY powers protocols built by Flayer Labs including the Flaunch.gg protocol - a memecoin launchpad built on Base and powered by Uniswap V4.
 
 links:
-  coingecko:
+  coingecko: # TODO
   website: https://flaunch.gg/
-  twitter: https://twitter.com/flaunchgg
+  twitter: https://x.com/flaunchgg
   discord: https://discord.com/invite/flaunch
   telegram: https://t.me/flaunchgg
 
@@ -32,8 +32,8 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
-  startBlock:
+  endpoint: # TODO
+  startBlock: 20769913
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

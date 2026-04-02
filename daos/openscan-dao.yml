@@ -1,16 +1,16 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
-description: DAO to manage openscan
+name: OpenScan
+code: openscan-dao
+logo: https://unavatar.io/x/openscan_eth
+siteUrl: https://openscan.degov.ai
+offChainDiscussionUrl: https://x.com/openscan_eth
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/openscan-dao.yml
+description: OpenScan is an AI-powered blockchain explorer platform built to help networks and users navigate onchain activity more effectively.
 
 links:
-  coingecko:
-  website: http://openscan.eth/
-  twitter: https://twitter.com/openscan_eth
-  telegram:
+  coingecko: # TODO
+  website: https://www.openscan.ai/
+  twitter: https://x.com/openscan_eth
+  telegram: # TODO
 
 
 analysis:
@@ -32,8 +32,8 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
-  startBlock:
+  endpoint: # TODO
+  startBlock: 24178394
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

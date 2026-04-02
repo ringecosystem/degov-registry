@@ -1,18 +1,18 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
+name: Ring Protocol
+code: ring-protocol-dao
+logo: https://unavatar.io/x/ProtocolRing
+siteUrl: https://ring-protocol.degov.ai
+offChainDiscussionUrl: https://discord.com/invite/TefBNDZBQP
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/ring-protocol-dao.yml
 description: Ring Protocol is a decentralized protocol for automated liquidity provision on Blast.
 
 links:
-  coingecko:
+  coingecko: # TODO
   website: https://ring.exchange/
-  twitter: https://twitter.com/ProtocolRing
-  telegram:
+  twitter: https://x.com/ProtocolRing
+  telegram: # TODO
   discord: https://discord.com/invite/TefBNDZBQP
-  github:
+  github: # TODO
 
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
@@ -23,12 +23,12 @@ analysis:
 
 chain:
   name: Blast
-  id:
-  logo:
+  id: 81457
+  logo: https://blast.io/favicon.ico
   rpcs:
-    -
+    - https://rpc.blast.io
   explorers:
-    -
+    - https://blastscan.io
   nativeToken:
     symbol: ETH
     priceId: ethereum
@@ -36,9 +36,9 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
-  startBlock:
-  gateway:
+  endpoint: # TODO
+  startBlock: 169831
+  gateway: https://v2.archive.subsquid.io/network/blast-mainnet
 
 aiAgent:
   endpoint: https://agent.degov.ai

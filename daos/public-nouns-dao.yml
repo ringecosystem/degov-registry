@@ -1,17 +1,17 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
+name: Public Nouns
+code: public-nouns-dao
+logo: https://unavatar.io/x/publicnouns
+siteUrl: https://publicnouns.degov.ai
+offChainDiscussionUrl: https://discord.com/mBPTVBnmbY
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/public-nouns-dao.yml
 description: Public Nouns is an experimental new way to support public goods.
 
 links:
-  coingecko:
-  website:
-  twitter: https://twitter.com/publicnouns
+  coingecko: # TODO
+  website: https://www.publicnouns.wtf/
+  twitter: https://x.com/publicnouns
   discord: https://discord.com/mBPTVBnmbY
-  telegram:
+  telegram: # TODO
 
 
 analysis:
@@ -33,8 +33,8 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
-  startBlock:
+  endpoint: # TODO
+  startBlock: 15614289
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

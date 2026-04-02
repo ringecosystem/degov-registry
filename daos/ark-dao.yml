@@ -1,6 +1,6 @@
 name: ARK DAO
 code: ark-dao
-logo: https://www.arkdefai.com/logo.png
+logo: https://unavatar.io/x/ark_defai
 siteUrl: https://www.ark.degov.ai
 offChainDiscussionUrl: https://t.me/arkdefai
 editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/ark-dao.yml
@@ -8,6 +8,7 @@ description: A place for ARK holders to vote on proposal to guide the direction 
 
 links:
   website: https://www.arkdefai.com
+  twitter: https://x.com/ark_defai
   telegram: https://t.me/arkdefai
 
 wallet:
@@ -32,9 +33,9 @@ chain:
     logo: https://assets.coingecko.com/coins/images/825/standard/bnb-icon2_2x.png
 
 indexer:
-  endpoint:
+  endpoint: # TODO
   startBlock: 58915375
-  gateway:
+  gateway: # TODO
 
 aiAgent:
   endpoint: https://agent.degov.ai

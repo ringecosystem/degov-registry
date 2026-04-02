@@ -1,18 +1,18 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
+name: OpenDollar
+code: opendollar-dao
+logo: https://unavatar.io/x/open_dollar
+siteUrl: https://opendollar.degov.ai
+offChainDiscussionUrl: https://x.com/open_dollar
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/opendollar-daoy.yml
 description: Borrow against Liquid Staking Tokens & Arbitrum native assets with our flexible and transparently over-collateralized stablecoin
 
 links:
-  coingecko:
-  website: https://opendollar.com/
-  twitter: https://twitter.com/open_dollar
-  telegram:
-  discord:
-  github:
+  coingecko: # TODO
+  website: https://www.opendollar.com/
+  twitter: https://x.com/open_dollar
+  telegram: # TODO
+  discord: # TODO
+  github: # TODO
 
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
@@ -36,8 +36,8 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
-  startBlock:
+  endpoint: # TODO
+  startBlock: 171166901
   gateway: https://v2.archive.subsquid.io/network/arbitrum-one
 
 aiAgent:

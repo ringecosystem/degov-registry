@@ -1,16 +1,16 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
-description: Governance DAO for sudoAMM protocol
+name: sudoswap
+code: sudoswap-dao
+logo: https://unavatar.io/x/sudoswap
+siteUrl: https://sudoswap.degov.ai
+offChainDiscussionUrl: https://x.com/sudoswap
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/sudoswap-dao.yml
+description: Governance DAO for the sudoAMM protocol and sudoswap ecosystem.
 
 links:
-  coingecko:
-  website:
-  twitter: https://twitter.com/sudoswap
-  telegram:
+  coingecko: # TODO
+  website: https://www.sudoswap.xyz/
+  twitter: https://x.com/sudoswap
+  telegram: # TODO
 
 
 analysis:
@@ -32,8 +32,8 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
-  startBlock:
+  endpoint: # TODO
+  startBlock: 16521290
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

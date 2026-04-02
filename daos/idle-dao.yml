@@ -1,15 +1,15 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
+name: Idle Finance
+code: idle-dao
+logo: https://unavatar.io/x/idlefinance
+siteUrl: https://idle.degov.ai
+offChainDiscussionUrl: https://gov.idle.finance/
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/idle-dao.yml
 description: Idle Finance is a decentralized protocol dedicated to bringing automatic asset allocation and yield aggregation to the interest-bearing tokens economy.
 
 links:
-  coingecko:
-  website:
-  twitter: https://twitter.com/idlefinance
+  coingecko: # TODO
+  website: https://idle.finance/
+  twitter: https://x.com/idlefinance
   discord: https://discord.gg/mpySAJp
   telegram: https://t.me/idlefinance
 
@@ -33,8 +33,8 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
-  startBlock:
+  endpoint: # TODO
+  startBlock: 11333729
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

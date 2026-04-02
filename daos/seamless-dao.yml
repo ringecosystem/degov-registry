@@ -37,7 +37,7 @@ chain:
 
 indexer:
   endpoint: https://indexer.degov.ai/seamless-dao/graphql
-  startBlock: 3238235
+  startBlock: 5842016
   gateway: https://v2.archive.subsquid.io/network/base-mainnet
 
 aiAgent:

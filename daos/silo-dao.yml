@@ -1,16 +1,16 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
+name: Silo Finance
+code: silo-dao
+logo: https://unavatar.io/x/SiloFinance
+siteUrl: https://silo.degov.ai
+offChainDiscussionUrl: https://gov.silo.finance/
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/silo-dao.yml
 description: Silo is a non-custodial lending protocol to borrow any crypto asset with another.
 
 links:
-  coingecko:
-  website:
-  twitter:
-  telegram:
+  coingecko: # TODO
+  website: https://silo.finance/
+  twitter: https://x.com/SiloFinance
+  telegram: # TODO
 
 
 analysis:
@@ -32,8 +32,8 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
-  startBlock:
+  endpoint: # TODO
+  startBlock: 13716347
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

@@ -1,15 +1,15 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
+name: Lightchain AI
+code: lightchain-dao
+logo: https://unavatar.io/x/LightchainAI
+siteUrl: https://lightchain.degov.ai
+offChainDiscussionUrl: https://discord.com/lightchain
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/lightchain-dao.yml
 description: Lightchain AI DAO governs and scales Lightchain’s open network, enabling token holders to propose, discuss, and vote on upgrades, funding, and partnerships.
 
 links:
-  coingecko:
+  coingecko: # TODO
   website: https://lightchain.ai/
-  twitter: https://twitter.com/LightchainAI
+  twitter: https://x.com/LightchainAI
   discord: https://discord.com/lightchain
   
 analysis:
@@ -31,8 +31,8 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
-  startBlock:
+  endpoint: # TODO
+  startBlock: 24321042
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

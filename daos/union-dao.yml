@@ -1,17 +1,18 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl: https://snapshot.org/#/agld-dao.eth
-editLink:
+name: Union
+code: union-dao
+logo: https://unavatar.io/x/unionprotocol
+siteUrl: https://union.degov.ai
+offChainDiscussionUrl: https://discord.gg/DWF29rjRJH
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/union-dao.yml
 description: Credit is more than a tool for speculation, it’s the mechanism by which money turns into productive capital.
 
 links:
-  coingecko:
-  website: https://www.adventuregold.org/
-  twitter: https://twitter.com/AdventureLayer
-  discord: https://discord.com/invite/WMXwkcGnNk
-  telegram:
+  coingecko: https://www.coingecko.com/en/coins/union-finance
+  website: https://union.finance/
+  twitter: https://x.com/unionprotocol
+  discord: https://discord.gg/DWF29rjRJH
+  telegram: # TODO
+  github: https://github.com/unioncredit
 
 
 analysis:
@@ -33,8 +34,8 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
-  startBlock:
+  endpoint: # TODO
+  startBlock: 13816628
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:

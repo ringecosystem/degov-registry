@@ -1,17 +1,17 @@
-name:
-code:
-logo:
-siteUrl:
-offChainDiscussionUrl:
-editLink:
+name: Reflexer
+code: reflexer-dao
+logo: https://unavatar.io/x/reflexerfinance
+siteUrl: https://reflexer.degov.ai
+offChainDiscussionUrl: https://community.reflexer.finance/
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/reflexer-dao.yml
 description: Governs the few remaining mutable parameters in the RAI protocol as well as the protocol treasury.
 
 links:
-  coingecko:
-  website:
-  twitter: https://twitter.com/reflexerfinance
+  coingecko: https://www.coingecko.com/en/coins/reflexer-ungovernance-token
+  website: https://reflexer.finance/
+  twitter: https://x.com/reflexerfinance
   discord: https://discord.com/invite/AXwXHGsTaJ
-  telegram:
+  telegram: # TODO
 
 
 analysis:
@@ -33,8 +33,8 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
-  startBlock:
+  endpoint: # TODO
+  startBlock: 11848366
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:
