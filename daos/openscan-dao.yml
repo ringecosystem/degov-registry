@@ -7,10 +7,8 @@ editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/opensca
 description: OpenScan is an AI-powered blockchain explorer platform built to help networks and users navigate onchain activity more effectively.
 
 links:
-  coingecko: # TODO
   website: https://www.openscan.ai/
   twitter: https://x.com/openscan_eth
-  telegram: # TODO
 
 
 analysis:

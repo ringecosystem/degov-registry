@@ -7,7 +7,6 @@ editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/flayer-
 description: FLAY powers protocols built by Flayer Labs including the Flaunch.gg protocol - a memecoin launchpad built on Base and powered by Uniswap V4.
 
 links:
-  coingecko: # TODO
   website: https://flaunch.gg/
   twitter: https://x.com/flaunchgg
   discord: https://discord.com/invite/flaunch

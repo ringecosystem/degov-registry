@@ -7,10 +7,8 @@ editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/kroma-s
 description: The Kroma Security Council, a multisig-based mechanism with at least 8 parties, holds two key roles, safeguarding assets and proposing/voting on Layer 1(Ethereum) and Layer 2(Kroma) contract upgrades, serving as the final security layer.
 
 links:
-  coingecko: # TODO
   website: https://www.kroma.network/
   twitter: https://x.com/kroma_network
-  telegram: # TODO
 
 
 analysis:

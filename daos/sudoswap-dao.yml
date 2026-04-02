@@ -7,10 +7,8 @@ editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/sudoswa
 description: Governance DAO for the sudoAMM protocol and sudoswap ecosystem.
 
 links:
-  coingecko: # TODO
   website: https://www.sudoswap.xyz/
   twitter: https://x.com/sudoswap
-  telegram: # TODO
 
 
 analysis:

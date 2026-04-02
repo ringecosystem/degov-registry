@@ -12,7 +12,6 @@ links:
   twitter: https://x.com/HifiFinance
   discord: https://discord.com/invite/wBCBYqsSqw
   github: https://github.com/hifi-finance
-  telegram: # TODO
 
 
 analysis:
@@ -34,7 +33,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: # TODO
+  endpoint: 
   startBlock: 16143034
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 

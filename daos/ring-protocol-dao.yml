@@ -7,12 +7,9 @@ editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/ring-pr
 description: Ring Protocol is a decentralized protocol for automated liquidity provision on Blast.
 
 links:
-  coingecko: # TODO
   website: https://ring.exchange/
   twitter: https://x.com/ProtocolRing
-  telegram: # TODO
   discord: https://discord.com/invite/TefBNDZBQP
-  github: # TODO
 
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d

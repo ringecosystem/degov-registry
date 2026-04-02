@@ -7,10 +7,8 @@ editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/silo-da
 description: Silo is a non-custodial lending protocol to borrow any crypto asset with another.
 
 links:
-  coingecko: # TODO
   website: https://silo.finance/
   twitter: https://x.com/SiloFinance
-  telegram: # TODO
 
 
 analysis:
