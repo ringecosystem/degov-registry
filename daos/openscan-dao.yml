@@ -10,7 +10,6 @@ links:
   website: https://www.openscan.ai/
   twitter: https://x.com/openscan_eth
 
-
 analysis:
   ga:
     tag: G-30MY2D0MMM
@@ -36,7 +35,6 @@ indexer:
 
 aiAgent:
   endpoint: https://agent.degov.ai
-
 
 contracts:
   governor: "0x2cb9e4d600c52832a43e201Dc3535E29300Ea212"

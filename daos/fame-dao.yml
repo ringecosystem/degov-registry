@@ -34,7 +34,7 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
+  endpoint: # TODO
   startBlock: 24932627
   gateway: https://v2.archive.subsquid.io/network/base-mainnet
 

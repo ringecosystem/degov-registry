@@ -34,7 +34,6 @@ chain:
     decimals: 18
     logo: https://assets.coingecko.com/coins/images/825/standard/bnb-icon2_2x.png
 
-
 indexer:
   endpoint: # TODO
   startBlock: 37959559

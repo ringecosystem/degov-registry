@@ -12,7 +12,6 @@ links:
   discord: https://discord.com/invite/6YuMk7zXsV
   telegram: https://t.me/antfarmfinance
 
-
 analysis:
   ga:
     tag: G-30MY2D0MMM
@@ -32,13 +31,12 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
+  endpoint: # TODO
   startBlock: 16421259
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:
   endpoint: https://agent.degov.ai
-
 
 contracts:
   governor: "0xD63123527551F037fAAc74bf5fDA5B71569cf5af"

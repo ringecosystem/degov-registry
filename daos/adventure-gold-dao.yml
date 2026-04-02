@@ -30,13 +30,12 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
+  endpoint: # TODO
   startBlock: 21390346
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:
   endpoint: https://agent.degov.ai
-
 
 contracts:
   governor: "0x7ae22bebF28366c328d5558E6Fad935487299DfE"

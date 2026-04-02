@@ -12,7 +12,6 @@ links:
   telegram: https://t.me/Ampleforth
   github: https://github.com/ampleforth
 
-
 analysis:
   ga:
     tag: G-30MY2D0MMM
@@ -32,13 +31,12 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint:
+  endpoint: # TODO
   startBlock: 12141775
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
 aiAgent:
   endpoint: https://agent.degov.ai
-
 
 contracts:
   governor: "0x8a994C6F55Be1fD2B4d0dc3B8f8F7D4E3a2dA8F1"

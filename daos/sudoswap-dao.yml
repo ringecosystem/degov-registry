@@ -10,7 +10,6 @@ links:
   website: https://www.sudoswap.xyz/
   twitter: https://x.com/sudoswap
 
-
 analysis:
   ga:
     tag: G-30MY2D0MMM
@@ -36,7 +35,6 @@ indexer:
 
 aiAgent:
   endpoint: https://agent.degov.ai
-
 
 contracts:
   governor: "0x6853f8865BA8e9FBd9C8CCE3155ce5023fB7EEB0"

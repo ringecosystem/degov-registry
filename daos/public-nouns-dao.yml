@@ -11,7 +11,6 @@ links:
   twitter: https://x.com/publicnouns
   discord: https://discord.com/mBPTVBnmbY
 
-
 analysis:
   ga:
     tag: G-30MY2D0MMM
@@ -37,7 +36,6 @@ indexer:
 
 aiAgent:
   endpoint: https://agent.degov.ai
-
 
 contracts:
   governor: "0x2BbEbFECA0fEbde8C70EF8501C991f3AB2095862"

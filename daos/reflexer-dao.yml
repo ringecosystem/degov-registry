@@ -12,7 +12,6 @@ links:
   twitter: https://x.com/reflexerfinance
   discord: https://discord.com/invite/AXwXHGsTaJ
 
-
 analysis:
   ga:
     tag: G-30MY2D0MMM
@@ -38,7 +37,6 @@ indexer:
 
 aiAgent:
   endpoint: https://agent.degov.ai
-
 
 contracts:
   governor: "0x7a6BBe7fDd793CC9ab7e0fc33605FCd2D19371E8"
