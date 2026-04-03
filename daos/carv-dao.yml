@@ -36,7 +36,7 @@ chain:
 
 indexer:
   endpoint: https://indexer.degov.ai/carv-dao/graphql
-  startBlock: 28738113
+  startBlock: 27998801
   gateway: https://v2.archive.subsquid.io/network/base-mainnet
 
 aiAgent:

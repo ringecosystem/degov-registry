@@ -1,0 +1,47 @@
+name: ARK DAO
+code: ark-dao
+logo: https://unavatar.io/x/ark_defai
+siteUrl: https://www.ark.degov.ai
+offChainDiscussionUrl: https://t.me/arkdefai
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/ark-dao.yml
+description: A place for ARK holders to vote on proposal to guide the direction of the dao.
+
+links:
+  website: https://www.arkdefai.com
+  twitter: https://x.com/ark_defai
+  telegram: https://t.me/arkdefai
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+analysis:
+  ga:
+    tag: "#TODO"
+
+chain:
+  name: BNB Smart Chain
+  id:  56
+  logo: https://pbs.twimg.com/profile_images/2037267603853647872/OucNzNYm_400x400.jpg
+  rpcs:
+    - https://bsc-rpc.publicnode.com
+  explorers:
+    - https://bscscan.com
+  nativeToken:
+    symbol: BNB
+    priceId: binancecoin
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/825/standard/bnb-icon2_2x.png
+
+indexer:
+  endpoint: "#TODO"
+  startBlock: 58915375
+  gateway: "#TODO"
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+contracts:
+  governor: "0xd069d9b52CAD356edc41365C9140184A02095E5B"
+  governorToken:
+    address: "0xF5E3D1290FDBFC50ec436f021ad516D0Bcac5d28"
+    standard: ERC721

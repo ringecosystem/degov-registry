@@ -231,8 +231,15 @@
       "description": "Indexer configuration",
       "properties": {
         "endpoint": {
-          "type": "string",
-          "format": "uri",
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "const": "#TODO"
+            }
+          ],
           "description": "GraphQL endpoint for the indexer"
         },
         "startBlock": {
@@ -245,8 +252,15 @@
           "description": "RPC endpoint for indexing (can be WebSocket or HTTP)"
         },
         "gateway": {
-          "type": "string",
-          "format": "uri",
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "uri"
+            },
+            {
+              "const": "#TODO"
+            }
+          ],
           "description": "Archive gateway URL"
         }
       },
@@ -412,9 +426,9 @@
           "properties": {
             "tag": {
               "type": "string",
-              "pattern": "^G-[A-Z0-9]{10}$",
-              "description": "Google Analytics 4 measurement ID (format: G-XXXXXXXXXX)",
-              "examples": ["G-ABCDEFGHIJ"]
+              "pattern": "^(G-[A-Z0-9]{10}|#TODO)$",
+              "description": "Google Analytics 4 measurement ID (format: G-XXXXXXXXXX) or #TODO for draft DAOs",
+              "examples": ["G-ABCDEFGHIJ", "#TODO"]
             }
           },
           "required": ["tag"],
@@ -430,7 +444,6 @@
     "logo",
     "siteUrl",
     "description",
-    "wallet",
     "chain",
     "indexer",
     "aiAgent",

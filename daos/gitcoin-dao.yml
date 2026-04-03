@@ -1,0 +1,50 @@
+name: Gitcoin
+code: gitcoin-dao
+logo: https://pbs.twimg.com/profile_images/2029234406968475648/Is8k6wTY_400x400.jpg
+siteUrl: https://gitcoin.degov.ai
+offChainDiscussionUrl: https://gov.gitcoin.co
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/gitcoin-dao.yml
+description: Gitcoin DAO is the decentralized autonomous organization that governs the Gitcoin ecosystem, which supports open-source software development through funding and collaboration.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/gitcoin
+  website: https://gitcoin.co
+  twitter: https://x.com/gitcoin
+  discord: https://discord.com/invite/gitcoin
+  github: https://github.com/gitcoinco
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+analysis:
+  ga:
+    tag: "#TODO"
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint: "#TODO"
+  startBlock: 12422079
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+aiAgent:
+  endpoint: https://agent.degov.ai
+
+contracts:
+  governor: "0x9D4C63565D5618310271bF3F3c01b2954C1D1639"
+  governorToken:
+    address: "0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F"
+    standard: ERC20
+  timeLock: "0x57a8865cfB1eCEf7253c27da6B4BC3dAEE5Be518"
