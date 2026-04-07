@@ -1,0 +1,160 @@
+name: DAO config request
+description: Request a new DAO configuration or update an existing one in the DeGov registry
+title: "[DAO Config] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form when you want maintainers to add or update a DAO entry in this registry.
+
+        If you already know the YAML format, you can also open a pull request directly.
+        New onboarding requests should normally start with `state: draft`, then move to `state: active` after sync and verification.
+
+        Reference:
+        - `README.md`
+        - `docs/spec/20260403__registry-contribution-guide.md`
+
+  - type: input
+    id: dao-name
+    attributes:
+      label: DAO name
+      description: The display name that should appear in DeGov Square
+      placeholder: Example DAO
+    validations:
+      required: true
+
+  - type: input
+    id: dao-code
+    attributes:
+      label: DAO code
+      description: Stable identifier used in the config file name and app routing
+      placeholder: example-dao
+    validations:
+      required: true
+
+  - type: input
+    id: network
+    attributes:
+      label: Network
+      description: The network group to add under `config.yml`
+      placeholder: base
+    validations:
+      required: true
+
+  - type: input
+    id: chain-id
+    attributes:
+      label: Chain ID
+      placeholder: "8453"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: Request type
+      options:
+        - New DAO onboarding
+        - Update existing DAO config
+    validations:
+      required: true
+
+  - type: dropdown
+    id: preferred-state
+    attributes:
+      label: Initial registry state
+      description: New DAO onboarding should usually start as draft
+      options:
+        - draft
+        - active
+        - inactive
+    validations:
+      required: true
+
+  - type: input
+    id: governance-site
+    attributes:
+      label: Governance site URL
+      placeholder: https://gov.example.org
+    validations:
+      required: true
+
+  - type: input
+    id: discussion-url
+    attributes:
+      label: Off-chain discussion URL
+      placeholder: https://forum.example.org
+    validations:
+      required: false
+
+  - type: textarea
+    id: dao-description
+    attributes:
+      label: DAO description
+      description: A short description for the DAO profile page
+      placeholder: Describe the DAO and its governance purpose
+    validations:
+      required: true
+
+  - type: textarea
+    id: contracts
+    attributes:
+      label: Governance contracts
+      description: Include governor, governance token, token standard, and timelock if applicable
+      placeholder: |
+        governor: 0x...
+        governorToken.address: 0x...
+        governorToken.standard: ERC20
+        timeLock: 0x...
+    validations:
+      required: true
+
+  - type: textarea
+    id: chain-access
+    attributes:
+      label: Chain access details
+      description: Include RPC URL(s), explorer URL(s), indexer endpoint, and start block
+      placeholder: |
+        rpcs:
+          - https://...
+        explorers:
+          - https://...
+        indexer.endpoint: https://...
+        indexer.startBlock: 123456
+    validations:
+      required: true
+
+  - type: textarea
+    id: branding
+    attributes:
+      label: Branding and links
+      description: Include logo URLs, optional banners, and social links if available
+      placeholder: |
+        logo: https://...
+        theme.logoDark: https://...
+        theme.logoLight: https://...
+        theme.banner: https://...
+        links.website: https://...
+        links.twitter: https://...
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra-notes
+    attributes:
+      label: Extra notes
+      description: Add domains, tags, feature flags, Safe links, apps, or anything maintainers should know
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I reviewed the registry contribution guide and provided the required DAO details.
+          required: true
+        - label: "I understand new onboarding requests should normally start with `state: draft`."
+          required: true
+        - label: I may open a pull request directly if I want to submit the YAML files myself.
+          required: false
