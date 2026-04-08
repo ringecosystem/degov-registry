@@ -12,10 +12,6 @@ links:
   twitter: https://x.com/reflexerfinance
   discord: https://discord.com/invite/AXwXHGsTaJ
 
-analysis:
-  ga:
-    tag: "#TODO"
-
 chain:
   name: Ethereum Network
   id: 1
@@ -31,12 +27,10 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: "#TODO"
+  endpoint: https://indexer.degov.ai/reflexer-dao/graphql
   startBlock: 11848366
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x7a6BBe7fDd793CC9ab7e0fc33605FCd2D19371E8"

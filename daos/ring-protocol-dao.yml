@@ -14,10 +14,6 @@ links:
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
-analysis:
-  ga:
-    tag: "#TODO"
-
 chain:
   name: Blast
   id: 81457
@@ -33,12 +29,10 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: "#TODO"
+  endpoint: https://indexer.degov.ai/ring-protocol-dao/graphql
   startBlock: 169831
-  gateway: https://v2.archive.subsquid.io/network/blast-mainnet
+  gateway: https://v2.archive.subsquid.io/network/blast-l2-mainnet
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0xd2F37FF7eCfAcEB4De1A2bAcb8D9C539A4D6a943"

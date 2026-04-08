@@ -12,10 +12,6 @@ links:
   discord: https://discord.gg/esfFn3dedz
   github: https://github.com/AcronymFoundation/anvil-contracts
 
-analysis:
-  ga:
-    tag: "#TODO"
-
 chain:
   name: Ethereum Network
   id: 1
@@ -31,12 +27,10 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: "#TODO"
+  endpoint: https://indexer.degov.ai/anvil-dao/graphql
   startBlock: 20014135
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x00e83d0698FAf01BD080A4Dd2927e6aB7C4874c9"

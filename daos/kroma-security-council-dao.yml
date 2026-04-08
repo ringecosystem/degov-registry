@@ -10,10 +10,6 @@ links:
   website: https://www.kroma.network/
   twitter: https://x.com/kroma_network
 
-analysis:
-  ga:
-    tag: "#TODO"
-
 chain:
   name: Ethereum Network
   id: 1
@@ -29,12 +25,10 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: "#TODO"
+  endpoint: https://indexer.degov.ai/kroma-security-council-dao/graphql
   startBlock: 18067276
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 
 contracts:

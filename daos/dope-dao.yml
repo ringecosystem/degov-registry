@@ -13,10 +13,6 @@ links:
   telegram: https://t.me/DopeWorldGG
 
 
-analysis:
-  ga:
-    tag: "#TODO"
-
 chain:
   name: Ethereum Network
   id: 1
@@ -32,12 +28,10 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: "#TODO"
+  endpoint: https://indexer.degov.ai/dope-dao/graphql
   startBlock: 13136082
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0xDBd38F7e739709fe5bFaE6cc8eF67C3820830E0C"

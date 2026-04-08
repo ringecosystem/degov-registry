@@ -10,10 +10,6 @@ links:
   website: https://silo.finance/
   twitter: https://x.com/SiloFinance
 
-analysis:
-  ga:
-    tag: "#TODO"
-
 chain:
   name: Ethereum Network
   id: 1
@@ -29,12 +25,10 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: "#TODO"
+  endpoint: https://indexer.degov.ai/silo-dao/graphql
   startBlock: 13716347
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0xA89163F7B2D68A8fbA6Ca36BEEd32Bd4f3EeAf61"

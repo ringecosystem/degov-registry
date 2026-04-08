@@ -10,10 +10,6 @@ links:
   website: https://www.sudoswap.xyz/
   twitter: https://x.com/sudoswap
 
-analysis:
-  ga:
-    tag: "#TODO"
-
 chain:
   name: Ethereum Network
   id: 1
@@ -29,12 +25,10 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: "#TODO"
+  endpoint: https://indexer.degov.ai/sudoswap-dao/graphql
   startBlock: 16521290
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x6853f8865BA8e9FBd9C8CCE3155ce5023fB7EEB0"

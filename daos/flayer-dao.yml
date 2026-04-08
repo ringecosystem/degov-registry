@@ -12,10 +12,6 @@ links:
   discord: https://discord.com/invite/flaunch
   telegram: https://t.me/flaunchgg
 
-analysis:
-  ga:
-    tag: "#TODO"
-
 chain:
   name: Ethereum Network
   id: 1
@@ -31,12 +27,10 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: "#TODO"
+  endpoint: https://indexer.degov.ai/flayer-dao/graphql
   startBlock: 20769913
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 
 contracts:

@@ -13,10 +13,6 @@ links:
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
-analysis:
-  ga:
-    tag: "#TODO"
-
 chain:
   name: Arbitrum
   id: 42161
@@ -32,12 +28,10 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: "#TODO"
+  endpoint: https://indexer.degov.ai/opendollar-dao/graphql
   startBlock: 171166901
   gateway: https://v2.archive.subsquid.io/network/arbitrum-one
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0xf704735CE81165261156b41D33AB18a08803B86F"

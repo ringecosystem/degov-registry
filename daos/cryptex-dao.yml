@@ -12,10 +12,6 @@ links:
   telegram: https://t.me/cryptexfinance
   discord: https://discord.gg/TDyhBNEndh
 
-analysis:
-  ga:
-    tag: "#TODO"
-
 chain:
   name: Ethereum Network
   id: 1
@@ -31,12 +27,10 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: "#TODO"
+  endpoint: https://indexer.degov.ai/cryptex-dao/graphql
   startBlock: 12183936
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x874C5D592AfC6803c3DD60d6442357879F196d5b"

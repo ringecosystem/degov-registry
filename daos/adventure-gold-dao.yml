@@ -11,10 +11,6 @@ links:
   twitter: https://x.com/AdventureLayer
   discord: https://discord.com/invite/WMXwkcGnNk
 
-analysis:
-  ga:
-    tag: "#TODO"
-
 chain:
   name: Ethereum Network
   id: 1
@@ -30,12 +26,10 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: "#TODO"
+  endpoint: https://indexer.degov.ai/adventure-gold-dao/graphql
   startBlock: 21390346
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x7ae22bebF28366c328d5558E6Fad935487299DfE"

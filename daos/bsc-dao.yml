@@ -16,10 +16,6 @@ links:
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
-analysis:
-  ga:
-    tag: "#TODO"
-
 chain:
   name: BNB Smart Chain
   id:  56
@@ -35,12 +31,10 @@ chain:
     logo: https://assets.coingecko.com/coins/images/825/standard/bnb-icon2_2x.png
 
 indexer:
-  endpoint: "#TODO"
+  endpoint: https://indexer.degov.ai/bnb-chain-dao/graphql
   startBlock: 37959559
-  gateway: "#TODO"
+  gateway: https://v2.archive.subsquid.io/network/binance-mainnet
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x0000000000000000000000000000000000002004"

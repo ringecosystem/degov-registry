@@ -14,10 +14,6 @@ links:
   github: https://github.com/unioncredit
 
 
-analysis:
-  ga:
-    tag: "#TODO"
-
 chain:
   name: Ethereum Network
   id: 1
@@ -33,12 +29,10 @@ chain:
     logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
 
 indexer:
-  endpoint: "#TODO"
+  endpoint: https://indexer.degov.ai/union-dao/graphql
   startBlock: 13816628
   gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0xe1b3F07a9032F0d3deDf3E96c395A4Da74130f6e"
