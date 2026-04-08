@@ -37,8 +37,6 @@ indexer:
   endpoint: https://indexer.degov.ai/ring-dao-guild/graphql
   startBlock: 2639678
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x234179ae929D886fceA83a6D04af69A86134AA3B"

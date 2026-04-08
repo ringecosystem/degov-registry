@@ -39,8 +39,6 @@ indexer:
   startBlock: 28738113
   gateway: https://v2.archive.subsquid.io/network/base-mainnet
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0xe5C7Fc2B5562704902FbCF8Dfb1D36016a480612"

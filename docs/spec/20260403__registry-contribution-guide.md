@@ -104,9 +104,6 @@ indexer:
   endpoint: https://indexer.example.org/graphql
   startBlock: 123456
 
-aiAgent:
-  endpoint: https://agent.degov.ai
-
 contracts:
   governor: "0x0000000000000000000000000000000000000001"
   governorToken:
@@ -132,7 +129,6 @@ contracts:
 | `wallet` | Yes | Wallet connection settings. |
 | `chain` | Yes | Network metadata and chain access details. |
 | `indexer` | Yes | GraphQL indexer settings. |
-| `aiAgent` | Yes | AI agent endpoint used by the app. |
 | `contracts` | Yes | Governor and governance token contracts. |
 | `treasuryAssets` | No | Treasury token/NFT assets tracked for the DAO, or `null`. |
 | `safes` | No | Safe multisig wallets associated with the DAO. |
@@ -195,12 +191,6 @@ contracts:
 | `indexer.startBlock` | Yes | First block that should be indexed. |
 | `indexer.rpc` | No | Optional RPC endpoint used by the indexer. |
 | `indexer.gateway` | No | Optional archive gateway URL. |
-
-### `aiAgent`
-
-| Field | Required | Meaning |
-| --- | --- | --- |
-| `aiAgent.endpoint` | Yes | AI agent API endpoint. |
 
 ### `contracts`
 
