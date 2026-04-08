@@ -35,8 +35,6 @@ indexer:
   endpoint: https://indexer.degov.ai/kton-dao/graphql
   startBlock: 3320858
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0xaAC63c40930cCAF99603229F6381D82966b145ef"

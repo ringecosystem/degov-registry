@@ -267,19 +267,6 @@
       "required": ["endpoint", "startBlock"],
       "additionalProperties": false
     },
-    "aiAgent": {
-      "type": "object",
-      "description": "AI agent configuration",
-      "properties": {
-        "endpoint": {
-          "type": "string",
-          "format": "uri",
-          "description": "AI agent API endpoint"
-        }
-      },
-      "required": ["endpoint"],
-      "additionalProperties": false
-    },
     "contracts": {
       "type": "object",
       "description": "Smart contract addresses",
@@ -446,7 +433,6 @@
     "description",
     "chain",
     "indexer",
-    "aiAgent",
     "contracts"
   ],
   "additionalProperties": false

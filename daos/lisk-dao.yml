@@ -52,8 +52,6 @@ indexer:
   endpoint: https://indexer.degov.ai/lisk-dao/graphql
   startBlock: 568752
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x58a61b1807a7bDA541855DaAEAEe89b1DDA48568"
