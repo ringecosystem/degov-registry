@@ -42,8 +42,6 @@ indexer:
   startBlock: 116055145
   gateway: https://v2.archive.subsquid.io/network/optimism-mainnet
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0xe807f3282f3391d237BA8B9bECb0d8Ea3ba23777"

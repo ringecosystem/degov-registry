@@ -40,8 +40,6 @@ indexer:
   startBlock: 168596066
   gateway: https://v2.archive.subsquid.io/network/arbitrum-one
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x03e8f708e9C85EDCEaa6AD7Cd06824CeB82A7E68"

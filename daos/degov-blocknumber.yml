@@ -42,8 +42,6 @@ indexer:
   endpoint: https://indexer.degov.ai/demo-blocknumber-dao/graphql
   startBlock: 7754389
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x398d514611291aB0C1c7c8447589A15b4bD08E3D"

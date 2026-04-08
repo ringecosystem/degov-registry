@@ -38,8 +38,6 @@ indexer:
   endpoint: https://indexer.degov.ai/demo-no-timelock-dao/graphql
   startBlock: 5873342
 
-aiAgent:
-  endpoint: https://agent.degov.ai
 
 contracts:
   governor: "0x36BeEC8463D4601606958Fa58DB458B4f3C399fe"
