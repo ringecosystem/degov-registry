@@ -60,7 +60,7 @@
             ]
           }
         },
-        "required": ["config"],
+        "required": ["config", "state"],
         "additionalProperties": false
       }
     }

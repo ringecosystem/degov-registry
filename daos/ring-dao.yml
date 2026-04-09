@@ -44,7 +44,7 @@ chain:
 
 indexer:
   endpoint: https://indexer.degov.ai/ring-dao/graphql
-  startBlock: 4455584
+  startBlock: 3675271
 
 
 contracts:

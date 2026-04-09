@@ -1,0 +1,49 @@
+name: Union
+code: union-dao
+logo: https://unavatar.io/x/unionprotocol
+siteUrl: https://union.degov.ai
+offChainDiscussionUrl: https://discord.gg/DWF29rjRJH
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/union-dao.yml
+description: Credit is more than a tool for speculation, it’s the mechanism by which money turns into productive capital.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/union-finance
+  website: https://union.finance/
+  twitter: https://x.com/unionprotocol
+  discord: https://discord.gg/DWF29rjRJH
+  github: https://github.com/unioncredit
+
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+analysis:
+  ga:
+    tag: G-MM00QJEVBP
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint: https://indexer.degov.ai/union-dao/graphql
+  startBlock: 13816628
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+
+contracts:
+  governor: "0xe1b3F07a9032F0d3deDf3E96c395A4Da74130f6e"
+  governorToken:
+    address: "0x5Dfe42eEA70a3e6f93EE54eD9C321aF07A85535C"
+    standard: ERC20
+  timeLock: "0xBBD3321f377742c4b3fe458b270c2F271d3294D8"

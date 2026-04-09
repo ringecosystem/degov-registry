@@ -1,0 +1,48 @@
+name: BNB Chain DAO
+code: bnb-chain-dao
+logo: https://pbs.twimg.com/profile_images/2037267603853647872/OucNzNYm_400x400.jpg
+siteUrl: https://www.bnb.degov.ai
+offChainDiscussionUrl: http://t.me/bnbchaincommunity
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/bsc-dao.yml
+description: A place for BNB holders to vote on proposal to guide the direction of the dao.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/bnb
+  website: https://www.bnbchain.org
+  twitter: https://x.com/BNBCHAIN
+  telegram: https://t.me/BNBchaincommunity
+  discord: https://discord.com/invite/bnbchain
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+analysis:
+  ga:
+    tag: G-JXNLDLXTFC
+
+chain:
+  name: BNB Smart Chain
+  id:  56
+  logo: https://pbs.twimg.com/profile_images/2037267603853647872/OucNzNYm_400x400.jpg
+  rpcs:
+    - https://bsc-rpc.publicnode.com
+  explorers:
+    - https://bscscan.com
+  nativeToken:
+    symbol: BNB
+    priceId: binancecoin
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/825/standard/bnb-icon2_2x.png
+
+indexer:
+  endpoint: https://indexer.degov.ai/bnb-chain-dao/graphql
+  startBlock: 37959559
+  gateway: https://v2.archive.subsquid.io/network/binance-mainnet
+
+
+contracts:
+  governor: "0x0000000000000000000000000000000000002004"
+  governorToken:
+    address: "0x0000000000000000000000000000000000002005"
+    standard: ERC20
+  timeLock: "0x0000000000000000000000000000000000002006"

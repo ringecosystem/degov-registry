@@ -1,0 +1,48 @@
+name: Ondo Finance
+code: ondo-dao
+logo: https://unavatar.io/x/OndoFoundation
+siteUrl: https://ondo.degov.ai
+offChainDiscussionUrl: https://discord.com/invite/ondofinance
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/ondo-dao.yml
+description: Ondo brings institutional-grade financial products onchain and enables ONDO holders to participate in protocol governance.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/ondo-finance
+  website: https://ondo.finance/
+  twitter: https://x.com/OndoFoundation
+  discord: https://discord.com/invite/ondofinance
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+analysis:
+  ga:
+    tag: G-7ZSYS6EY4K
+
+chain:
+  name: Ethereum Network
+  id: 1
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  rpcs:
+    - https://ethereum-rpc.publicnode.com
+  explorers:
+    - https://etherscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint: https://indexer.degov.ai/ondo-dao/graphql
+  startBlock: 14670968
+  gateway: https://v2.archive.subsquid.io/network/ethereum-mainnet
+
+
+
+contracts:
+  governor: "0x336505EC1BcC1A020EeDe459f57581725D23465A"
+  governorToken:
+    address: "0xfAbA6f8e4a5E8Ab82F62fe7C39859FA577269BE3"
+    standard: ERC20
+  timeLock: "0x2c5898da4DF1d45EAb2B7B192a361C3b9EB18d9c"

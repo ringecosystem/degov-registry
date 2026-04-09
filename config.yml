@@ -1,84 +1,134 @@
 darwinia:
   - config: daos/ring-dao.yml
     state: active
-    features:
-      - fulfill
   - config: daos/kton-dao.yml
-    features:
-      - fulfill
+    state: active
   - config: daos/ring-dao-guild.yml
-    features:
-      - fulfill
+    state: active
 
   - config: daos/degov-no-timelock.yml
+    state: active
     tags:
       - demo
-    features:
-      - fulfill
   - config: daos/degov-blocknumber.yml
+    state: active
     tags:
       - demo
-    features:
-      - fulfill
   - config: https://demo.degov.ai/degov.yml
+    state: active
     domains:
       - demo.degov.ai
     tags:
       - demo
-    features:
-      - fulfill
 
 ethereum:
   - config: daos/ens-dao.yml
-    features:
-      - fulfill
+    state: active
   # - config: daos/truefi-dao.yml
   - config: daos/fluence-dao.yml
-    features:
-      - fulfill
+    state: active
+  - config: daos/instadapp-dao.yml
+    state: draft
+  - config: daos/radworks-dao.yml
+    state: draft
+  - config: daos/compound-dao.yml
+    state: draft
+  - config: daos/gitcoin-dao.yml
+    state: draft
+  - config: daos/threshold-dao.yml
+    state: draft
+  - config: daos/obol-dao.yml
+    state: draft
+  - config: daos/adventure-gold-dao.yml
+    state: draft
+  - config: daos/ampleforth-dao.yml
+    state: draft
+  - config: daos/antfarm-dao.yml
+    state: draft
+  - config: daos/anvil-dao.yml
+    state: draft
+  - config: daos/bytom-dao.yml
+    state: draft
+  - config: daos/cryptex-dao.yml
+    state: draft
+  - config: daos/dive-staking-dao.yml
+    state: draft
+  - config: daos/dope-dao.yml
+    state: draft
+  - config: daos/flayer-dao.yml
+    state: draft
+  - config: daos/hifi-dao.yml
+    state: draft
+  - config: daos/idle-dao.yml
+    state: draft
+  - config: daos/kroma-security-council-dao.yml
+    state: draft
+  - config: daos/lightchain-dao.yml
+    state: draft
+  - config: daos/ondo-dao.yml
+    state: draft
+  - config: daos/openscan-dao.yml
+    state: draft
+  - config: daos/public-nouns-dao.yml
+    state: draft
+  - config: daos/reflexer-dao.yml
+    state: draft
+  - config: daos/silo-dao.yml
+    state: draft
+  - config: daos/sudoswap-dao.yml
+    state: draft
+  - config: daos/union-dao.yml
+    state: draft
+
 
 base:
   - config: daos/aquari-dao.yml
+    state: active
     domains:
       - gov.aquari.org
-    features:
-      - fulfill
   - config: daos/unlock-dao.yml
-    features:
-      - fulfill
+    state: active
   - config: daos/carv-dao.yml
-    features:
-      - fulfill
+    state: active
   - config: daos/awe-dao.yml
-    features:
-      - fulfill
+    state: active
   - config: daos/internet-token-dao.yml
-    features:
-      - fulfill
+    state: active
   - config: daos/lazy-summer.yml
-    features:
-      - fulfill
+    state: active
   - config: daos/seamless-dao.yml
-    features:
-      - fulfill
+    state: active
   - config: daos/aixbt-dao.yml
-    features:
-      - fulfill
+    state: active
+  - config: daos/fame-dao.yml
+    state: draft
+  - config: daos/virtuals-dao.yml
+    state: active
 
 arbitrum:
   - config: daos/rn-dao.yml
-    features:
-      - fulfill
+    state: active
   - config: daos/gmx-dao.yml
-    features:
-      - fulfill
+    state: active
+  - config: daos/content-guild-dao.yml
+    state: draft
+  - config: daos/opendollar-daoy.yml
+    state: draft
 
 optimism:
   - config: daos/hai-dao.yml
-    features:
-      - fulfill
+    state: active
 
 lisk:
   - config: daos/lisk-dao.yml
-    features:
-      - fulfill
+    state: active
+
+blast:
+  - config: daos/ring-protocol-dao.yml
+    state: draft
+
+bnb-smart-chain:
+  - config: daos/ark-dao.yml
+    state: draft
+  - config: daos/bsc-dao.yml
+    state: draft

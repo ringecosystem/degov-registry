@@ -1,0 +1,46 @@
+name: Ring Protocol
+code: ring-protocol-dao
+logo: https://unavatar.io/x/ProtocolRing
+siteUrl: https://ring-protocol.degov.ai
+offChainDiscussionUrl: https://discord.com/invite/TefBNDZBQP
+editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/ring-protocol-dao.yml
+description: Ring Protocol is a decentralized protocol for automated liquidity provision on Blast.
+
+links:
+  website: https://ring.exchange/
+  twitter: https://x.com/ProtocolRing
+  discord: https://discord.com/invite/TefBNDZBQP
+
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
+analysis:
+  ga:
+    tag: G-KS9FDYP4S8
+
+chain:
+  name: Blast
+  id: 81457
+  logo: https://blast.io/favicon.ico
+  rpcs:
+    - https://rpc.blast.io
+  explorers:
+    - https://blastscan.io
+  nativeToken:
+    symbol: ETH
+    priceId: ethereum
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/279/standard/ethereum.png
+
+indexer:
+  endpoint: https://indexer.degov.ai/ring-protocol-dao/graphql
+  startBlock: 169831
+  gateway: https://v2.archive.subsquid.io/network/blast-l2-mainnet
+
+
+contracts:
+  governor: "0xd2F37FF7eCfAcEB4De1A2bAcb8D9C539A4D6a943"
+  governorToken:
+    address: "0x25F233C3E3676f9e900a89644a3FE5404d643c84"
+    standard: ERC20
+  timeLock: "0x337c4F3054f091D0E2239ce09c0b112D874dEBf7"
