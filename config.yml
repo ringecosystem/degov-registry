@@ -7,12 +7,15 @@ darwinia:
     state: active
 
   - config: daos/degov-no-timelock.yml
+    state: active
     tags:
       - demo
   - config: daos/degov-blocknumber.yml
+    state: active
     tags:
       - demo
   - config: https://demo.degov.ai/degov.yml
+    state: active
     domains:
       - demo.degov.ai
     tags:
