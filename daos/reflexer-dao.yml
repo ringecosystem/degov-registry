@@ -12,6 +12,10 @@ links:
   twitter: https://x.com/reflexerfinance
   discord: https://discord.com/invite/AXwXHGsTaJ
 
+analysis:
+  ga:
+    tag: G-QRPCBG22VT
+
 chain:
   name: Ethereum Network
   id: 1

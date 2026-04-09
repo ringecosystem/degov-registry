@@ -10,6 +10,10 @@ links:
   website: https://www.sudoswap.xyz/
   twitter: https://x.com/sudoswap
 
+analysis:
+  ga:
+    tag: G-SM7PQHYMSJ
+
 chain:
   name: Ethereum Network
   id: 1

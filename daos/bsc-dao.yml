@@ -16,6 +16,10 @@ links:
 wallet:
   walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
 
+analysis:
+  ga:
+    tag: G-JXNLDLXTFC
+
 chain:
   name: BNB Smart Chain
   id:  56

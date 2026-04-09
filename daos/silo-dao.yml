@@ -10,6 +10,10 @@ links:
   website: https://silo.finance/
   twitter: https://x.com/SiloFinance
 
+analysis:
+  ga:
+    tag: G-VZ78T7FXY5
+
 chain:
   name: Ethereum Network
   id: 1

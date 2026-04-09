@@ -12,6 +12,10 @@ links:
   discord: https://discord.com/invite/6YuMk7zXsV
   telegram: https://t.me/antfarmfinance
 
+analysis:
+  ga:
+    tag: G-G2YMYC2N74
+
 chain:
   name: Ethereum Network
   id: 1

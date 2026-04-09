@@ -12,6 +12,10 @@ links:
   discord: https://discord.gg/esfFn3dedz
   github: https://github.com/AcronymFoundation/anvil-contracts
 
+analysis:
+  ga:
+    tag: G-ST4QLPRFCJ
+
 chain:
   name: Ethereum Network
   id: 1

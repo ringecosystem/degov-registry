@@ -12,6 +12,10 @@ links:
   telegram: https://t.me/cryptexfinance
   discord: https://discord.gg/TDyhBNEndh
 
+analysis:
+  ga:
+    tag: G-JVRSDC2PS5
+
 chain:
   name: Ethereum Network
   id: 1

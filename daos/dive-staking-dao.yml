@@ -12,6 +12,10 @@ links:
   discord: https://discord.com/invite/divastaking
 
 
+analysis:
+  ga:
+    tag: G-3Y9TJKKPG6
+
 chain:
   name: Ethereum Network
   id: 1

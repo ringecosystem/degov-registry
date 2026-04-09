@@ -11,6 +11,10 @@ links:
   twitter: https://x.com/LightchainAI
   discord: https://discord.com/lightchain
   
+analysis:
+  ga:
+    tag: G-XQ7EBJBXJR
+
 chain:
   name: Ethereum Network
   id: 1

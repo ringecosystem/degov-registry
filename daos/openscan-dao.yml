@@ -10,6 +10,10 @@ links:
   website: https://www.openscan.ai/
   twitter: https://x.com/openscan_eth
 
+analysis:
+  ga:
+    tag: G-EY646WJGN5
+
 chain:
   name: Ethereum Network
   id: 1

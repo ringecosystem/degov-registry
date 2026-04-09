@@ -12,6 +12,10 @@ links:
   discord: https://discord.com/invite/flaunch
   telegram: https://t.me/flaunchgg
 
+analysis:
+  ga:
+    tag: G-X6DTBGY9HE
+
 chain:
   name: Ethereum Network
   id: 1

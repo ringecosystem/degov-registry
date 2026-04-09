@@ -12,6 +12,10 @@ links:
   twitter: https://x.com/OndoFoundation
   discord: https://discord.com/invite/ondofinance
 
+analysis:
+  ga:
+    tag: G-7ZSYS6EY4K
+
 chain:
   name: Ethereum Network
   id: 1

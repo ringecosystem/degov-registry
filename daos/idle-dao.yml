@@ -13,6 +13,10 @@ links:
   telegram: https://t.me/idlefinance
 
 
+analysis:
+  ga:
+    tag: G-1SJJP62HP0
+
 chain:
   name: Ethereum Network
   id: 1

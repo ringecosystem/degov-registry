@@ -14,6 +14,10 @@ links:
   github: https://github.com/unioncredit
 
 
+analysis:
+  ga:
+    tag: G-MM00QJEVBP
+
 chain:
   name: Ethereum Network
   id: 1

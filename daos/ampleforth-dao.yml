@@ -12,6 +12,10 @@ links:
   telegram: https://t.me/Ampleforth
   github: https://github.com/ampleforth
 
+analysis:
+  ga:
+    tag: G-YZ2VJKBED4
+
 chain:
   name: Ethereum Network
   id: 1

@@ -11,6 +11,10 @@ links:
   twitter: https://x.com/AdventureLayer
   discord: https://discord.com/invite/WMXwkcGnNk
 
+analysis:
+  ga:
+    tag: G-N6H7NX1E90
+
 chain:
   name: Ethereum Network
   id: 1

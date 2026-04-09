@@ -11,6 +11,10 @@ links:
   twitter: https://x.com/BytomDAO
   telegram: https://t.me/BytomDAOGloble
 
+analysis:
+  ga:
+    tag: G-6DB7YN0WBN
+
 chain:
   name: Ethereum Network
   id: 1
