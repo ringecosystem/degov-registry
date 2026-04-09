@@ -11,6 +11,9 @@ links:
   twitter: https://x.com/AdventureLayer
   discord: https://discord.com/invite/WMXwkcGnNk
 
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
 analysis:
   ga:
     tag: G-N6H7NX1E90

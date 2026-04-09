@@ -10,6 +10,9 @@ links:
   website: https://www.kroma.network/
   twitter: https://x.com/kroma_network
 
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
 analysis:
   ga:
     tag: G-YM2QZZTW4V

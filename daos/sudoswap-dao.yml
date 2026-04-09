@@ -10,6 +10,9 @@ links:
   website: https://www.sudoswap.xyz/
   twitter: https://x.com/sudoswap
 
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
 analysis:
   ga:
     tag: G-SM7PQHYMSJ

@@ -12,6 +12,9 @@ links:
   twitter: https://x.com/OndoFoundation
   discord: https://discord.com/invite/ondofinance
 
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
 analysis:
   ga:
     tag: G-7ZSYS6EY4K

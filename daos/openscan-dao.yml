@@ -10,6 +10,9 @@ links:
   website: https://www.openscan.ai/
   twitter: https://x.com/openscan_eth
 
+wallet:
+  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+
 analysis:
   ga:
     tag: G-EY646WJGN5
