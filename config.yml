@@ -83,7 +83,7 @@ ethereum:
 
 base:
   - config: daos/aquari-dao.yml
-    state: draft
+    state: active
     domains:
       - gov.aquari.org
   - config: daos/unlock-dao.yml
