@@ -28,7 +28,7 @@ ethereum:
   - config: daos/fluence-dao.yml
     state: active
   - config: daos/instadapp-dao.yml
-    state: active
+    state: draft
   - config: daos/radworks-dao.yml
     state: active
   - config: daos/compound-dao.yml
@@ -42,7 +42,7 @@ ethereum:
   - config: daos/adventure-gold-dao.yml
     state: active
   - config: daos/ampleforth-dao.yml
-    state: active
+    state: draft
   - config: daos/antfarm-dao.yml
     state: active
   - config: daos/anvil-dao.yml
@@ -50,29 +50,29 @@ ethereum:
   - config: daos/bytom-dao.yml
     state: active
   - config: daos/cryptex-dao.yml
-    state: active
+    state: draft
   - config: daos/dive-staking-dao.yml
     state: active
   - config: daos/dope-dao.yml
-    state: active
+    state: draft
   - config: daos/flayer-dao.yml
     state: active
   - config: daos/hifi-dao.yml
-    state: active
+    state: draft
   - config: daos/idle-dao.yml
-    state: active
+    state: draft
   - config: daos/kroma-security-council-dao.yml
-    state: active
+    state: draft
   - config: daos/lightchain-dao.yml
     state: active
   - config: daos/ondo-dao.yml
-    state: active
+    state: draft
   - config: daos/openscan-dao.yml
     state: active
   - config: daos/public-nouns-dao.yml
-    state: active
+    state: draft
   - config: daos/reflexer-dao.yml
-    state: active
+    state: draft
   - config: daos/silo-dao.yml
     state: active
   - config: daos/sudoswap-dao.yml
@@ -101,7 +101,7 @@ base:
   - config: daos/aixbt-dao.yml
     state: active
   - config: daos/fame-dao.yml
-    state: active
+    state: draft
   - config: daos/virtuals-dao.yml
     state: active
 
@@ -111,7 +111,7 @@ arbitrum:
   - config: daos/gmx-dao.yml
     state: active
   - config: daos/content-guild-dao.yml
-    state: active
+    state: draft
   - config: daos/opendollar-daoy.yml
     state: active
 
@@ -125,7 +125,7 @@ lisk:
 
 blast:
   - config: daos/ring-protocol-dao.yml
-    state: active
+    state: draft
 
 bnb-smart-chain:
   - config: daos/ark-dao.yml
