@@ -24,8 +24,7 @@ darwinia:
 ethereum:
   - config: daos/ens-dao.yml
     state: active
-  - config: daos/truefi-dao.yml
-    state: active
+  # - config: daos/truefi-dao.yml
   - config: daos/fluence-dao.yml
     state: active
   - config: daos/instadapp-dao.yml
