@@ -1,7 +1,7 @@
 name: ARK DAO
 code: ark-dao
 logo: https://unavatar.io/x/ark_defai
-siteUrl: https://www.ark.degov.ai
+siteUrl: https://ark.degov.ai
 offChainDiscussionUrl: https://t.me/arkdefai
 editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/ark-dao.yml
 description: A place for ARK holders to vote on proposal to guide the direction of the dao.
