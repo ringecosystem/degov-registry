@@ -135,4 +135,4 @@ bnb-smart-chain:
 
 gnosis:
   - config: daos/realtoken-dao.yml
-    state: active
+    state: draft
