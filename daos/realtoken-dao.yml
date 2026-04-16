@@ -33,9 +33,6 @@ indexer:
   startBlock: 35476388
   gateway: https://v2.archive.subsquid.io/network/gnosis-mainnet
 
-  capacity: 10
-  maxBatchCallSize: 500
-
 contracts:
   governor: "0x4a5327347f077e72d2aab19f68ba8a7f12ec5d63"
   governorToken:
