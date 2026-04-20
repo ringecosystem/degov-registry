@@ -80,7 +80,6 @@ ethereum:
   - config: daos/union-dao.yml
     state: active
 
-
 base:
   - config: daos/aquari-dao.yml
     state: active
@@ -135,4 +134,6 @@ bnb-smart-chain:
 
 gnosis:
   - config: daos/realtoken-dao.yml
-    state: draft
+    state: active
+    domains:
+      - degov.backup.realtoken.community

@@ -126,7 +126,7 @@ contracts:
 | `description` | Yes | DAO description shown by the app. |
 | `links` | No | Social and external links. |
 | `theme` | No | Branding assets such as theme logos and banners. |
-| `wallet` | Yes | Wallet connection settings. |
+| `wallet` | No | Wallet connection settings. |
 | `chain` | Yes | Network metadata and chain access details. |
 | `indexer` | Yes | GraphQL indexer settings. |
 | `contracts` | Yes | Governor and governance token contracts. |
@@ -163,7 +163,7 @@ contracts:
 
 | Field | Required | Meaning |
 | --- | --- | --- |
-| `wallet.walletConnectProjectId` | Yes | WalletConnect project ID used by the DAO app. |
+| `wallet.walletConnectProjectId` | Yes, if `wallet` is present | WalletConnect project ID used by the DAO app. |
 
 ### `chain`
 
