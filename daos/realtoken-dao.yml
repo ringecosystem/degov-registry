@@ -1,0 +1,41 @@
+name: Realtoken DAO
+code: realtoken-dao
+logo: https://raw.githubusercontent.com/RealToken-Community/degov/refs/heads/main/docs/REG_Logo_realtoken_ecosyst%C3%A8me_gouvernance-vote.png
+siteUrl: https://realtoken.community
+offChainDiscussionUrl: https://forum.realtoken.community/
+editLink: https://github.com/RealToken-Community/degov/blob/main/degov.yml
+description: RealToken Ecosystem Governace.
+
+links:
+  coingecko: https://www.coingecko.com/en/coins/realtoken-ecosystem-governance
+  website: https://realtoken.community
+  twitter: https://x.com/RealTokenDAO/
+  discord: https://discord.gg/aPSWyGxMUk
+  telegram: https://t.me/realtokendao_official
+  github: https://github.com/RealToken-Community
+
+chain:
+  id: 100
+  name: Gnosis
+  logo: https://assets.coingecko.com/coins/images/662/standard/logo_square_simple_300px.png
+  rpcs:
+    - https://rpc.gnosischain.com
+  explorers:
+    - https://gnosisscan.io/
+  nativeToken:
+    symbol: xDAI
+    decimals: 18
+    priceId: xdai
+    logo: https://assets.coingecko.com/coins/images/11062/standard/Identity-Primary-DarkBG.png
+
+indexer:
+  endpoint: https://api.degov.backup.realtoken.community/graphql
+  startBlock: 35476388
+  gateway: https://v2.archive.subsquid.io/network/gnosis-mainnet
+
+contracts:
+  governor: "0x4a5327347f077e72d2aab19f68ba8a7f12ec5d63"
+  governorToken:
+    address: "0x6382856a731Af535CA6aea8D364FCE67457da438"
+    standard: ERC20
+  timeLock: "0x3f2d192F64020dA31D44289d62DB82adE6ABee6c"

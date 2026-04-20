@@ -132,3 +132,7 @@ bnb-smart-chain:
     state: active
   - config: daos/bsc-dao.yml
     state: active
+
+gnosis:
+  - config: daos/realtoken-dao.yml
+    state: draft
