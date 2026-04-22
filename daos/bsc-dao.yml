@@ -1,7 +1,7 @@
 name: BNB Chain DAO
 code: bnb-chain-dao
 logo: https://pbs.twimg.com/profile_images/2037267603853647872/OucNzNYm_400x400.jpg
-siteUrl: https://www.bnb.degov.ai
+siteUrl: https://bnb.degov.ai
 offChainDiscussionUrl: http://t.me/bnbchaincommunity
 editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/bsc-dao.yml
 description: A place for BNB holders to vote on proposal to guide the direction of the dao.
