@@ -1,0 +1,80 @@
+name: Movement Network
+code: movement-dao
+
+logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+
+siteUrl: https://movementnetwork.xyz
+offChainDiscussionUrl: https://discuss.ens.domains
+editLink: https://github.com/movementnetwork/dao-registry
+
+description: >
+  Movement Network is a modular, decentralized infrastructure built on the Move programming language,
+  integrating Ethereum liquidity and on-chain governance into a self-sustaining digital ecosystem.
+  Founded by KoKyat, the network operates as a “digital civilization” with DAO-based governance,
+  transparent treasury systems, and verifiable on-chain identity.
+
+links:
+  website: https://movementnetwork.xyz
+  docs: https://docs.movementnetwork.xyz
+  developer: https://developer.movementnetwork.xyz
+  twitter: https://x.com/movement_xyz
+  github: https://github.com/cshein45/movement-core
+  snapshot: https://snapshot.org/#/s:movementnetwork.base.eth
+  tally: https://www.tally.xyz/profile/0xb2cA1CAecd1D3e9bF84B9332cb4aB11961639a5c
+  paragraph: https://paragraph.com/@movementnetwork.base.eth
+  mirror: https://mirror.xyz/@movementnetwork.base.eth
+  farcaster: https://farcaster.xyz/movementnetwork.base.eth
+  web3bio: https://web3.bio/movementnetwork.base.eth
+
+theme:
+  logoDark: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+  logoLight: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+
+wallet:
+  walletConnectProjectId: 5dc3bdfd62a09692feefd1d132402120
+
+analysis:
+  ga:
+    tag: G-MOVEMENTDAO
+
+chain:
+  name: Base / Movement
+  id: 8453
+  logo: https://pbs.twimg.com/profile_images/1878738447067652096/tXQbWfpf_400x400.jpg
+
+  rpcs:
+    - https://mainnet.base.org
+
+  explorers:
+    - https://basescan.org
+
+  nativeToken:
+    symbol: MOVE
+    priceId: movement
+    decimals: 18
+    logo: https://assets.coingecko.com/coins/images/39345/standard/movement-testnet-token.png
+
+indexer:
+  endpoint: https://indexer.degov.ai/movement-dao/graphql
+  startBlock: 0
+  gateway: https://v2.archive.subsquid.io/network/base-mainnet
+
+contracts:
+  governor: ""
+  governorToken:
+    address: "0x3073f7aAA4DB83f95e9FFf17424F71D4751a3073"
+    standard: ERC20
+  timeLock: ""
+
+safes:
+  - name: Movement Treasury Safe
+    chainId: 8453
+    link: https://app.safe.global/home?safe=base:0xE25dF57F6cAd807E5208BC5B53eD8048937ACa56
+
+  - name: Movement Governance Safe
+    chainId: 8453
+    link: https://app.safe.global/home?safe=base:0xb2cA1CAecd1D3e9bF84B9332cb4aB11961639a5c
+
+  - name: Movement Public Goods Safe
+    chainId: 8453
+    link: https://app.safe.global/home?safe=base:0xE25dF57F6cAd807E5208BC5B53eD8048937ACa56
