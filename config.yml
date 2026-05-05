@@ -113,6 +113,8 @@ arbitrum:
     state: draft
   - config: daos/opendollar-daoy.yml
     state: active
+  - config: daos/onchainaustria-dao.yml
+    state: active
 
 optimism:
   - config: daos/hai-dao.yml
