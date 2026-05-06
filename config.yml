@@ -24,7 +24,6 @@ darwinia:
 ethereum:
   - config: daos/ens-dao.yml
     state: active
-  # - config: daos/truefi-dao.yml
   - config: daos/fluence-dao.yml
     state: active
   - config: daos/instadapp-dao.yml
@@ -79,12 +78,9 @@ ethereum:
     state: active
   - config: daos/union-dao.yml
     state: active
+  # - config: daos/truefi-dao.yml
 
 base:
-  - config: daos/aquari-dao.yml
-    state: active
-    domains:
-      - gov.aquari.org
   - config: daos/unlock-dao.yml
     state: active
   - config: daos/carv-dao.yml
@@ -97,12 +93,16 @@ base:
     state: active
   - config: daos/seamless-dao.yml
     state: active
-  - config: daos/aixbt-dao.yml
-    state: active
   - config: daos/fame-dao.yml
     state: draft
-  - config: daos/virtuals-dao.yml
-    state: active
+  # - config: daos/aquari-dao.yml
+  #   state: active
+  #   domains:
+  #     - gov.aquari.org
+  # - config: daos/aixbt-dao.yml
+  #   state: active
+  # - config: daos/virtuals-dao.yml
+  #   state: active
 
 arbitrum:
   - config: daos/rn-dao.yml
