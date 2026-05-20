@@ -124,10 +124,6 @@ lisk:
   - config: daos/lisk-dao.yml
     state: active
 
-blast:
-  - config: daos/ring-protocol-dao.yml
-    state: draft
-
 bnb-smart-chain:
   - config: daos/ark-dao.yml
     state: active
