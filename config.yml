@@ -68,8 +68,6 @@ ethereum:
     state: draft
   - config: daos/openscan-dao.yml
     state: active
-  - config: daos/public-nouns-dao.yml
-    state: draft
   - config: daos/reflexer-dao.yml
     state: draft
   - config: daos/silo-dao.yml
