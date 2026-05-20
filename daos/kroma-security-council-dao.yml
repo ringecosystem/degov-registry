@@ -42,5 +42,5 @@ contracts:
   governor: "0xb3c415c2Aad428D5570208e1772cb68e7D06a537"
   governorToken:
     address: "0xe4D08346609055c091D3DEECdAAd3Bf83119B08c"
-    standard: ERC20
+    standard: ERC721
   timeLock: "0x22605A12cB77Fe420B0cC1263cEb58a77352FDc1"
