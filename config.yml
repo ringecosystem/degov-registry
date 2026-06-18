@@ -26,8 +26,6 @@ ethereum:
     state: active
   - config: daos/fluence-dao.yml
     state: active
-  - config: daos/instadapp-dao.yml
-    state: draft
   - config: daos/radworks-dao.yml
     state: active
   - config: daos/compound-dao.yml
@@ -40,36 +38,24 @@ ethereum:
     state: active
   - config: daos/adventure-gold-dao.yml
     state: active
-  - config: daos/ampleforth-dao.yml
-    state: draft
   - config: daos/antfarm-dao.yml
     state: active
   - config: daos/anvil-dao.yml
     state: active
   - config: daos/bytom-dao.yml
     state: active
-  - config: daos/cryptex-dao.yml
-    state: draft
   - config: daos/dive-staking-dao.yml
     state: active
   - config: daos/dope-dao.yml
     state: draft
   - config: daos/flayer-dao.yml
     state: active
-  - config: daos/hifi-dao.yml
-    state: draft
-  - config: daos/idle-dao.yml
-    state: draft
   - config: daos/kroma-security-council-dao.yml
     state: draft
   - config: daos/lightchain-dao.yml
     state: active
-  - config: daos/ondo-dao.yml
-    state: draft
   - config: daos/openscan-dao.yml
     state: active
-  - config: daos/reflexer-dao.yml
-    state: draft
   - config: daos/silo-dao.yml
     state: active
   - config: daos/sudoswap-dao.yml
