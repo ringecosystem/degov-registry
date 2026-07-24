@@ -23,7 +23,7 @@ theme:
   bannerMobile: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/banners/demo-mobile.jpg
 
 wallet:
-  walletConnectProjectId: 4e204efdf64201e155ce7ad7123d127d
+  walletConnectProjectId: faf5e91ac5ed4d0a94d2648a6fcc9daa
 
 chain:
   id: 8453
