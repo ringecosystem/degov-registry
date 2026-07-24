@@ -80,7 +80,7 @@ base:
   - config: daos/fame-dao.yml
     state: draft
   - config: daos/playground-dao.yml
-    state: draft
+    state: active
     domains:
       - playground.degov.ai
       - playground.next.degov.ai
