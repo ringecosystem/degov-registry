@@ -79,6 +79,14 @@ base:
     state: active
   - config: daos/fame-dao.yml
     state: draft
+  - config: daos/playground-dao.yml
+    state: draft
+    domains:
+      - playground.degov.ai
+      - playground.next.degov.ai
+    tags:
+      - demo
+      - playground
   # - config: daos/aquari-dao.yml
   #   state: active
   #   domains:
