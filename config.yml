@@ -3,6 +3,8 @@ darwinia:
     state: active
   - config: daos/kton-dao.yml
     state: active
+    domains:
+      - kton.degov.ai
   - config: daos/ring-dao-guild.yml
     state: active
 
