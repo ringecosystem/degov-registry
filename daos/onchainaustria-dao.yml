@@ -7,6 +7,10 @@ editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/onchain
 description: |
   onchainaustria is Austria's first tokenized association, integrating a decentralized autonomous organization into a traditional legal framework. Governance is powered by the OCA token, allowing members to direct the association's mission of blockchain decentralization through on-chain voting. This innovative structure ensures full legal compliance while maintaining a transparent, community-driven ecosystem.
 
+analysis:
+  ga:
+    tag: G-2Q9ZQKZZ6K
+
 links:
   coingecko: https://www.geckoterminal.com/arbitrum/pools/0x395bf4d238eaf24c67f12adb543d6f4b10315eae?utm_source=coingecko&utm_medium=referral&utm_campaign=searchresults
   website: https://onchainaustria.at/

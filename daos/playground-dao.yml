@@ -9,6 +9,10 @@ description: |
   governance lifecycle on Base, including token distribution, delegation,
   proposal creation, voting, Timelock queueing, execution, and notifications.
 
+analysis:
+  ga:
+    tag: G-XC6ZKJY0MP
+
 links:
   website: https://degov.ai
   twitter: https://x.com/ringecosystem

@@ -6,6 +6,10 @@ offChainDiscussionUrl: https://forum.realtoken.community/
 editLink: https://github.com/RealToken-Community/degov/blob/main/degov.yml
 description: RealToken Ecosystem Governace.
 
+analysis:
+  ga:
+    tag: G-6M3JMH29P2
+
 links:
   coingecko: https://www.coingecko.com/en/coins/realtoken-ecosystem-governance
   website: https://realtoken.community
