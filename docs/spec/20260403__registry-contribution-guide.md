@@ -56,7 +56,7 @@ base:
     domains:
       - gov.example.org
     features:
-      - fulfill
+      - proposal-simulation
 ```
 
 Field reference:
@@ -67,7 +67,7 @@ Field reference:
 | `state` | No | Entry status. Use `draft` for new onboarding, `active` after sync, and `inactive` for a non-active entry. |
 | `tags` | No | Free-form tags such as `demo` or other review-friendly labels. |
 | `domains` | No | Domains associated with the DAO site. |
-| `features` | No | Optional feature flags for this entry. Current examples use `fulfill`. |
+| `features` | No | Optional feature flags for this entry. Current examples use `fulfill` and `proposal-simulation`. |
 
 Network keys such as `darwinia`, `ethereum`, `base`, `arbitrum`, `optimism`,
 and `lisk` are the top-level groups. Add the DAO under the network where the

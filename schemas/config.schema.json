@@ -56,7 +56,8 @@
               "type": "string"
             },
             "examples": [
-              ["fulfill"]
+              ["fulfill"],
+              ["proposal-simulation"]
             ]
           }
         },
@@ -76,6 +77,7 @@
         {
           "config": "daos/degov-demo.yml",
           "tags": ["demo"],
+          "features": ["proposal-simulation"],
           "state": "draft"
         }
       ],
