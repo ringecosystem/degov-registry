@@ -14,6 +14,8 @@ darwinia:
       - demo
     features:
       - proposal-simulation
+      - proposal-comments
+      - proposal-drafts
   - config: daos/degov-blocknumber.yml
     state: active
     tags:
