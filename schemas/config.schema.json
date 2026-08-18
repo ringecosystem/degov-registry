@@ -57,7 +57,9 @@
             },
             "examples": [
               ["fulfill"],
-              ["proposal-simulation"]
+              ["proposal-simulation"],
+              ["proposal-comments"],
+              ["proposal-drafts"]
             ]
           }
         },
@@ -77,7 +79,7 @@
         {
           "config": "daos/degov-demo.yml",
           "tags": ["demo"],
-          "features": ["proposal-simulation"],
+          "features": ["proposal-comments", "proposal-drafts"],
           "state": "draft"
         }
       ],
