@@ -12,6 +12,8 @@ darwinia:
     state: active
     tags:
       - demo
+    features:
+      - proposal-simulation
   - config: daos/degov-blocknumber.yml
     state: active
     tags:
@@ -88,6 +90,8 @@ base:
       - playground.next.degov.ai
     tags:
       - playground
+    features:
+      - proposal-simulation
   # - config: daos/aquari-dao.yml
   #   state: active
   #   domains:
