@@ -20,12 +20,18 @@ darwinia:
     state: active
     tags:
       - demo
+    features:
+      - proposal-comments
+      - proposal-drafts
   - config: https://demo.degov.ai/degov.yml
     state: active
     domains:
       - demo.degov.ai
     tags:
       - demo
+    features:
+      - proposal-comments
+      - proposal-drafts
 
 ethereum:
   - config: daos/ens-dao.yml
