@@ -36,6 +36,8 @@ darwinia:
 ethereum:
   - config: daos/ens-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/fluence-dao.yml
     state: active
   - config: daos/radworks-dao.yml
