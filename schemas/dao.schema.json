@@ -16,6 +16,17 @@
       "pattern": "^[a-zA-Z0-9_-]+$",
       "examples": ["ring-dao", "ens-code", "aquari-dao"]
     },
+    "features": {
+      "type": "array",
+      "description": "Optional features enabled for this DAO",
+      "items": {
+        "type": "string"
+      },
+      "examples": [
+        ["proposal-simulation"],
+        ["proposal-comments", "proposal-drafts"]
+      ]
+    },
     "logo": {
       "type": "string",
       "format": "uri",
