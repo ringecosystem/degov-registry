@@ -1,12 +1,18 @@
 darwinia:
   - config: daos/ring-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/kton-dao.yml
     state: active
     domains:
       - kton.degov.ai
+    features:
+      - proposal-comments
   - config: daos/ring-dao-guild.yml
     state: active
+    features:
+      - proposal-comments
 
   - config: daos/degov-no-timelock.yml
     state: active
@@ -40,59 +46,111 @@ ethereum:
       - proposal-comments
   - config: daos/fluence-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/radworks-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/compound-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/gitcoin-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/threshold-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/obol-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/adventure-gold-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/antfarm-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/anvil-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/bytom-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/dive-staking-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/dope-dao.yml
     state: draft
+    features:
+      - proposal-comments
   - config: daos/flayer-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/kroma-security-council-dao.yml
     state: draft
+    features:
+      - proposal-comments
   - config: daos/lightchain-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/openscan-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/silo-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/sudoswap-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/union-dao.yml
     state: active
+    features:
+      - proposal-comments
   # - config: daos/truefi-dao.yml
 
 base:
   - config: daos/unlock-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/carv-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/awe-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/internet-token-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/lazy-summer.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/seamless-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/fame-dao.yml
     state: draft
+    features:
+      - proposal-comments
   - config: daos/playground-dao.yml
     state: active
     domains:
@@ -102,6 +160,7 @@ base:
       - playground
     features:
       - proposal-simulation
+      - proposal-comments
   # - config: daos/aquari-dao.yml
   #   state: active
   #   domains:
@@ -114,31 +173,51 @@ base:
 arbitrum:
   - config: daos/rn-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/gmx-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/content-guild-dao.yml
     state: draft
+    features:
+      - proposal-comments
   - config: daos/opendollar-daoy.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/onchainaustria-dao.yml
     state: active
+    features:
+      - proposal-comments
 
 optimism:
   - config: daos/hai-dao.yml
     state: active
+    features:
+      - proposal-comments
 
 lisk:
   - config: daos/lisk-dao.yml
     state: active
+    features:
+      - proposal-comments
 
 bnb-smart-chain:
   - config: daos/ark-dao.yml
     state: active
+    features:
+      - proposal-comments
   - config: daos/bsc-dao.yml
     state: active
+    features:
+      - proposal-comments
 
 gnosis:
   - config: daos/realtoken-dao.yml
     state: active
     domains:
       - degov.backup.realtoken.community
+    features:
+      - proposal-comments
