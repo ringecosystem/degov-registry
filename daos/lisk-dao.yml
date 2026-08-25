@@ -8,7 +8,7 @@ description: A purpose built L2 for builders in high-growth markets. Built on th
 
 hiddenProposals:
   - id: "0x8d3676f65a85ff74ed5e8180e7c166defb8415da31c024fcd1e7b4a7cf68a307"
-    reason: This proposal was withdrawn from the DeGov interface because it contains incorrect actions.
+    reason: "This proposal was withdrawn from the DeGov interface because it contains incorrect actions. Transparency Notice: https://github.com/ringecosystem/degov-registry/pull/143#issuecomment-5411368951"
     transactionHash: "0x5e9c696f331f3d8e08630dc9d78fa454eb0db5ae17883aefe7daf6c203051472"
 
 links:
