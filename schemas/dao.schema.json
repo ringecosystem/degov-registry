@@ -37,6 +37,11 @@
       "format": "uri",
       "description": "URL to the DAO's governance site"
     },
+    "faucetUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "Optional URL for the DAO's test-token faucet"
+    },
     "offChainDiscussionUrl": {
       "type": "string",
       "format": "uri",
