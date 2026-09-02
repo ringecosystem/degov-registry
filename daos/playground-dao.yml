@@ -2,6 +2,7 @@ name: DeGov Playground
 code: playground-dao
 logo: https://raw.githubusercontent.com/ringecosystem/degov-registry/refs/heads/main/assets/common/degov-1024.png
 siteUrl: https://playground.degov.ai
+faucetUrl: https://square.degov.ai/faucet
 offChainDiscussionUrl: https://github.com/ringecosystem/degov/discussions
 editLink: https://github.com/ringecosystem/degov-registry/blob/main/daos/playground-dao.yml
 description: |
