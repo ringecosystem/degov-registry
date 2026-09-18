@@ -236,13 +236,6 @@ optimism:
       - proposal-simulation
       - proposal-comments
 
-lisk:
-  - config: daos/lisk-dao.yml
-    state: active
-    features:
-      - proposal-simulation
-      - proposal-comments
-
 bnb-smart-chain:
   - config: daos/ark-dao.yml
     state: active
