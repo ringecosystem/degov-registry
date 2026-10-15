@@ -231,7 +231,7 @@ arbitrum:
 
 optimism:
   - config: daos/hai-dao.yml
-    state: active
+    state: inactive
     features:
       - proposal-simulation
       - proposal-comments
