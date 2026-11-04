@@ -50,6 +50,13 @@ ethereum:
     features:
       - proposal-simulation
       - proposal-comments
+  - config: daos/kton2-dao.yml
+    state: active
+    domains:
+      - ktondao.degov.ai
+    features:
+      - proposal-simulation
+      - proposal-comments
   - config: daos/fluence-dao.yml
     state: active
     features:
