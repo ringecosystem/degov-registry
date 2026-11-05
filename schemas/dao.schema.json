@@ -291,8 +291,31 @@
               "type": "string",
               "enum": ["ERC20", "ERC721", "ERC1155"],
               "description": "Token standard"
+            },
+            "wrapper": {
+              "type": "object",
+              "description": "Optional ERC20Wrapper support. Omit for governance tokens that do not need wrapping. The governorToken address is the wrapper contract.",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": ["erc20-wrapper"]
+                },
+                "underlyingToken": {
+                  "type": "string",
+                  "pattern": "^0x[a-fA-F0-9]{40}$",
+                  "description": "Underlying ERC20 asset address, distinct from chain.nativeToken (the gas currency). Must match the wrapper's underlying()."
+                }
+              },
+              "required": ["type", "underlyingToken"],
+              "additionalProperties": false
             }
           },
+          "allOf": [
+            {
+              "if": { "required": ["wrapper"] },
+              "then": { "properties": { "standard": { "const": "ERC20" } } }
+            }
+          ],
           "required": ["address", "standard"],
           "additionalProperties": false
         },

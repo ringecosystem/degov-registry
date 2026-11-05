@@ -40,6 +40,9 @@ contracts:
   governorToken:
     address: "0xc75c2EC60Bf276B8C0A5Af129114E344bBd93f14"
     standard: ERC20
+    wrapper:
+      type: erc20-wrapper
+      underlyingToken: "0x9F284E1337A815fe77D2Ff4aE46544645B20c5ff"
   timeLock: "0xEE25d900b1cF9f261Bba614695fb6e987d1bc6A2"
 
 treasuryAssets:
