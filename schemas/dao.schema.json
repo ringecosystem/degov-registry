@@ -312,7 +312,7 @@
           },
           "allOf": [
             {
-              "if": { "required": ["wrapper"] },
+              "if": { "properties": { "wrapper": {} }, "required": ["wrapper"] },
               "then": { "properties": { "standard": { "const": "ERC20" } } }
             }
           ],
