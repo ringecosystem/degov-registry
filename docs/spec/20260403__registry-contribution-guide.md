@@ -200,7 +200,27 @@ contracts:
 | `contracts.governor` | Yes | Governor contract address. |
 | `contracts.governorToken.address` | Yes | Governance token contract address. |
 | `contracts.governorToken.standard` | Yes | Governance token standard: `ERC20`, `ERC721`, or `ERC1155`. |
+| `contracts.governorToken.wrapper` | No | Enables Profile wrap/unwrap for an ERC20 governance wrapper. Omit for tokens that already support voting directly. |
+| `contracts.governorToken.wrapper.type` | When wrapper is set | `erc20-wrapper`, using OpenZeppelin `depositFor` / `withdrawTo`. |
+| `contracts.governorToken.wrapper.underlyingToken` | When wrapper is set | Underlying ERC20 address. Must match `governorToken.address.underlying()`; this is not the chain's gas currency (`chain.nativeToken`). |
 | `contracts.timeLock` | No | Timelock contract address when the DAO uses one. |
+
+For wrapper-enabled governance tokens, `contracts.governorToken.address` stays
+the voting token (for example gKTON); `wrapper.underlyingToken` is the asset
+deposited to obtain it (KTON). DeGov verifies this relationship and the governor's
+`token()` before enabling transactions. Only the `erc20-wrapper` adapter is
+supported; do not use this setting for staking vaults, fee-on-transfer tokens,
+rebasing assets, or wrappers with a variable exchange rate.
+
+```yaml
+contracts:
+  governorToken:
+    address: "0xc75c2EC60Bf276B8C0A5Af129114E344bBd93f14"
+    standard: ERC20
+    wrapper:
+      type: erc20-wrapper
+      underlyingToken: "0x9F284E1337A815fe77D2Ff4aE46544645B20c5ff"
+```
 
 ### `treasuryAssets`
 
